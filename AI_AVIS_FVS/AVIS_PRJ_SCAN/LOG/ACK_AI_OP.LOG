@@ -1,0 +1,60 @@
+AVIS PROJECT SCAN LOG
+Generated: Thu 01/29/2026  4:49:38.17
+Removable Drive: H:
+Project Root: H:\htdocs\robo-knight\AI_AVIS_FVS\
+App Root: AVIS_PRJ_SCAN\
+
+[DIR] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN 
+[DIR] H:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE 
+[DIR] H:\htdocs\robo-knight\AI_AVIS_FVS\output 
+[DIR] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE 
+[DIR] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG 
+[DIR] H:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE\BEGIN 
+[DIR] H:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE\BEGIN\KB 
+[DIR] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN 
+[DIR] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN\KB 
+ 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AI_AVIS_FVS.ppj 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AI_AVIS_FVS.ppx 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AI_AVIS_FVS.tag 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_LOG.txt 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN_v1-06.zip 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\CY_ENGINE.log 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\AVIS_PRJ_SCAN.INI 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\AVIS_PRJ_SCAN.INI.bak 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\AVIS_PRJ_SCAN.INI.tmp 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\AVIS_PRJ_SCAN_EXEC.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\AVIS_REM_DRV.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\BAK_CONFIG.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\CONFIG_PATH.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\CONFIG_ROOT.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\CREATE_STRUCT.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOAD_CONFIG.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG_CONFIG.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\SAVE_LOG.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\SCAN_DIR.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\SCAN_FILE.BAT 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG\ACK_AI_OP.LOG 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE\RETURN.H 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE\WIN_MAIN.H 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE\BEGIN\BEGIN.H 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE\BEGIN\KB\ERR.H 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE\BEGIN\KB\MSGBOX.H 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE\BEGIN\KB\REG_MSGBOX.h 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\output\BEGIN.obj 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\output\MSGBOX.obj 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\output\REG_MSGBOX.obj 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\output\RETURN_EXE.obj 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\RETURN.C 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\RETURN_EXE.C 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\WIN_MAIN.C 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN\BEGIN.C 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN\BEGIN_EXE.C 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN\KB\DISPATCH.c 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN\KB\END.c 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN\KB\ERR.C 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN\KB\KB.c 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN\KB\MSGBOX.C 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN\KB\REG_MSGBOX.C 
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE\BEGIN\KB\REG_MSGBOX_EXE.C 
