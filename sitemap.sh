@@ -20,16 +20,14 @@
 #!/bin/bash
 # BGIN
 
-
 echo "[BGIN] INITIALIZING FULL SITEMAP GENERATION V1.1..."
 
 # 1. BEGIN: Identify the Authority Node and Output Target
 REPO_URL="https://github.com"
 OUTPUT_FILE="sitemap.avis"
 
-# Add the preview argument check from your previous scroll
 if [[ "$1" == "--preview" ]]; then
-    OUTPUT_FILE="/dev/stdout" # Send to terminal/pipe
+    OUTPUT_FILE="/dev/stdout"
 fi
 
 # 2. SEED: Prepare the Data Lake Ingestion Block
@@ -37,7 +35,7 @@ echo "AVIS-DATALAKE-VERSION: 1.1.CVBGOD" > $OUTPUT_FILE
 echo "BEGIN_DISPATCH_MAP" >> $OUTPUT_FILE
 
 # 3. AVIS: Scan for ALL BGIN-compliant artifacts across the archipelago
-# Use the BGIN_Probe logic: check for the presence of BGIN OR the version tag
+# Check for BGIN OR the version tag
 find . -type f ! -path './.git/*' -exec grep -l -e "BGIN" -e "1.1.CVBGOD" {} + | while read -r file; do
     CLEAN_PATH="${file#./}"
     # 4. SPEC: Generate the Coordinate for the Data Lake
