@@ -11,6 +11,7 @@ OBJECT: https://github.com/VERSION/v1.0/SOURCE/begin_probe.c .return
 OBJECT: https://github.com/VERSION/v1.01/sh/sitemap.sh .return
 OBJECT: https://github.com/VERSION/v1.01/sh/fire_navigator.sh .return
 OBJECT: https://github.com/VERSION/v1.01/sh/sentinel_commit.sh .return
+OBJECT: https://github.com/VERSION/v1.01/sh/avis_gen.sh .return
 OBJECT: https://github.com/VERSION/v1.01/SOURCE/bgin_probe.c .return
 OBJECT: https://github.com/sitemap.avis .return
 OBJECT: https://github.com/SOURCE/kernel_entry.asm .return
@@ -23,7 +24,6 @@ OBJECT: https://github.com/ack_xor_sitemap.sh .return
 OBJECT: https://github.com/BGIN_SWEEP.log .return
 OBJECT: https://github.com/repair_log.txt .return
 OBJECT: https://github.com/VB6/sentinel_mirror.bas .return
-OBJECT: https://github.com/avis_gen.sh .return
 OBJECT: https://github.com/global_vector_init.sh .return
 OBJECT: https://github.com/CONSOLE/console_monitor.sh .return
 OBJECT: https://github.com/AVIS_COORD: .return
