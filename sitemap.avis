@@ -10,9 +10,13 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/sitemap.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/scroll_generator.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/Readme.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/sitemap.avis .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/SOURCE/rkd_shell_ripper.c .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/DISPATCH .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/SEED .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/SENTINEL_SCROLL.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/RETURN .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/sentinel_fluid.pl .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/index.dhtml .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/LICENSE .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/avis_reader.sh .return
 END_DISPATCH_MAP
