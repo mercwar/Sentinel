@@ -1,17 +1,16 @@
 #!/bin/bash
-/* 
- * AVIS_SPEC: START_SITEMAP_GEN
- * IDENT: CVBGOD_SENTINEL_NODE
- * LAKE_VER: AVIS-DATALAKE-V1.0
- * PATTERN: BEGIN -> SEED -> AVIS -> SPEC -> DISPATCH -> RETURN
- * ROLE: Layer 4 Handshake - Data Lake Mapping Engine
- * avis_coord: sitemap.sh, layer: DISPATCH, role: Navigator
- */
 
-# Handshake validation check
+# AVIS_SPEC: START_SITEMAP_GEN
+# IDENT: CVBGOD_SENTINEL_NODE
+# LAKE_VER: AVIS-DATALAKE-V1.0
+# PATTERN: BEGIN -> SEED -> AVIS -> SPEC -> DISPATCH -> RETURN
+# ROLE: Layer 4 Handshake - Data Lake Mapping Engine
+# avis_coord: sitemap.sh, layer: DISPATCH, role: Navigator
+
 echo "[cyb_pulse] Initializing Sitemap Generator..."
 echo "AVIS_GUIDE: Validating 0xDEADBEEF Pulse..."
 
+# Strip the .git suffix and handle the URL conversion
 REPO_URL=$(git config --get remote.origin.url | sed 's/\.git$//' | sed 's/git@github.com:/https:\/\/github.com\//')
 BASE_URL="${REPO_URL}/blob/main"
 OUTPUT_FILE="sitemap.avis"

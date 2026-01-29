@@ -1,10 +1,18 @@
 AVIS-DATALAKE-VERSION: 1.0.CVBGOD
 SPEC: Standard-C / Robo-Knight Legacy Bridge
 BEGIN_DISPATCH_MAP
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/SPEC .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/AVIS .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel_scroll.yml .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/.github/Readme.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/exec/Readme.md .return
-OBJECT: https://github.com/mercwar/Sentinel/blob/main/exec/shell/Readme.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/sitemap.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/scroll_generator.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/Readme.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/sitemap.avis .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/DISPATCH .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/SEED .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/SENTINEL_SCROLL.md .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/RETURN .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/LICENSE .return
 END_DISPATCH_MAP
