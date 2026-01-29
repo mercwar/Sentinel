@@ -1,3 +1,8 @@
+BGIN
+# /* AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/1.1.CVBGOD */
+# /* ROLE: Automated Data Lake Indexer & Scroll Generator */
+# /* INDEX: primary_index */
+
 name: CVBGOD Sentinel Scroll Generator
 on:
   push:
@@ -33,6 +38,5 @@ jobs:
           git config --global user.email "bot@cvbgod.sentinel"
           git add SENTINEL_SCROLL.md
           # CRITICAL: [skip ci] kills the ghost artifact loop
-          git commit -m "AVIS: Human scroll updated [skip ci]" || exit 0
+          git commit -m "AVIS: Human scroll updated [index] [skip ci]" || exit 0
           git push
-
