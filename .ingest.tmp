@@ -1,0 +1,27 @@
+# BGIN
+# /* AVIS_COORD: .github/workflows/sentinel_v1_01.yml, role: Cloud_Orchestrator_v1.01.14 */
+
+name: CVBGOD Sentinel v1.01 Alpha
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'SENTINEL_SCROLL.md'
+      - 'VERSION/v1.01/AVIS/sitemap.avis'
+
+jobs:
+  sentinel_pulse:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Archipelago
+        uses: actions/checkout@v4
+      - name: Fire Sentinel Kernel
+        run: |
+          chmod +x ./VERSION/v1.01/sh/fire_navigator.sh
+          ./VERSION/v1.01/sh/fire_navigator.sh
+# [index]
+END BGIN
+'/workspaces/Sentinel/VERSION/v1.01/sh/avis_gen.sh'

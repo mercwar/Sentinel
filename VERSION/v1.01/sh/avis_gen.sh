@@ -10,7 +10,7 @@ echo "--------------------------------------------------"
 # 1. STREAM: Raw input buffer
 rm -f .ingest.tmp
 while IFS= read -r line; do
-    [[ "$line" == "END" ]] && break
+    [[ "$line" == "END BGIN" ]]
     echo "$line" >> .ingest.tmp
 done
 

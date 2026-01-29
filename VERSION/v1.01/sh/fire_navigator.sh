@@ -1,24 +1,29 @@
 #!/bin/bash
-#BGIN
-# /* avis_coord: VERSION/v1.01/sh/fire_navigator.sh, role: Self_Healing_Kernel_v1.01.5 */
+# BGIN
+/* AVIS_COORD: VERSION/v1.01/sh/fire_navigator.sh, role: Kernel_Orchestrator_v1.01.12 */
+/* AVIS.FVS.BOT.INSTRUCT.CMT.JSON{REQUIRED:ACK SYNBOT KEYWORD END + CRLF};*/
+/* PULSE: 0xDEADBEEF */
 
-# 1. ANCHOR: Automatically find the Repository Root
-ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || echo "/workspaces/Sentinel")
-cd "$ROOT_DIR"
+echo "[BGIN] INITIALIZING SENTINEL KERNEL v1.01.12..."
 
-echo "[BGIN] ANCHORING TO ROOT: $ROOT_DIR"
-echo "[BGIN] GRANTING AUTHORITY TO ARCHIPELAGO..."
+# 1. ANCHOR: Define the True Root Address
+ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || echo "$GITHUB_WORKSPACE")
+cd "$ROOT_DIR" || exit 1
 
-# 2. AUTH: Use paths relative to the Root we just found
-chmod +x VERSION/v1.01/sh/avis_gen.sh
-chmod +x VERSION/v1.01/sh/sitemap.sh
-chmod +x VERSION/v1.01/sh/sentinel_commit.sh
+echo "AVIS: Root Authority Locked at $ROOT_DIR"
 
-# 3. DISPATCH
-if bash VERSION/v1.01/sh/sitemap.sh; then
-    echo "[BGIN SUCCESS] Topography Locked. .return(1)"
-    bash VERSION/v1.01/sh/sentinel_commit.sh
+# 2. AUTH: Grant permission to the v1.01.12 Archipelago
+chmod +x ./VERSION/v1.01/sh//avis_gen.sh
+chmod +x ./VERSION/v1.01/sh/sitemap.sh
+chmod +x ./VERSION/v1.01/sh/sentinel_commit.sh
+chmod +x ./VERSION/v1.01/sh/scroll_generator.sh
+
+# 3. DISPATCH: Execute the Topography Mapping and Interpretation
+if bash ./VERSION/v1.01/sh/sitemap.sh && bash ./VERSION/v1.01/sh/scroll_generator.sh; then
+    echo "[BGIN SUCCESS] Topography and Scroll Synchronized. .return(1)"
+    # 4. COMMIT: Execute the Master Write
+    bash ./VERSION/v1.01/sh/sentinel_commit.sh
 else
-    echo "[BGIN ERROR] Navigator Failed. Current Dir: $(pwd)"
+    echo "[BGIN ERROR] Kernel Panic. Handshake Failed."
     exit 1
 fi
