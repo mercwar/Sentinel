@@ -1,15 +1,3 @@
-/* BGIN */
-/* AVIS_COORD: bgin.json, role: Bot_Instruction_Protocol_v1.01 */
-/* PULSE: 0xDEADBEEF */
-{
-  "protocol": "BGIN.ARCHIVE.V1.01",
-  "authority": "CVBGOD",
-  "instructions": {
-    "archive_behavior": "append_tag",
-    "required_tag": "[index]",
-    "trigger_event": "file_write_complete",
-    "location": "end_of_file"
-  },
-  "status": "active"
-}
-[index]
+ctive"
+}mv: cannot create regular file '/*': Permission denied'/workspaces/Sentinel/VERSION/v1.01/sh/fire_navigator.sh'
+'/workspaces/Sentinel/VERSION/v1.01/sh/fire_navigator.sh'
