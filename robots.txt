@@ -1,0 +1,31 @@
+BGIN
+# ============================================
+# robots.txt for mercwar/Sentinel Architecture
+# ============================================
+
+# PROTOCOL_VERSION: 1.0.CVBGOD
+# This file serves as the external boundary for the Sentinel Node,
+# protecting non-BGIN compliant artifacts and guiding authorized
+# agents to the canonical AVIS Data Lake map.
+
+# --- UNIVERSAL AGENT RULES (User-agent: *) ---
+# Applies to all web crawlers, indexers, and AI agents.
+
+User-agent: *
+
+# DISALLOW DIRECTIVES: Block access to non-compliant or sensitive areas.
+
+Disallow: /tools/
+Disallow: /.git/
+Disallow: /bin/
+Disallow: /src-vb6/
+
+# ALLOW DIRECTIVES: Explicitly permits indexing of BGIN-compliant zones.
+Allow: /
+
+# --- THE MASTER HANDSHAKE (Sitemap Directive) ---
+# Directs compliant crawlers to the BGIN-filtered Data Lake map
+
+Sitemap: https://github.com
+
+# END OF SENTINEL LAW ROBOTS.TXT
