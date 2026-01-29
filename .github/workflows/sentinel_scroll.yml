@@ -1,0 +1,22 @@
+name: CVBGOD Sentinel Scroll Generator
+on: [push]
+
+jobs:
+  generate_scroll:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Cyborg Scrolls
+        uses: actions/checkout@v4
+
+      - name: Execute AVIS-Ripper
+        run: |
+          chmod +x ./scroll_generator.sh
+          ./scroll_generator.sh
+
+      - name: Commit Human-Readable Scroll
+        run: |
+          git config --global user.name "Sentinel-Bot"
+          git config --global user.email "bot@cvbgod.sentinel"
+          git add SENTINEL_SCROLL.md
+          git commit -m "AVIS: Human scroll updated via Sentinel Dispatch" || exit 0
+          git push
