@@ -24,12 +24,12 @@ jobs:
           chmod +x ./scroll_generator.sh
           ./scroll_generator.sh
 
- - name: Commit Human-Readable Scroll
+- name: Commit Human-Readable Scroll
         run: |
           git config --global user.name "Sentinel-Bot"
           git config --global user.email "bot@cvbgod.sentinel"
           git add SENTINEL_SCROLL.md
-          # ADD [skip ci] TO THE MESSAGE TO KILL THE LOOP
+          # CRITICAL: [skip ci] kills the ghost artifact loop
           git commit -m "AVIS: Human scroll updated [skip ci]" || exit 0
           git push
 ``` [INDEX]
