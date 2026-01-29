@@ -1,11 +1,24 @@
 AVIS-DATALAKE-VERSION: 1.1.CVBGOD
 BEGIN_DISPATCH_MAP
+OBJECT: https://github.com/AVIS .return
 OBJECT: https://github.com/.github/workflows/sentinel_scroll.yml .return
+OBJECT: https://github.com/.github/workflows/sentinel_handshake.yml .return
 OBJECT: https://github.com/sh/CVBGOD/sweep_probe.sh .return
+OBJECT: https://github.com/avis/Global_Sitemap.avis .return
+OBJECT: https://github.com/robots.txt .return
 OBJECT: https://github.com/sitemap.sh .return
 OBJECT: https://github.com/scroll_generator.sh .return
 OBJECT: https://github.com/sitemap.avis .return
 OBJECT: https://github.com/SOURCE/kernel_entry.asm .return
 OBJECT: https://github.com/SOURCE/bgin_probe.c .return
+OBJECT: https://github.com/SOURCE/repair_sentinel.sh .return
+OBJECT: https://github.com/SOURCE/cyborg_scroll_gen.sh .return
+OBJECT: https://github.com/SOURCE/sentinel_sitemap_ingest.asm .return
+OBJECT: https://github.com/SOURCE/sentinel_xml_parser.c .return
+OBJECT: https://github.com/ack_xor_sitemap.sh .return
 OBJECT: https://github.com/BGIN_SWEEP.log .return
+OBJECT: https://github.com/repair_log.txt .return
+OBJECT: https://github.com/VB6/sentinel_mirror.bas .return
+OBJECT: https://github.com/global_vector_init.sh .return
+OBJECT: https://github.com/CONSOLE/console_monitor.sh .return
 END_DISPATCH_MAP

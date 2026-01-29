@@ -47,4 +47,3 @@ echo "END_DISPATCH_MAP" >> $OUTPUT_FILE
 
 # 6. RETURN: Confirm Handshake Success
 echo "[BGIN] FULL SITEMAP GENERATED. .return(1)"
-``` [INDEX]
