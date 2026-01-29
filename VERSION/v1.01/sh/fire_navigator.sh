@@ -10,7 +10,7 @@ echo "[BGIN] ANCHORING TO ROOT: $ROOT_DIR"
 echo "[BGIN] GRANTING AUTHORITY TO ARCHIPELAGO..."
 
 # 2. AUTH: Use paths relative to the Root we just found
-chmod +x avis_gen.sh
+chmod +x VERSION/v1.01/sh/avis_gen.sh
 chmod +x VERSION/v1.01/sh/sitemap.sh
 chmod +x VERSION/v1.01/sh/sentinel_commit.sh
 
