@@ -1,0 +1,44 @@
+<!-- 
+  AVIS_SPEC: START_DHTML_SKIN
+  IDENT: CVBGOD_SENTINEL_EYES
+  LAKE_VER: AVIS-DATALAKE-V1.0
+  ROLE: Layer 4 Handshake - Visual Navigator
+  avis_coord: index.dhtml, layer: SKIN, role: Console_Interface
+-->
+<html>
+<head>
+    <title>GODLY AIFVS CMD Terminal</title>
+    <style>
+        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; }
+        #console { border: 1px solid #0f0; padding: 10px; height: 400px; overflow-y: scroll; }
+        .avis_obj { color: #00ff00; }
+        .pulse_msg { color: #ffff00; }
+    </style>
+    <script type="text/javascript">
+        // AVIS_GUIDE: JavaScript Polling Logic - Mirroring tmrPoll
+        function pollSentinel() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', '/cgi-bin/sentinel_fluid.pl', true);
+            xhr.setRequestHeader('X-CVBGOD-SEED', '0xDEADBEEF');
+            xhr.setRequestHeader('X-CVBGOD-SIG', 'CVBGODDLK');
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    document.getElementById('console').innerHTML += xhr.responseText;
+                    // Auto-scroll to maintain focus
+                    var con = document.getElementById('console');
+                    con.scrollTop = con.scrollHeight;
+                }
+            };
+            xhr.send();
+        }
+        // Initialize the tmrPoll equivalent (100ms cycle)
+        setInterval(pollSentinel, 100);
+    </script>
+</head>
+<body>
+    <div id="console">
+        <p class="pulse_msg">[cyb_eyes] AVIS Visual Navigator Initialized.</p>
+    </div>
+    <input type="text" id="txtInput" placeholder="BEGIN DISPATCH..." style="width:100%; background:#000; color:#0f0; border:1px solid #0f0;">
+</body>
+</html>
