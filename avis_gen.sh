@@ -1,38 +1,31 @@
 #!/bin/bash
 # BGIN
-# /* AVIS_COORD: AVIS://BASH/INGESTOR/1.0.CVBGOD */
-# /* ROLE: Detects filename from pasted BGIN header and writes file */
+# /* avis_coord: /workspaces/Sentinel/avis_gen.sh, role: Global_Ingestor_Gold_v1.01 */
 
+echo "[BGIN] INITIALIZING GOLD INGESTOR v1.01..."
 echo "--------------------------------------------------"
-echo "[BGIN] READY FOR DATA INGESTION."
-echo "PASTE YOUR CODE (Must include avis_coord line)."
-echo "Press Ctrl+D when finished."
+echo "PASTE SOURCE BELOW. (Ctrl+D to finish)"
 echo "--------------------------------------------------"
 
-# 1. Capture the entire paste into a temp buffer
-RAW_DATA=$(cat)
+# 1. STREAM: Write raw input directly to a temporary buffer
+cat > .ingest.tmp
 
-# 2. DETECT: Find the filename in the avis_coord tag
-# Matches: /* avis_coord: path/to/file.ext ... */
-TARGET_PATH=$(echo "$RAW_DATA" | grep -oP 'avis_coord:\s*\K[^, ]+')
+# 2. DETECT: Extract metadata from the stable buffer
+TARGET_PATH=$(grep -i "avis_coord:" .ingest.tmp | sed -e 's/.*avis_coord:[[:space:]]*//' -e 's/[, ].*//' | tr -d '\r')
 
 if [ -z "$TARGET_PATH" ]; then
-    echo "[BGIN ERROR] No 'avis_coord' detected in paste. Aborting."
+    echo "[BGIN ERROR] Identity lost. No AVIS_COORD detected."
+    rm .ingest.tmp
     exit 1
 fi
 
-# 3. MKDIR: Create the versioned directory structure automatically
-TARGET_DIR=$(dirname "$TARGET_PATH")
-mkdir -p "$TARGET_DIR"
+# 3. MKDIR & COMMIT: Build the archipelago path
+mkdir -p "$(dirname "$TARGET_PATH")"
+mv .ingest.tmp "$TARGET_PATH"
 
-# 4. WRITE: Commit the data to the versioned root
-echo "$RAW_DATA" > "$TARGET_PATH"
-
+# 4. RETURN: Final Pulse
 if [ -f "$TARGET_PATH" ]; then
     echo "--------------------------------------------------"
     echo "[BGIN SUCCESS] FILE CREATED: $TARGET_PATH"
     echo "HANDSHAKE COMPLETE. .return(1)"
-else
-    echo "[BGIN ERROR] Write failed."
 fi
-``` [INDEX]
