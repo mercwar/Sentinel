@@ -1,6 +1,7 @@
 name: CVBGOD Sentinel Scroll Generator
 on: [push]
-
+permissions:
+  contents: write  # This grants the bot the right to push the scrolls
 jobs:
   generate_scroll:
     runs-on: ubuntu-latest
