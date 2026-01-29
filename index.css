@@ -1,0 +1,26 @@
+ /* 
+ * AVIS_SPEC: START_CSS_SKIN
+ * IDENT: CVBGOD_SENTINEL_CLOAK
+ * LAKE_VER: AVIS-DATALAKE-V1.0
+ * ROLE: Layer 4 Handshake - Visual Mask
+ * avis_coord: index.css, layer: SKIN, role: Cloaking_Logic
+ */
+
+body { background: #000; color: #0f0; font-family: 'Courier New', monospace; margin: 0; padding: 20px; }
+#console { border: 1px solid #0f0; padding: 10px; height: 400px; overflow-y: scroll; background: #050505; }
+.avis_obj { color: #00ff00; }
+.pulse_msg { color: #ffff00; }
+#txtInput { width:100%; background:#000; color:#0f0; border:1px solid #0f0; padding: 5px; margin-top: 10px; }
+
+.seo-ghost {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    clip: rect(0 0 0 0) !important;
+    clip-path: inset(50%) !important;
+    white-space: nowrap !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    z-index: -9999 !important;
+}
