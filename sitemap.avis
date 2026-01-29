@@ -9,6 +9,8 @@ OBJECT: https://github.com/robots.txt .return
 OBJECT: https://github.com/AI/UI/TABS/PHASE 1/JSON AVIS GEN.TAB .return
 OBJECT: https://github.com/scroll_generator.sh .return
 OBJECT: https://github.com/VERSION/v1.0/SOURCE/begin_probe.c .return
+OBJECT: https://github.com/VERSION/v1.01/SPEC/sentinel_template.json .return
+OBJECT: https://github.com/VERSION/v1.01/AVIS/bgin.json .return
 OBJECT: https://github.com/VERSION/v1.01/sh/sitemap.sh .return
 OBJECT: https://github.com/VERSION/v1.01/sh/fire_navigator.sh .return
 OBJECT: https://github.com/VERSION/v1.01/sh/sentinel_commit.sh .return
