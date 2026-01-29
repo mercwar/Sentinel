@@ -1,0 +1,18 @@
+name: SENTINEL_UI_HANDSHAKE
+on: 
+  workflow_dispatch: # This creates the "Run workflow" button in the UI
+
+jobs:
+  sitemap-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Generate BGIN Sitemap
+        run: bash sitemap.sh
+        
+      - name: Commit and Push Law
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "BGIN Handshake: UI Dispatch | 1.0.CVBGOD"
+          file_pattern: 'sitemap.avis'
