@@ -10,13 +10,14 @@ on:
 
 permissions:
   contents: write
-  pages: write      # Required for deployment
-  id-token: write   # Required for deployment
+  pages: write      # Required for v4 deployment
+  id-token: write   # Required for v4 deployment
+  actions: read     # Required to resolve artifact metadata errors
 
 jobs:
   generate_scroll:
     runs-on: ubuntu-latest
-    if: github.actor != 'github-actions[bot]' # BGIN: Refuse to trigger if the bot pushed
+    if: github.actor != 'github-actions[bot]' # BGIN: Silence the bot's own voice
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,6 +32,7 @@ jobs:
           git config --global user.name "Sentinel-Bot"
           git config --global user.email "bot@cvbgod.sentinel"
           git add SENTINEL_SCROLL.md
-          # CRITICAL: [skip ci] and [skip actions] kills the pulse loop
+          # CRITICAL: [skip ci] kills the ghost artifact loop
           git commit -m "AVIS: Human scroll updated [skip ci]" || exit 0
           git push
+
