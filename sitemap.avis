@@ -1,0 +1,10 @@
+AVIS-DATALAKE-VERSION: 1.0.CVBGOD
+SPEC: Standard-C / Robo-Knight Legacy Bridge
+BEGIN_DISPATCH_MAP
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/exec/Readme.md .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/exec/shell/Readme.md .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/sitemap.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/Readme.md .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/sitemap.avis .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/LICENSE .return
+END_DISPATCH_MAP
