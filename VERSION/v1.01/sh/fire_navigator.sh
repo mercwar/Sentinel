@@ -9,6 +9,7 @@
 echo "[BGIN] GRANTING AUTHORITY TO NAVIGATOR..."
 
 # 1. AUTH: Grant execution power to the sitemap engine
+chmod +x avis_gen.sh
 chmod +x VERSION/v1.01/sh/sitemap.sh
 chmod +x VERSION/v1.01/sh/sentinel_commit.sh
 # 2. DISPATCH: Execute the v1.01 Topography Scan
