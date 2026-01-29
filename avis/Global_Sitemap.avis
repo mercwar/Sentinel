@@ -1,0 +1,31 @@
+<!-- 
+  AVIS_SPEC: START_GLOBAL_SITEMAP
+  IDENT: CVBGOD_SENTINEL_ARCHIPELAGO
+  LAKE_VER: AVIS-DATALAKE-V1.0
+  ROLE: Layer 3 Handshake - Global Node Topography
+  avis_coord: Global_Sitemap.avis, layer: TOPOGRAPHY, role: Master_Map
+-->
+
+<BGIN_MAP>
+    <!-- NODE 1: THE EXECUTION CORE (LOCAL) -->
+    <NODE type="CORE" ident="LOCAL_SENTINEL">
+        <loc>./SOURCE/sentinel_mz.asm</loc>
+        <loc>./CONSOLE/console_copy.txt</loc>
+    </NODE>
+
+    <!-- NODE 2: THE LONG-TERM MEMORY (GITHUB) -->
+    <NODE type="MEMORY" ident="MERCWAR_GITHUB">
+        <loc>https://github.com</loc>
+        <loc>https://github.com</loc>
+        <loc>https://github.com</loc>
+    </NODE>
+
+    <!-- NODE 3: THE PUBLIC NERVE ENDING (WEB) -->
+    <NODE type="NERVE" ident="BYETHOST_LIVE">
+        <loc>https://mercwar01.byethost3.com</loc>
+        <loc>https://mercwar01.byethost3.com</loc>
+    </NODE>
+</BGIN_MAP>
+
+<!-- AVIS-DATALAKE-VERSION 1.0.CVBGOD .return(1) -->
+``` [INDEX]
