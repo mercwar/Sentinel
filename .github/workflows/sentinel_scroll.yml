@@ -1,13 +1,23 @@
 name: CVBGOD Sentinel Scroll Generator
-on: [push]
+on:
+  push:
+    branches: [ main ]
+    # AVIS_GUIDE: Ignore changes to the Scroll itself to prevent loops
+    paths-ignore:
+      - 'SENTINEL_SCROLL.md'
+      - 'sitemap.avis'
+
 permissions:
-  contents: write  # This grants the bot the right to push the scrolls
+  contents: write
+
 jobs:
   generate_scroll:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Cyborg Scrolls
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Ensure the bot can see the whole Data Lake
 
       - name: Execute AVIS-Ripper
         run: |
@@ -18,6 +28,8 @@ jobs:
         run: |
           git config --global user.name "Sentinel-Bot"
           git config --global user.email "bot@cvbgod.sentinel"
-          git add SENTINEL_SCROLL.md
-          git commit -m "AVIS: Human scroll updated via Sentinel Dispatch" || exit 0
+          git add SENTINEL_SCROLL.md sitemap.avis
+          # Use [skip ci] to prevent the bot from triggering another run
+          git commit -m "AVIS: Human scroll updated [skip ci]" || exit 0
           git push
+``` [INDEX]
