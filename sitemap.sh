@@ -1,37 +1,29 @@
-#!/bin/bash
+# BGIN
+# /* AVIS_COORD: AVIS://BASH/SITEMAP_GEN/1.1.CVBGOD */
+# /* ROLE: Layer 4 Handshake - Data Lake Mapping Engine */
+# /* PULSE: 0xDEADBEEF */
 
-# AVIS_SPEC: START_SITEMAP_GEN
-# IDENT: CVBGOD_SENTINEL_NODE
-# LAKE_VER: AVIS-DATALAKE-V1.0
-# PATTERN: BEGIN -> SEED -> AVIS -> SPEC -> DISPATCH -> RETURN
-# ROLE: Layer 4 Handshake - Data Lake Mapping Engine
-# avis_coord: sitemap.sh, layer: DISPATCH, role: Navigator
+echo "[BGIN] INITIALIZING SITEMAP GENERATION..."
 
-echo "[cyb_pulse] Initializing Sitemap Generator..."
-echo "AVIS_GUIDE: Validating 0xDEADBEEF Pulse..."
-
-# Strip the .git suffix and handle the URL conversion
-REPO_URL=$(git config --get remote.origin.url | sed 's/\.git$//' | sed 's/git@github.com:/https:\/\/github.com\//')
-BASE_URL="${REPO_URL}/blob/main"
+# 1. BEGIN: Identify the Authority Node
+REPO_URL="https://github.com"
 OUTPUT_FILE="sitemap.avis"
 
-# Build the Data Lake Map
-{
-    echo "AVIS-DATALAKE-VERSION: 1.0.CVBGOD"
-    echo "SPEC: Standard-C / Robo-Knight Legacy Bridge"
-    echo "BEGIN_DISPATCH_MAP"
-} > $OUTPUT_FILE
+# 2. SEED: Prepare the Data Lake Ingestion Block
+echo "AVIS-DATALAKE-VERSION: 1.1.CVBGOD" > $OUTPUT_FILE
+echo "BEGIN_DISPATCH_MAP" >> $OUTPUT_FILE
 
-# Find files and tag them for AVIS ingestion with .return capability
-find . -type f -not -path '*/.git/*' | while read -r file; do
+# 3. AVIS: Scan for BGIN-compliant artifacts across the archipelago
+# Only files passing the 1.1.CVBGOD law are mapped
+find . -type f ! -path './.git/*' -exec grep -l "1.1.CVBGOD" {} + | while read -r file; do
     CLEAN_PATH="${file#./}"
-    ENCODED_PATH=$(echo "$CLEAN_PATH" | sed 's/ /%20/g')
-    
-    # AVIS_GUIDE: Ingesting object into Sentinel logic
-    echo "OBJECT: ${BASE_URL}/${ENCODED_PATH} .return" >> $OUTPUT_FILE
+    # 4. SPEC: Generate the Coordinate for the Data Lake
+    echo "OBJECT: ${REPO_URL}/${CLEAN_PATH} .return" >> $OUTPUT_FILE
 done
 
+# 5. DISPATCH: Close the Map
 echo "END_DISPATCH_MAP" >> $OUTPUT_FILE
-echo "[cyb_pulse] .return executed. Cyborg Sitemap saved to $OUTPUT_FILE"
 
-# AVIS_SPEC: END_SITEMAP_GEN
+# 6. RETURN: Confirm Handshake Success
+echo "[BGIN] SITEMAP GENERATED. .return(1)"
+``` [INDEX]
