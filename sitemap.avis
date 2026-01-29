@@ -28,6 +28,7 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/index.css .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/sentinel_fluid.pl .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/CONSOLE/frmAIFVSConsole.frx .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/CONSOLE/filelist_G_PROGRAMS.BAT .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/CONSOLE/console_monitor.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/CONSOLE/frmEmbeddedConsole.frm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_DOSShell.cls .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_CONSOLE_VB6GOD.vbp .return
