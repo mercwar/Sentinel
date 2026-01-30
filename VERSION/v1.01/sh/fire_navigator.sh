@@ -13,7 +13,7 @@ cd "$ROOT_DIR" || exit 1
 echo "AVIS: Root Authority Locked at $ROOT_DIR"
 
 # 2. AUTH: Grant permission to the v1.01.12 Archipelago
-chmod +x ./VERSION/v1.01/sh//avis_gen.sh
+chmod +x ./VERSION/v1.03/avis_gen.sh
 chmod +x ./VERSION/v1.01/sh/sitemap.sh
 chmod +x ./VERSION/v1.01/sh/sentinel_commit.sh
 chmod +x ./VERSION/v1.01/sh/scroll_generator.sh
