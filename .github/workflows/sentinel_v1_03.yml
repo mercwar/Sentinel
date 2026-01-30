@@ -1,0 +1,24 @@
+#BGIN
+/* AVIS_COORD: .github/workflows/sentinel_v1_03.yml */
+/* AVIS_ROLE: Cloud_Orchestrator_v1.03 */
+/* PULSE: 0xDEADBEEF */
+
+name: CVBGOD Sentinel v1.03 Alpha
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'VERSION/v1.03/**'
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fire v1.03 Kernel
+        run: |
+          chmod +x ./VERSION/v1.03/sh/fire_navigator.sh
+          ./VERSION/v1.03/sh/fire_navigator.sh
+#!#

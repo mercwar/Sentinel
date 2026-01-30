@@ -1,11 +1,36 @@
 #BGIN
-/* AVIS_COORD: VERSION/v1.03/SPEC/sentinel_template.json */
-/* AVIS_ROLE: Google_AI_Memory_Anchor_v1.03 */
+/* AVIS_COORD: VERSION/v1.03/AVIS/avis_escape_map.json */
+/* AVIS_ROLE: Syntax_Shield_v1.03.18 */
 {
-  "protocol": "BGIN.ARCHIVE.V1.03",
+  "protocol": "BGIN.ACK,MAP.V1.03.18",
   "authority": "CVBGOD",
-  "instructions": {
-    "capture_behavior": "strict_begin_end"
+  "map": ACK,
+  "ACK": {
+
+      "RACKS": {
+      "#BGIN",
+      "#!#",
+      }
+    
+    "NACK": {
+    "'#BGIN'",
+      "'#!#'",
+      "##",
+      }
+
+    "RACK": {
+    "#AVIS"
+      }
+    "NACKS": {
+    "'#AVIS'"
+      }
+  },
+
+  "EXEC": {
+  	"RACK": "EXEC_NO_PRINT"
+    "RACKS": "EXEC_PRINT"
+    "NACK": "NO_EXEC_PRINT"
+    "NACKS": "NO_EXEC_NO_PRINT"
   }
 }
 #!#
