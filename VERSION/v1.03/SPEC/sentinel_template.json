@@ -1,0 +1,11 @@
+#BGIN
+/* AVIS_COORD: VERSION/v1.03/SPEC/sentinel_template.json */
+/* AVIS_ROLE: Google_AI_Memory_Anchor_v1.03 */
+{
+  "protocol": "BGIN.ARCHIVE.V1.03",
+  "authority": "CVBGOD",
+  "instructions": {
+    "capture_behavior": "strict_begin_end"
+  }
+}
+#!#
