@@ -1,20 +1,18 @@
 #!/bin/bash
-#BGIN
-# /* AVIS_COORD: VERSION/v1.04/push-sitemap.sh */
-# /* AVIS_ROLE: SITEMAP_PUSH_COMMIT */
+# fire-push.sh
+# Calls sentinel_commit.sh to commit and push changes
 
-# 1. ANCHOR: Define the versioned root
-V_ROOT="$(cd "$(dirname "$0")" && pwd)"
-cd "$V_ROOT" || exit 1
+set -euo pipefail
+echo "[fire-nav] Starting ..."
 
-# 2. SHIELD: Ensure permissions are locked
-chmod +x ./*.sh
+# Root initialization
+source ./VERSION/v1.04/fire-root.sh
 
-echo "[BGIN] FIRING v1.04 KERNEL FROM: $V_ROOT"
-echo "--------------------------------------------------"
+echo "[fire-push] Starting push process..."
 
-# 3. EXEC: Fire NAV using correct relative path
-../v1.01/sh/fire_navigator.sh
+
+"$V_ROOT/sentinel_commit.sh"
+
+echo "[fire-push] Push process completed."
+
 #!#
-
-
