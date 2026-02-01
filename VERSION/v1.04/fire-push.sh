@@ -11,8 +11,8 @@ source ./VERSION/v1.04/fire-root.sh
 echo "[fire-push] Starting push process..."
 
 
-"$V_ROOT/sentinel_commit.sh"
-
+"$V_ROOT/sentinel-sitemap.sh"
+"$V_ROOT/sentinel-commit.sh"
 echo "[fire-push] Push process completed."
 
 #!#
