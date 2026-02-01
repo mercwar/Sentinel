@@ -1,0 +1,53 @@
+{
+  "protocol": "BGIN.ACK,MAP.V1.03.33",
+  "authority": "CVBGOD",
+  "map": "ACK",
+  "ACK": {
+      "NACK": ["'#BGIN * CYHY'", "'#END * CYHY#'", "'#CYHY * AVIS'", "'##'", "##"]
+      "RACKS": ["#BGIN * CYHY", "#END * CYHY#", "#AVIS", "#CYHY * AVIS#", "'##'"],
+  },
+  "EXEC": {
+    "RACK": "PRINT_EXEC",
+    "RACKS": "EXEC_PRINT",
+    "NACK": "NO_EXEC_PRINT",
+    "NACKS": "NO_PRINT_EXEC"
+  },
+  "FORMAT": {
+    "EOL": "CRLF",
+    "END_OF_BATCH_CRLF": true,
+    "COMMENT_CRLF": true
+  },
+  "FILE_TYPES": {
+    "py": "text/x-python",
+    "js": "text/javascript",
+    "ts": "text/typescript",
+    "java": "text/x-java-source",
+    "c": "text/x-c",
+    "cpp": "text/x-c++src",
+    "cs": "text/x-csharp",
+    "go": "text/x-go",
+    "rs": "text/rust",
+    "rb": "text/x-ruby",
+    "php": "application/x-httpd-php",
+    "html": "text/html",
+    "css": "text/css",
+    "sh": "application/x-sh",
+    "bash": "application/x-sh",
+    "ps1": "application/x-powershell",
+    "sql": "application/sql",
+    "json": "application/json",
+    "xml": "application/xml",
+    "yaml": "text/yaml",
+    "yml": "text/yaml",
+    "md": "text/markdown",
+    "txt": "text/plain",
+    "lua": "text/x-lua",
+    "swift": "text/x-swift",
+    "kt": "text/x-kotlin",
+    "r": "text/x-r",
+    "pl": "text/x-perl",
+    "bat": "application/x-batch",
+    "ini": "text/plain",
+    "log": "text/plain"
+  }
+}

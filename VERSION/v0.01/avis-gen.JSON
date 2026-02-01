@@ -1,0 +1,20 @@
+{
+  "protocol": "BGIN.ACK,MAP.V1.03.33",
+  "authority": "CVBGOD",
+  "map": "ACK",
+  "ACK": {
+      "NACK": ["'#BGIN * CYHY'", "'#END * CYHY#'", "'#CYHY * AVIS'", "'##'", "##"]
+      "RACKS": ["#BGIN * CYHY", "#END * CYHY#", "#AVIS", "#CYHY * AVIS#", "'##'"],
+  },
+  "EXEC": {
+    "RACK": "PRINT_EXEC",
+    "RACKS": "EXEC_PRINT",
+    "NACK": "NO_EXEC_PRINT",
+    "NACKS": "NO_PRINT_EXEC"
+  },
+  "FORMAT": {
+    "EOL": "CRLF",
+    "END_OF_BATCH_CRLF": true,
+    "COMMENT_CRLF": true
+  }
+}

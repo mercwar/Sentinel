@@ -1,0 +1,30 @@
+{
+  "protocol": "BGIN.AVIS-GEN.V1.04",
+  "authority": "CVBGOD",
+  "BGIN_LOGIC": {
+    "OPEN": "#BGIN",
+    "CLOSE": "#!#",
+    "MODE": "MIGRATE_FILE",
+    "FIDELITY": "BIT_PERFECT"
+  },
+  "processor": {
+    "ENGINE": "BGIN.AVIS_CJS_v1.04",
+    "ACTION": "COPY_BGIN_AVIS_COORD",
+    "DETECT": "AUTO_PROC"
+  },
+  "AVIS": {
+    "AVIS_ROLE": [
+      "SOURCE",
+      "SHELL"
+    ],
+    "AVIS_LOGIC": {
+      "OPEN": "/*",
+      "CLOSE": "*/",
+      "AVIS_COORD_DIR": "/",
+      "AVIS_COORD_FILE": "."
+    }
+  }
+}
+
+
+

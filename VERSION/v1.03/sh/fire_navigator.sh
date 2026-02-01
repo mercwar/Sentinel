@@ -7,7 +7,7 @@ ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || echo "$GITHUB_WORKSPACE"
 cd "$ROOT_DIR" || exit 1
 
 echo "[BGIN] GRANTING v1.03 AUTHORITY..."
-chmod +x ./tools/avis_gen.sh
+chmod +x ./avis-gen/avis_gen.sh
 chmod +x ./VERSION/v1.03/sh/sitemap.sh
 
 if bash ./VERSION/v1.03/sh/sitemap.sh; then

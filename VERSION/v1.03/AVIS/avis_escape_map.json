@@ -1,26 +1,15 @@
-#BGIN
-/* AVIS_COORD: VERSION/v1.03/AVIS/avis_escape_map.json */
-/* AVIS_ROLE: Logic_Command_Map_v1.03.28 */
-
 {
-  "protocol": "BGIN.ACK,MAP.V1.03.28",
+  "protocol": "BGIN.ACK,MAP.V1.03.33",
   "authority": "CVBGOD",
-  "MAPS": {
-    "RACKS": [
-      { "token": "#BGIN", "len": 5 },
-      { "token": "#!#",   "len": 3 },
-      { "token": "#AVIS", "len": 5 }
-    ],
-    "NACKS": [
-      { "token": "'#BGIN'", "len": 7 },
-      { "token": "'#AVIS'", "len": 7 },
-      { "token": "'#!#'",   "len": 5 },
-      { "token": "##",      "len": 2 }
-    ]
+  "map": "ACK",
+  "ACK": {
+    "RACKS": ["#BGIN", "#!#", "#AVIS", "##"],
+    "NACK": ["'#BGIN'", "'#!#'", "'#AVIS'", "'##'"]
   },
   "EXEC": {
     "RACK": "EXEC_NO_PRINT",
-    "NACK": "NO_EXEC_PRINT"
+    "RACKS": "EXEC_PRINT",
+    "NACK": "NO_EXEC_PRINT",
+    "NACKS": "NO_EXEC_NO_PRINT"
   }
 }
-#!#
