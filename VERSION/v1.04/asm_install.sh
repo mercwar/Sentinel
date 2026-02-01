@@ -2,32 +2,24 @@
 #BGIN
 /* AVIS_COORD_DIR: VERSION/v1.04 */
 /* AVIS_COORD_FILE: asm_install.sh */
-/* AVIS_ROLE: ASM_Installer_v1.04.15 */
+/* AVIS_ROLE: Metal_Layer_Activator_v1.04.21 */
 
-ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || echo "$GITHUB_WORKSPACE")
+# 1. COMPILE: Transforming Source to Binary
+# Assembling bgin_mem_scan.asm for the Handshake Monitor
+nasm -f elf64 -o bgin_mem_scan.o SOURCE/bgin_mem_scan.asm
 
-echo "--------------------------------------------------"
-echo "[BGIN] ASM INSTALLER v1.04: INITIALIZING METAL LAYER"
-echo "--------------------------------------------------"
+# 2. LINK: Creating the Sovereign Executable
+# Binding the logic gate to the Linux 64-bit kernel
+ld -s -o bin/bgin_gate bgin_mem_scan.o
 
-# 1. DEPENDENCY: Install NASM and GCC Toolchain
-if ! command -v nasm &> /dev/null; then
-    echo "[BGIN] INSTALLING NASM COMPILER..."
-    sudo apt-get update && sudo apt-get install -y nasm gcc-multilib
+# 3. VERIFY: Immediate Hardware Handshake
+if [ -f "./bin/bgin_gate" ]; then
+    echo "[BGIN SUCCESS] METAL GATE ACTIVATED: bin/bgin_gate"
+    # Running the program to verify memory integrity
+    ./bin/bgin_gate
 else
-    echo "[BGIN] NASM DETECTED: $(nasm --version)"
+    echo "[BGIN ERROR] COMPILATION FAILURE."
+    exit 1
 fi
 
-# 2. COMPILE: Binary Handshake Execution
-# Compiles the bgin_gate.asm into an ELF64 object
-if [ -f "$ROOT_DIR/VERSION/v1.04/SOURCE/bgin_gate.asm" ]; then
-    echo "[BGIN] COMPILING bgin_gate.asm..."
-    nasm -f elf64 "$ROOT_DIR/VERSION/v1.04/SOURCE/bgin_gate.asm" -o "$ROOT_DIR/VERSION/v1.04/bin/bgin_gate.o"
-    ld -s -o "$ROOT_DIR/VERSION/v1.04/bin/bgin_gate" "$ROOT_DIR/VERSION/v1.04/bin/bgin_gate.o"
-    echo "[BGIN SUCCESS] METAL GATE ACTIVE AT: bin/bgin_gate"
-else
-    echo "[BGIN ERROR] SOURCE NOT FOUND."
-fi
-
-echo "--------------------------------------------------"
 #!#
