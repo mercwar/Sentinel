@@ -1,25 +1,42 @@
 #!/bin/bash
 #BGIN
-/* AVIS_COORD_DIR: VERSION/v1.04 */
-/* AVIS_COORD_FILE: asm_install.sh */
-/* AVIS_ROLE: Metal_Layer_Activator_v1.04.21 */
+# /* AVIS_COORD_DIR: VERSION/v1.04 */
+# /* AVIS_COORD_FILE: asm_install.sh */
+# /* AVIS_ROLE: Metal_Layer_Activator_v1.05.03 */
 
-# 1. COMPILE: Transforming Source to Binary
-# Assembling bgin_mem_scan.asm for the Handshake Monitor
-nasm -f elf64 -o bgin_mem_scan.o SOURCE/bgin_mem_scan.asm
+# 1. SHIELDED HYDRATION
+APP_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$APP_DIR" || exit 1
+mkdir -p ./bin
 
-# 2. LINK: Creating the Sovereign Executable
-# Binding the logic gate to the Linux 64-bit kernel
-ld -s -o bin/bgin_gate bgin_mem_scan.o
+echo "--------------------------------------------------"
+echo "[BGIN] ASM TOOLCHAIN: FIXING ENVIRONMENT VOID"
+echo "--------------------------------------------------"
 
-# 3. VERIFY: Immediate Hardware Handshake
-if [ -f "./bin/bgin_gate" ]; then
-    echo "[BGIN SUCCESS] METAL GATE ACTIVATED: bin/bgin_gate"
-    # Running the program to verify memory integrity
-    ./bin/bgin_gate
+# 2. DEPENDENCY PULSE: Install NASM if missing
+if ! command -v nasm &> /dev/null; then
+    echo "[BGIN] NASM VOID DETECTED. FETCHING FROM APT..."
+    sudo apt-get update && sudo apt-get install -y nasm binutils
+fi
+
+# 3. ATOMIC COMPILATION
+if [ -f "./SOURCE/bgin_mem_scan.asm" ]; then
+    echo "[BGIN] ASSEMBLING SOURCE..."
+    nasm -f elf64 -o ./bin/bgin_mem_scan.o ./SOURCE/bgin_mem_scan.asm
+    ld -s -o ./bin/bgin_gate ./bin/bgin_mem_scan.o
+    
+    if [ -f "./bin/bgin_gate" ]; then
+        echo "[BGIN SUCCESS] METAL GATE ACTIVATED AT bin/bgin_gate"
+    else
+        echo "[BGIN ERROR] LINKER FAILURE."
+        exit 1
+    fi
 else
-    echo "[BGIN ERROR] COMPILATION FAILURE."
+    echo "[BGIN ERROR] SOURCE NOT FOUND AT ./SOURCE/bgin_mem_scan.asm"
     exit 1
 fi
 
+echo "--------------------------------------------------"
 #!#
+
+#FIRE!END#
