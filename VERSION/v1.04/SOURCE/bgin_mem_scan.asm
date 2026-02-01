@@ -1,15 +1,3 @@
-#BGIN
-<!-- avis sentinel example:
-/* AVIS_COORD_DIR: VERSION/v1.04 */
-/* AVIS_COORD_FILE: sentinel-object-html.bgin */
-/* AVIS_ROLE: SOURCE_FILE */
--->
-<html>
-<head>
-</head>
-<body>
-</body>
-</html>
 ; #BGIN
 ; /* AVIS_COORD_DIR: VERSION/v1.04/SOURCE */
 ; /* AVIS_COORD_FILE: bgin_mem_scan.asm */
@@ -38,9 +26,3 @@ bgin_verify_mem:
     ret
 
 ; #!#
-
-#FIRE!END# DO NOT MODIFY
-#!#
-
-#FIRE!END#
-#FIRE!END# DO NOT MODIFY

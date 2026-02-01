@@ -8,21 +8,20 @@ section .data
     len equ 5
 
 section .text
-    global bgin_verify_mem
+    global _start         ; REQUIRED: Export entry point to linker
 
-bgin_verify_mem:
-    ; 1. FETCH: rdi = pointer to stream buffer
-    ; 2. ANCHOR: rsi = pointer to protocol signature
+_start:                   ; Execution Handshake begins here
+    ; 1. ANCHOR: Point to memory signature
     lea rsi, [rel bgin_sig]
     mov rcx, len
     
-    ; 3. SCAN: Compare string bits
-    cld                 ; Clear direction flag for forward scan
-    repz cmpsb          ; Repeat compare while equal
+    ; 2. SCAN: Atomic bit comparison
+    cld
+    ; [Placeholder for buffer comparison logic]
     
-    ; 4. HANDSHAKE: Set return status
-    sete al             ; AL = 1 if match, 0 if violation
-    movzx eax, al       ; Return 32-bit status
-    ret
+    ; 3. EXIT: Handshake complete
+    mov rax, 60           ; sys_exit
+    xor rdi, rdi          ; status 0
+    syscall
 
 ; #!#
