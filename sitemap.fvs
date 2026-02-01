@@ -70,7 +70,6 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.02/SPEC/sentine
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/v105_archipelago_sync.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_cloak.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/.clean.tmp .return
-OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/readme.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_jump_gate.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-commit.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_random.asm .return
