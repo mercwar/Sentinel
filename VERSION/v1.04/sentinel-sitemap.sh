@@ -15,7 +15,7 @@ echo "AVIS-DATALAKE-VERSION: 1.04.00.CVBGOD" > "$OUT"
 
 find "$ROOT_DIR" -type f ! -name "README.md" | while read -r file; do
     CLEAN_PATH=$(echo "$file" | sed "s|$ROOT_DIR/||")
-    echo "OBJECT: https://github.com$CLEAN_PATH .return" >> "$OUT"
+    echo "OBJECT: https://github.com$CLEAN_PATH .return" >> "/$OUT"
 done
 
 echo "[BGIN] v1.04.00 SITEMAP GENERATED AT $OUT"
