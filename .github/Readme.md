@@ -1,17 +1,3 @@
-# **REVISED AVIS BLOCK (CLEAN • CONSOLIDATED • PROTOTYPE‑LAWFUL)**
-
-```
-#BGIN
-# /* AVIS_COORD_DIR: /Sentinel */
-# /* AVIS_COORD_FILE: README.md */
-# /* AVIS_ROLE: Global_Oversight_Manifesto_v1.05.18 */
-
-#FIRE!END# DO NOT MODIFY
-#!#
-
-#FIRE!END#
-#FIRE!END# DO NOT MODIFY
-```
 # **Sentinel AI**
 ### *AVIS Oversight Layer • FVS CYHY MERCG WINDOW PROCESSOR • Integrity Guardian*
 
@@ -26,6 +12,18 @@
 Where **BEGIN** executes, **SEED** initializes, and **MASTER** transforms,  
 **Sentinel observes with ASM fidelity.** [INDEX]
 
+```
+#BGIN
+# /* AVIS_COORD_DIR: /Sentinel */
+# /* AVIS_COORD_FILE: README.md */
+# /* AVIS_ROLE: Global_Oversight_Manifesto_v1.05.18 */
+
+#FIRE!END# DO NOT MODIFY
+#!#
+
+#FIRE!END#
+#FIRE!END# DO NOT MODIFY
+```
 Sentinel guarantees:
 
 - **Binary Fidelity** — hardware‑level `#BGIN` / `#!#` validation. [INDEX]  
