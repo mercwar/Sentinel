@@ -1,21 +1,43 @@
 #!/bin/bash
-# BGIN
-# /* AVIS_COORD: VERSION/v1.04/sh/sitemap.sh, role: Navigator_v1.04.00 */
-# /* AVIS.FVS.BOT.INSTRUCT.CMT.JSON{REQUIRED:ACK SYNBOT KEYWORD END + CRLF}; */
-# /* PULSE: 0xDEADBEEF */
+# sentinel-sitemap.sh
+# Generates an XML sitemap for the current GitHub repo with URLs pointing to files in the main branch
 
-echo "[BGIN] RE-MAPPING TOPOGRAPHY v1.04.00..."
+set -euo pipefail
 
-ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || echo "$GITHUB_WORKSPACE")
-OUT="$ROOT_DIR/sitemap.avis"
+# 1. Get the base GitHub URL from your git config
+# Converts 'git@github.com:user/repo.git' or 'https://github.com/user/repo' 
+# into 'https://github.com/user/repo/blob/main'
+REPO_URL=$(git config --get remote.origin.url | sed -E 's/\.git$//' | sed -E 's#git@github.com:(.*)#https://github.com/\1#')
+BRANCH="main"
+BASE_URL="${REPO_URL}/blob/${BRANCH}"
 
-mkdir -p "$ROOT_DIR/VERSION/v1.04/AVIS"
+OUTPUT_FILE="sitemap.xml"
 
-echo "AVIS-DATALAKE-VERSION: 1.04.00.CVBGOD" > "$OUT"
+echo "Generating sitemap for: ${BASE_URL}"
 
-find "$ROOT_DIR" -type f ! -name "README.md" | while read -r file; do
-    CLEAN_PATH=$(echo "$file" | sed "s|$ROOT_DIR/||")
-    echo "OBJECT: https://github.com$CLEAN_PATH .return" >> "/$OUT"
+# 2. Start the XML structure
+{
+  echo '<?xml version="1.0" encoding="UTF-8"?>'
+  echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+} > "$OUTPUT_FILE"
+
+# 3. Find all files excluding .git directory
+find . -type f -not -path '*/.git/*' | while read -r file; do
+    # Remove the leading './'
+    CLEAN_PATH="${file#./}"
+
+    # URL encode spaces (replace space with %20)
+    ENCODED_PATH="${CLEAN_PATH// /%20}"
+
+    # Write the URL entry
+    {
+      echo "  <url>"
+      echo "    <loc>${BASE_URL}/${ENCODED_PATH}</loc>"
+      echo "  </url>"
+    } >> "$OUTPUT_FILE"
 done
 
-echo "[BGIN] v1.04.00 SITEMAP GENERATED AT $OUT"
+# 4. Close the XML tag
+echo '</urlset>' >> "$OUTPUT_FILE"
+
+echo "Done! Full sitemap saved to $OUTPUT_FILE"
