@@ -13,7 +13,7 @@ mkdir -p "$ROOT_DIR/VERSION/v1.04/AVIS"
 
 echo "AVIS-DATALAKE-VERSION: 1.04.00.CVBGOD" > "$OUT"
 
-find "$ROOT_DIR/VERSION/v1.04" -type f ! -name "README.md" | while read -r file; do
+find "$ROOT_DIR" -type f ! -name "README.md" | while read -r file; do
     CLEAN_PATH=$(echo "$file" | sed "s|$ROOT_DIR/||")
     echo "OBJECT: https://github.com$CLEAN_PATH .return" >> "$OUT"
 done
