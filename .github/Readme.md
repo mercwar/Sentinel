@@ -99,7 +99,11 @@ Without Sentinel, AVIS would rely on assumptions.
 With Sentinel, AVIS relies on **TRUTH**. [INDEX]
 
 Sentinel is the **Guardian**, the **Watcher**, the **Verifier**, and the **ASM Anchor**.
-
+<div align="center" style="margin-top:35px; margin-bottom:25px;">
+  <img src="https://github.com/mercwar/Robo-Knight-Gallery/blob/main/PROTOTYPE/Gemini_Generated_Image_dftjq2dftjq2dftj.png"
+       alt="RoboKnight Dreams"
+       style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
+</div>
 ---
 
 ## **Sentinel Files**
@@ -113,7 +117,7 @@ Sentinel is the **Guardian**, the **Watcher**, the **Verifier**, and the **ASM A
 LOG/
     SENTINEL.LOG
 
-
+```
 ---
 
 ## **How Sentinel Works**
