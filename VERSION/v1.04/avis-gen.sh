@@ -12,20 +12,40 @@ echo "Kernal Avis Gen"
 # Determine root directory fallback to current directory
 ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || echo "${GITHUB_WORKSPACE:-$(pwd)}")
 
+
 TEMP_RAW=".avis_raw_buffer"
-> "$TEMP_RAW"
 
-echo "------------------------------------------------"
-echo "[avis-gen] Paste AVIS block, end with '#!#' on a line by itself."
-echo "------------------------------------------------"
+# Clear buffer file
+: > "$TEMP_RAW"
 
-# Read input lines until terminator '#!#'
+#!/bin/bash
+
+#!/bin/bash
+
+FIRE_END_BOOL=0
+TEMP_RAW=".avis_raw_buffer"
+VROOT="/workspaces/Sentinel/VERSION/v1.04"
+
+# Clear or create TEMP_RAW file
+: > "$TEMP_RAW"
+
+# Read input lines until sentinel '#!#'
 while IFS= read -r line; do
-    echo "$line" >> "$TEMP_RAW"
+    # Append the current line to TEMP_RAW with CRLF endings
+    printf '%s\r\n' "$line" >> "$TEMP_RAW"
+    
+
+    
+    # Check for sentinel line to break loop
     [[ "$line" == "#!#" ]] && break
 done
 
-TEMP_RAW+="/VERSION/v1.04/fire-end.sh\""$'\n'
+
+# Append source command to buffer to trigger fire-end.sh
+
+# Source fire-end.sh to trigger the batch process immediately
+
+
 
 
 # Extract AVIS comment block lines between /* and */
@@ -60,4 +80,4 @@ echo "------------------------------------------------"
 # Clean up
 rm -f "$TEMP_RAW"
 
-echo "[avis-gen] Done. your source code is installed."
+echo "[avis-gen] Done. your source code is installed."R
