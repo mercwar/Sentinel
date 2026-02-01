@@ -2,9 +2,15 @@
 
 ```
 #BGIN
-# /* AVIS_COORD_DIR: / */
+# /* AVIS_COORD_DIR: /Sentinel */
 # /* AVIS_COORD_FILE: README.md */
 # /* AVIS_ROLE: Global_Oversight_Manifesto_v1.05.18 */
+
+#FIRE!END# DO NOT MODIFY
+#!#
+
+#FIRE!END#
+#FIRE!END# DO NOT MODIFY
 ```
 # **Sentinel AI**
 ### *AVIS Oversight Layer • FVS CYHY MERCG WINDOW PROCESSOR • Integrity Guardian*
@@ -100,21 +106,15 @@ Sentinel is the **Guardian**, the **Watcher**, the **Verifier**, and the **ASM A
 
 ## **Sentinel Files**
 ```
-INCLUDE/
     SENTINEL/
-        SENTINEL.H
-        SENTINEL_LOG.H
-        SENTINEL_CHECK.H
+        VERSION/
+                v1.04/fire-
+<PROJECTS>/
 
-SOURCE/
-    SENTINEL/
-        SENTINEL.C
-        SENTINEL_LOG.C
-        SENTINEL_CHECK.C
 
 LOG/
     SENTINEL.LOG
-```
+
 
 ---
 
