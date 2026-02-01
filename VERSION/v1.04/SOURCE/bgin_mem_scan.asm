@@ -1,3 +1,4 @@
+global _start
 ; #BGIN
 ; /* AVIS_COORD_DIR: VERSION/v1.04/SOURCE */
 ; /* AVIS_COORD_FILE: bgin_mem_scan.asm */
