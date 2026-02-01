@@ -11,33 +11,21 @@ source /workspaces/Sentinel/VERSION/v1.04/fire-root.sh
 echo "Kernal Avis Gen"
 # Determine root directory fallback to current directory
 ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || echo "${GITHUB_WORKSPACE:-$(pwd)}")
-LINE_IN=0
-FIRE_END=0
 TEMP_RAW=".avis_raw_buffer"
 # Clear or create TEMP_RAW file
 : > "$TEMP_RAW"
 
 
-
 while IFS= read -r line; do
-    printf '%s\r\n' "$line" >> "$TEMP_RAW"
-
-    echo "Read line: '$line' (length: ${#line})"
-
-    trimmed_line=$(echo "line$" | xargs)
-
-    if [[ "$line" == "#!#" ]]; then
-        LINE_IN=1
-        echo "LINE_IN sentinel found"
-    fi
-
-    echo "LINE_IN = $LINE_IN"
-
-    if [[ $LINE_IN -eq 1 ]]; then
-        echo "Both sentinels found, breaking loop."
+    # Check for the terminator immediately
+    if [[ "$line" == "#!#" || "$line" == "; #!#" ]]; then
+        echo "$line" >> "$TEMP_RAW"
         break
     fi
+    # Keep the line in the raw buffer
+    echo "$line" >> "$TEMP_RAW"
 done
+
 
 
 
