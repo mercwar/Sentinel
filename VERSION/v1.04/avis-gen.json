@@ -15,6 +15,7 @@
   "AVIS": {
     "AVIS_ROLE": [
       "SOURCE",
+      "SITEMAP_PUSH_COMMIT"
       "SHELL"
     ],
     "AVIS_LOGIC": {
