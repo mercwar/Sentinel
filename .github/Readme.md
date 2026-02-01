@@ -10,8 +10,8 @@
 ### *AVIS Oversight Layer • FVS CYHY MERCG WINDOW PROCESSOR • Integrity Guardian*
 
 <div align="center" style="margin-top:35px; margin-bottom:25px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/PROTOTYPE/Copilot_20260201_123442.png"
-       alt="RoboKnight Goodbye"
+  <img src="https://github.com/mercwar/Robo-Knight-Gallery/blob/main/PROTOTYPE/088f34ab-abd6-48f7-9275-a0c55abdbf94.png"
+       alt="RoboKnight Dreams"
        style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
 </div>
 
