@@ -11,10 +11,10 @@ echo "[fire-mod] Starting ..."
 # Make sure key fire scripts are executable
 chmod +x $V_ROOT/fire-mod.sh
 chmod +x $V_ROOT/fire-nav.sh
-chmod +x $V_ROOT/fire-push.sh
-chmod +x $V_ROOT/fire-source.sh
+chmod +x $V_ROOT/fire-push-exec.sh
+chmod +x $V_ROOT/fire-source-exec.sh
 chmod +x $V_ROOT/fire-root.sh
 chmod +x $V_ROOT/fire-end.sh
-
+chmod +x $V_ROOT/asm_install.sh
 echo "[fire-mod] Module task completed."
 #!#

@@ -15,4 +15,4 @@ echo "--------------------------------------------------"
 
 echo "#FIRE!END#"
 
-echo  "# Next Sentinal asm file Gemini"
+echo  "# Yes # Next Sentinal asm file Gemini"

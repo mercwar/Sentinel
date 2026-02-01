@@ -10,7 +10,7 @@ ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || pwd)
 # Base GitHub URL for your repo root (as provided)
 BASE_URL="https://github.com/mercwar/Sentinel/blob/main"
 
-OUTPUT_FILE="$ROOT_DIR/sitemap.avis"
+OUTPUT_FILE="$ROOT_DIR/sitemap.fvs"
 
 echo "[BGIN] GENERATING SENTINEL-STYLE SITEMAP WITH CORRECTED ADDRESSES..."
 
