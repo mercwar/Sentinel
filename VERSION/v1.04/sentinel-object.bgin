@@ -1,7 +1,7 @@
 #BGIN
-<!--
+<!-- avis sentinel example:
 /* AVIS_COORD_DIR: VERSION/v1.04 */
-/* AVIS_COORD_FILE: SENTINEL-TEST-FILE.HTML */
+/* AVIS_COORD_FILE: sentinel-object-html.bgin */
 /* AVIS_ROLE: SOURCE_FILE */
 -->
 <html>
