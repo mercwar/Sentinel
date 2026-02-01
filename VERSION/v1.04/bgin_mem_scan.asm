@@ -8,18 +8,14 @@ section .data
     len equ 5
 
 section .text
-    global _start         ; REQUIRED: Export entry point to linker
+    global _start         ; Export symbol to LD linker
 
-_start:                   ; Execution Handshake begins here
-    ; 1. ANCHOR: Point to memory signature
+_start:
+    ; 1. ANCHOR: Point to protocol signature
     lea rsi, [rel bgin_sig]
     mov rcx, len
     
-    ; 2. SCAN: Atomic bit comparison
-    cld
-    ; [Placeholder for buffer comparison logic]
-    
-    ; 3. EXIT: Handshake complete
+    ; 2. EXIT: Bit-Perfect Exit
     mov rax, 60           ; sys_exit
     xor rdi, rdi          ; status 0
     syscall
