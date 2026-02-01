@@ -8,7 +8,7 @@ section .data
     len equ 5
 
 section .text
-    global _start     ; NEW - THE ANCHOR: Tells the linker where we begin
+    global _start       ; THE ANCHOR: Tells the linker where we begin
 
 _start:                 ; THE GATE: The actual entry point label
     ; 1. FETCH & ANCHOR
@@ -24,4 +24,3 @@ _start:                 ; THE GATE: The actual entry point label
     xor rdi, rdi        ; status 0
     syscall
 
-; #!#
