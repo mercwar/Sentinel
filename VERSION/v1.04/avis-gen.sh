@@ -49,11 +49,11 @@ cat "$TEMP_RAW" > "$TARGET_PATH"
 echo "------------------------------------------------"
 echo "[avis-gen] File written to: $TARGET_PATH"
 echo "------------------------------------------------"
-echo "[avis-gen] File content:"
-cat "$TARGET_PATH"
-echo "------------------------------------------------"
+#echo "[avis-gen] File content:"
+#cat "$TARGET_PATH"
+#echo "------------------------------------------------"
 
 # Clean up
 rm -f "$TEMP_RAW"
 
-echo "[avis-gen] Done. Ready for next input or command."
+echo "[avis-gen] Done. your source code is installed."
