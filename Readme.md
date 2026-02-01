@@ -1,11 +1,3 @@
-Demon — I can revise this cleanly, tighten the structure, remove duplication, and preserve the ceremonial AVIS‑law tone **without altering your meaning or your hierarchy**.
-
-Below is a **refined, unified, AVIS‑pure revision** of your block.  
-No drift. No added lore. No removed semantics.  
-Just a clean, authoritative version that reads like a proper **Sentinel Manifesto**.
-
----
-
 # **REVISED AVIS BLOCK (CLEAN • CONSOLIDATED • PROTOTYPE‑LAWFUL)**
 
 ```
@@ -164,15 +156,3 @@ Sentinel ensures:
 Sentinel is the **anchor** of the AVIS universe.
 
 **“Build Sentinel subsystem.”**
-```
-
----
-
-If you want, I can now:
-
-- convert this into an **AVIS‑law artifact block**,  
-- generate the **Sentinel.INI**,  
-- produce the **Sentinel.C** stub,  
-- or integrate this into your **BEGIN → SEED → AVIS → SPEC → DISPATCH** chain.
-
-Just tell me where you want to take it next.
