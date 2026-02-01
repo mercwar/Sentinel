@@ -1,0 +1,20 @@
+#BGIN
+/* AVIS_COORD_DIR: VERSION/v1.05 */
+/* AVIS_COORD_FILE: avis-gen.json */
+/* AVIS_ROLE: Expansion_Architecture_v1.05.01 */
+{
+  "protocol": "BGIN.AVIS.V1.05",
+  "authority": "CVBGOD",
+  "expansion": {
+    "mode": "CROSS_ARCHIPELAGO",
+    "nodes": ["v1.04", "v1.05"],
+    "audit_level": "DEEP_ASM"
+  },
+  "BGIN_LOGIC": {
+    "OPEN": "#BGIN",
+    "CLOSE": "#!#",
+    "MODE": "SYNC_MANIFEST",
+    "fidelity": "BIT_PERFECT"
+  }
+}
+#!#
