@@ -7,7 +7,7 @@
 # Prints file content and full path after writing
 
 set -euo pipefail
-
+# ./source VERSION/v1.04/fire-root.sh
 # Determine root directory fallback to current directory
 ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || echo "${GITHUB_WORKSPACE:-$(pwd)}")
 
@@ -23,6 +23,8 @@ while IFS= read -r line; do
     echo "$line" >> "$TEMP_RAW"
     [[ "$line" == "#!#" ]] && break
 done
+
+TEMP_RAW+="source \"$ROOT_DIR/fire-end.sh\""$'\n'
 
 # Extract AVIS comment block lines between /* and */
 AVIS_COMMENT_BLOCK=$(sed -n '/\/\*/,/\*\//p' "$TEMP_RAW")

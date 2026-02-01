@@ -14,6 +14,7 @@ chmod +x $V_ROOT/fire-nav.sh
 chmod +x $V_ROOT/fire-push.sh
 chmod +x $V_ROOT/fire-source.sh
 chmod +x $V_ROOT/fire-root.sh
+chmod +x $V_ROOT/fire-end.sh
 
 echo "[fire-mod] Module task completed."
 #!#
