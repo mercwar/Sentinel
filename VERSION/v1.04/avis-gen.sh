@@ -5,46 +5,39 @@
 # Writes the AVIS block bit-perfectly to the target file
 # Creates directories as needed
 # Prints file content and full path after writing
-
+#BGIN
 set -euo pipefail
 source /workspaces/Sentinel/VERSION/v1.04/fire-root.sh
 echo "Kernal Avis Gen"
 # Determine root directory fallback to current directory
 ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || echo "${GITHUB_WORKSPACE:-$(pwd)}")
-
-
+LINE_IN=0
+FIRE_END=0
 TEMP_RAW=".avis_raw_buffer"
-
-# Clear buffer file
-: > "$TEMP_RAW"
-
-#!/bin/bash
-
-#!/bin/bash
-
-FIRE_END_BOOL=0
-TEMP_RAW=".avis_raw_buffer"
-VROOT="/workspaces/Sentinel/VERSION/v1.04"
-
 # Clear or create TEMP_RAW file
 : > "$TEMP_RAW"
 
-# Read input lines until sentinel '#!#'
+
+
 while IFS= read -r line; do
-    # Append the current line to TEMP_RAW with CRLF endings
     printf '%s\r\n' "$line" >> "$TEMP_RAW"
-    
 
-    
-    # Check for sentinel line to break loop
-    [[ "$line" == "#!#" ]] && break
+    echo "Read line: '$line' (length: ${#line})"
+
+    trimmed_line=$(echo "line$" | xargs)
+
+    if [[ "$line" == "#!#" ]]; then
+        LINE_IN=1
+        echo "LINE_IN sentinel found"
+    fi
+
+    echo "LINE_IN = $LINE_IN"
+
+    if [[ $LINE_IN -eq 1 ]]; then
+        echo "Both sentinels found, breaking loop."
+        break
+    fi
 done
-
-
-# Append source command to buffer to trigger fire-end.sh
-
-# Source fire-end.sh to trigger the batch process immediately
-
 
 
 
@@ -80,4 +73,5 @@ echo "------------------------------------------------"
 # Clean up
 rm -f "$TEMP_RAW"
 
-echo "[avis-gen] Done. your source code is installed."R
+echo "[avis-gen] Done. your source code is installed."
+#!#
