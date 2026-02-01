@@ -25,7 +25,8 @@ while IFS= read -r line; do
     [[ "$line" == "#!#" ]] && break
 done
 
-TEMP_RAW+="source \"$V_ROOT/fire-end.sh\""$'\n'
+TEMP_RAW+="/VERSION/v1.04/fire-end.sh\""$'\n'
+
 
 # Extract AVIS comment block lines between /* and */
 AVIS_COMMENT_BLOCK=$(sed -n '/\/\*/,/\*\//p' "$TEMP_RAW")
