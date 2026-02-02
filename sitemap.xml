@@ -193,6 +193,9 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI/README.md</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.sh</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/scroll_generator.sh</loc>
   </url>
   <url>
@@ -206,6 +209,18 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/v105_archipelago_sync.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_cmd_listen.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_relay.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_secure_outbox.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_parser.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_cloak.asm</loc>
@@ -316,6 +331,9 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-object.bgin</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/asm_install.bk</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_pulse_clock.asm</loc>
   </url>
   <url>
@@ -323,9 +341,6 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_net_pulse.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/sitemap.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/SPEC/sentinel_template.json</loc>

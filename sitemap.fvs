@@ -63,11 +63,16 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%201/TAB1.
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/README.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI/UI/README.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI/README.md .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/sitemap.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/scroll_generator.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/bgin_audit.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/avis-gen.json .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.02/SPEC/sentinel_template.json .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/v105_archipelago_sync.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_cmd_listen.asm .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_relay.asm .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_secure_outbox.asm .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_parser.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_cloak.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/.clean.tmp .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_jump_gate.asm .return
@@ -104,6 +109,7 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-sit
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_proc_scan.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/avis-gen.json .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-object.bgin .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/asm_install.bk .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_pulse_clock.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/avis-gen.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_net_pulse.asm .return
@@ -212,6 +218,7 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/SOURCE/rkd_shell_ripper.c 
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/SOURCE/cyborg_scroll_gen.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/SOURCE/sentinel_sitemap_ingest.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/SOURCE/sentinel_xml_parser.c .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/sitemap.xml .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/ack_xor_sitemap.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/BGIN_VERIFICATION_v1.1.log .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/BGIN_SWEEP.log .return
@@ -219,6 +226,7 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/.avis_raw_buffer .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/repair_log.txt .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VB6/sentinel_mirror.bas .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/SENTINEL_SCROLL.md .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/google77a4b19e8f99751c.html .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/sitemap.fvs .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/global_vector_init.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/index.css .return
