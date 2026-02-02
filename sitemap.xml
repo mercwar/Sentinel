@@ -865,7 +865,16 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/index.dhtml</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_swarm_dispatch.asm</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_shadow_map.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_auto_purge.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_payload_manifest.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_shadow_net.asm</loc>
