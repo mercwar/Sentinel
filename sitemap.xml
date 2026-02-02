@@ -208,22 +208,67 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.02/SPEC/sentinel_template.json</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/AVIS/phantom_lock.log</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/AVIS/os_shard_map.avis</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/v105_archipelago_sync.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_fuser.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_kernel_entry.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_cmd_listen.asm</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_boot.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_phantom_exec.asm</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_relay.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_swarm_sync.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_os_fuser.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_os_rebuild.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_scheduler.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_secure_outbox.asm</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_os_finalize.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_syscall.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_page_guard.asm</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_parser.asm</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_kernel_fuser.asm</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_cloak.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_pulse_eraser.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/.clean.tmp</loc>
@@ -344,6 +389,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_net_pulse.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.04/asm_install.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/SPEC/sentinel_template.json</loc>
@@ -815,6 +863,15 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/index.dhtml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_shadow_map.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_shadow_net.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/NULL</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/LICENSE</loc>
