@@ -33,5 +33,4 @@ else
     echo "[BGIN ERROR] Dispatch failed. Check Network/Auth."
     exit 1
 fi
-
 exit 0
