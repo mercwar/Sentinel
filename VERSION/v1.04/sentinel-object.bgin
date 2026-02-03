@@ -1,7 +1,8 @@
+#[avis] begin template html
 #BGIN
 <!-- avis sentinel example:
-/* AVIS_COORD_DIR: VERSION/v1.04 */
-/* AVIS_COORD_FILE: sentinel-object-html.bgin */
+/* AVIS_COORD_DIR: VERSION/v2.0 */
+/* AVIS_COORD_FILE: template.html */
 /* AVIS_ROLE: SOURCE_FILE */
 -->
 <html>
@@ -10,10 +11,28 @@
 <body>
 </body>
 </html>
+
+#[avis] begin template sh
+#!/bin/bash
+#BGIN
+// avis sentinel example:
+/* AVIS_COORD_DIR: VERSION/v2.0 */
+/* AVIS_COORD_FILE: template.sh */
+/* AVIS_ROLE: SOURCE_FILE */
+
+; #FIRE!END# DO NOT MODIFY
+; #FIRE!END#
+
+; #!#
+
+; #FIRE!END#
+; #FIRE!END# DO NOT MODIFY
+
+#[avis] begin template asm
 ; #BGIN
-; /* AVIS_COORD_DIR: VERSION/v1.04/SOURCE */
-; /* AVIS_COORD_FILE: bgin_mem_scan.asm */
-; /* AVIS_ROLE: ASM_SOURCE_FILE */
+;/* AVIS_COORD_DIR: VERSION/v2.0 */
+;/* AVIS_COORD_FILE: template.asm */
+/;* AVIS_ROLE: SOURCE_FILE */
 
 section .data
     bgin_sig db "#BGIN", 0
@@ -67,6 +86,8 @@ _start:                 ; THE GATE: The actual entry point label
 
 
 ; #FIRE!END# DO NOT MODIFY
+; #FIRE!END#
+
 ; #!#
 
 ; #FIRE!END#

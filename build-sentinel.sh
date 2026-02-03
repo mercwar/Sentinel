@@ -14,7 +14,7 @@ Description: Full Sentinel V2 Base Core signed by CVBGOD
 EOF
 
 # 3. Assemble ASM Scroll
-nasm -f elf64 VERSION/2.0/sentinel_v2.asm -o sentinel_v2.o
+nasm -f elf64 /workspaces/Sentinel/VERSION/2.0/sentinel_v2.asm -o sentinel_v2.o
 ld sentinel_v2.o -o sentinel-pkg/usr/bin/sentinel-v2
 
 # 4. Build and Sign

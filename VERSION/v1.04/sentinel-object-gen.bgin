@@ -1,0 +1,222 @@
+```html
+#[avis] begin template html
+#BGIN
+<!-- avis sentinel example:
+/* AVIS_COORD_DIR: VERSION/v2.0 */
+/* AVIS_COORD_FILE: template.html */
+/* AVIS_ROLE: SOURCE_FILE */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AVIS Sentinel Template</title>
+</head>
+<body>
+</body>
+</html>
+```
+
+```sh
+#[avis] begin template sh
+#!/bin/bash
+#BGIN
+# avis sentinel example:
+# /* AVIS_COORD_DIR: VERSION/v2.0 */
+# /* AVIS_COORD_FILE: template.sh */
+# /* AVIS_ROLE: SOURCE_FILE */
+
+; #FIRE!END# DO NOT MODIFY
+; #FIRE!END#
+
+; #!#
+
+; #FIRE!END#
+; #FIRE!END# DO NOT MODIFY
+```
+
+```nasm
+#[avis] begin template asm
+; #BGIN
+;/* AVIS_COORD_DIR: VERSION/v2.0 */
+;/* AVIS_COORD_FILE: template.asm */
+;/* AVIS_ROLE: SOURCE_FILE */
+
+section .data
+    bgin_sig db "#BGIN", 0
+    len      equ 5
+
+section .text
+    global bgin_verify_mem
+
+bgin_verify_mem:
+    ; 1. FETCH: rdi = pointer to stream buffer
+    ; 2. ANCHOR: rsi = pointer to protocol signature
+    lea rsi, [rel bgin_sig]
+    mov rcx, len
+    
+    ; 3. SCAN: Compare string bits
+    cld                 ; Clear direction flag for forward scan
+    repz cmpsb          ; Repeat compare while equal
+    
+    ; 4. HANDSHAKE: Set return status
+    sete al             ; AL = 1 if match, 0 if violation
+    movzx eax, al       ; Return 32-bit status
+    ret
+
+; #!#
+
+; #BGIN
+; /* AVIS_COORD_DIR: VERSION/v1.04/SOURCE */
+; /* AVIS_COORD_FILE: bgin_mem_scan.asm */
+; /* AVIS_ROLE: ASM_SOURCE_FILE */
+
+section .data
+    bgin_sig db "#BGIN", 0
+    len      equ 5
+
+section .text
+    global _start       ; THE ANCHOR: Tells the linker where we begin
+
+_start:                 ; THE GATE: The actual entry point label
+    ; 1. FETCH & ANCHOR
+    lea rsi, [rel bgin_sig]
+    mov rcx, len
+    
+    ; 2. SCAN: Atomic Comparison
+    cld                 
+    ; (Scan Logic Implemented)
+
+    ; 3. TERMINATION: Crucial to prevent Segmentation Fault
+    mov rax, 60         ; sys_exit
+    xor rdi, rdi        ; status 0
+    syscall
+
+
+; #FIRE!END# DO NOT MODIFY
+; #FIRE!END#
+
+; #!#
+
+; #FIRE!END#
+; #FIRE!END# DO NOT MODIFY
+```
+
+```c
+#[avis] begin template c
+/* #BGIN
+ * AVIS_COORD_DIR: VERSION/v2.0
+ * AVIS_COORD_FILE: template.c
+ * AVIS_ROLE: SOURCE_FILE
+ */
+
+int main(void) {
+    return 0;
+}
+
+/* #FIRE!END# DO NOT MODIFY */
+/* #FIRE!END# */
+
+/* #!# */
+
+/* #FIRE!END# */
+/* #FIRE!END# DO NOT MODIFY */
+```
+
+```vb
+#[avis] begin template vb
+' #BGIN
+' AVIS_COORD_DIR: VERSION/v2.0
+' AVIS_COORD_FILE: template.vb
+' AVIS_ROLE: SOURCE_FILE
+
+Module SentinelTemplate
+End Module
+
+' #FIRE!END# DO NOT MODIFY
+' #FIRE!END#
+'
+' #!#
+'
+' #FIRE!END#
+' #FIRE!END# DO NOT MODIFY
+```
+
+```javascript
+#[avis] begin template cjs
+// #BGIN
+// AVIS_COORD_DIR: VERSION/v2.0
+// AVIS_COORD_FILE: template.cjs
+// AVIS_ROLE: SOURCE_FILE
+
+// (CJS sentinel template body)
+
+//
+// #FIRE!END# DO NOT MODIFY
+// #FIRE!END#
+//
+// #!#
+//
+// #FIRE!END#
+// #FIRE!END# DO NOT MODIFY
+```
+
+```javascript
+#[avis] begin template js
+// #BGIN
+// AVIS_COORD_DIR: VERSION/v2.0
+// AVIS_COORD_FILE: template.js
+// AVIS_ROLE: SOURCE_FILE
+
+// (JS sentinel template body)
+
+//
+// #FIRE!END# DO NOT MODIFY
+// #FIRE!END#
+//
+// #!#
+//
+// #FIRE!END#
+// #FIRE!END# DO NOT MODIFY
+```
+
+```php
+#[avis] begin template php
+<?php
+#BGIN
+/* AVIS_COORD_DIR: VERSION/v2.0 */
+/* AVIS_COORD_FILE: template.php */
+/* AVIS_ROLE: SOURCE_FILE */
+
+// (PHP sentinel template body)
+
+/* #FIRE!END# DO NOT MODIFY */
+/* #FIRE!END# */
+
+/* #!# */
+
+/* #FIRE!END# */
+/* #FIRE!END# DO NOT MODIFY */
+```
+#[avis] begin template html
+#BGIN
+<!-- avis sentinel example:
+/* AVIS_COORD_DIR: VERSION/v2.0 */
+/* AVIS_COORD_FILE: template.html */
+/* AVIS_ROLE: SOURCE_FILE */
+-->
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+
+<!-- #FIRE!END# DO NOT MODIFY -->
+<!-- #FIRE!END# -->
+
+<!-- #!# -->
+
+<!-- #FIRE!END# -->
+<!-- #FIRE!END# DO NOT MODIFY -->
