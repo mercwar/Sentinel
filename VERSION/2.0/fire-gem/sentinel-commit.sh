@@ -12,6 +12,7 @@ DEFAULT_MSG="BGIN: Sentinel v2.0 Alpha Pulse [skip ci]"
 if [ -s "$RES_FILE" ]; then
     COMMIT_MSG=$(tr -d '\r' < "$RES_FILE")
     echo "AVIS: Resource found. Using description from $RES_FILE"
+    : > "$RES_FILE"
 else
     COMMIT_MSG="$DEFAULT_MSG"
     echo "AVIS: Resource empty. Reverting to Default Law."
@@ -28,7 +29,6 @@ git commit -m "$COMMIT_MSG"
 if git push origin main; then
     echo "[BGIN SUCCESS] Pulse Delivered to GitHub."
     # Clear the tmp file for the next cycle
-    : > "$RES_FILE"
 else
     echo "[BGIN ERROR] Dispatch failed. Check Network/Auth."
     exit 1
