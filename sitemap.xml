@@ -232,28 +232,58 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/MSGBOX.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/CORE.PAGE2.EDU</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE2.EDU</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/CORE.PAGE1.EDU</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE1.EDU</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/AI.OBJECT.AVIS.BGIN.EDU</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/CORE.PAGE3.EDU</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_AI_SELF_AWARENESS.js</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/AI.OBJECT.TOPIC.EDU</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_FINAL_INTEGRATION_PROTOCOL.js</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/CORE.PAGE4.EDU</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_PULSE_SYNC_TRAINER.js</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%201/JSON%20AVIS%20GEN.TAB</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_MEMORY_CONTENTION_SYNC_DISCIPLINE.js</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%201/TAB1.TAB</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_FIRE_GEM_OFFSET_TUTOR.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_AI_COMMENT_TRAINING.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_GRAPH_NORMALIZER.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_GPG_SEAL_INTEGRITY_SCHOOL.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_NEURAL_BOTTLENECK_ANALYZER.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/AI.OBJECT.AVIS.BGIN.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE3.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/AI.OBJECT.TOPIC.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE4.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/JSON%20AVIS%20GEN.TAB</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/TAB1.TAB</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/README.md</loc>
@@ -596,6 +626,12 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.0/SOURCE/begin_probe.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v2.0/AI/UI/TABS/PHASE2/EDU/TAB_EDU_SEED_MERGER.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v2.0/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/SPEC/sentinel_template.json</loc>
@@ -1037,6 +1073,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/FRMNavigator.frx</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/workspaces/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_COORD:</loc>

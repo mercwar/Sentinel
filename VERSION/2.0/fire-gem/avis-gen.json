@@ -1,5 +1,5 @@
 {
-  "protocol": "BGIN.AVIS-GEN.V1.04",
+  "protocol": "BGIN.AVIS-GEN.V2.00",
   "authority": "CVBGOD",
   "BGIN_LOGIC": {
     "OPEN": "#BGIN",

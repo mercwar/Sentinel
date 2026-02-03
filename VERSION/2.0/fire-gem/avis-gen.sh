@@ -7,7 +7,7 @@
 # Prints file content and full path after writing
 #BGIN
 set -euo pipefail
-source workspaces/Sentinel/VERSION/2.0/fire-gem/fire-root.sh
+source /workspaces/Sentinel/VERSION/2.0/fire-gem/fire-root.sh
 echo "Kernal Avis Gen"
 # Determine root directory fallback to current directory
 ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || echo "${GITHUB_WORKSPACE:-$(pwd)}")
