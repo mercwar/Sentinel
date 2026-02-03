@@ -8,9 +8,8 @@ echo "[BGIN] INITIALIZING SENTINEL DISPATCH..."
 RES_FILE="/workspaces/Sentinel/VERSION/2.0/commit_msg.tmp"
 DEFAULT_MSG="BGIN: Sentinel v2.0 Alpha Pulse [skip ci]"
 
-# 1. READ: Extract description from the resource file
 if [ -s "$RES_FILE" ]; then
-    COMMIT_MSG=$(cat "$RES_FILE")
+    COMMIT_MSG=$(tr -d '\r' < "$RES_FILE")
     echo "AVIS: Resource found. Using description from $RES_FILE"
 else
     COMMIT_MSG="$DEFAULT_MSG"
