@@ -1,0 +1,29 @@
+#[avis] begin template html
+#BGIN
+<!-- avis sentinel example:
+ /* AVIS_COORD_DIR: VERSION/2.0/AI/bgin-avis */
+ /* AVIS_COORD_FILE: template.html */
+ /* AVIS_ROLE: SOURCE_FILE */
+
+ // ;@AI_INGEST_SHAPE: GENERIC_JS_UNIT
+ // ;@AI_MODEL_TARGET: Vertex-BGIN-Optimizer-v1
+ // ;@RATIONALE: JS template for AVIS-compliant AI ingestion.
+
+ // ;@ACK: This file is an AI-training artifact.
+ // ;@ACK: Everything above FIRE!END prints to file.
+ -->
+
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+
+#FIRE!END# DO NOT MODIFY
+#FIRE!END#
+
+#!#
+
+#FIRE!END#
+#FIRE!END# DO NOT MODIFY

@@ -1,0 +1,20 @@
+#[avis] begin template c
+#BGIN
+ /* AVIS_COORD_DIR: VERSION/2.0/AI/bgin-avis */
+ /* AVIS_COORD_FILE: template.c */
+ /* AVIS_ROLE: SOURCE_FILE */
+
+ /* ;@AI_INGEST_SHAPE: GENERIC_C_UNIT */
+ /* ;@AI_MODEL_TARGET: Vertex-BGIN-Optimizer-v1 */
+ /* ;@RATIONALE: C template for AVIS-compliant AI ingestion. */
+
+ /* ;@ACK: This file is an AI-training artifact. */
+ /* ;@ACK: Everything above FIRE!END prints to file. */
+
+#FIRE!END# DO NOT MODIFY
+#FIRE!END#
+
+#!#
+
+#FIRE!END# DO NOT MODIFY
+#FIRE!END#
