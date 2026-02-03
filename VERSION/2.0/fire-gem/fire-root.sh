@@ -7,7 +7,7 @@
 V_ROOT="$(cd "$(dirname "$0")" && pwd)"
 cd "$V_ROOT" || exit 1
 
-echo "[BGIN] FIRING v2.0 KERNEL FROM: $V_ROOT"
+echo "[BGIN] FIRING 2.0 KERNEL FROM: $V_ROOT"
 #echo "--------------------------------------------------"
 
 

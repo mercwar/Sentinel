@@ -3,7 +3,7 @@
 # /* AVIS_COORD: VERSION/2.0/fire-source.sh */
 # /* AVIS_ROLE:  */
 # Root initialization
-source ./VERSION/2.0/fire-root.sh
+source ./VERSION/2.0/fire-gem/fire-root.sh
 echo "[BGIN] FIRING 2.0 SOURCE FROM: $V_ROOT"
 echo "--------------------------------------------------"
 

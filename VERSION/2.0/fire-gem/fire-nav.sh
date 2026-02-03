@@ -7,7 +7,7 @@ set -euo pipefail
 echo "[fire-nav] Starting ..."
 
 # Root initialization
-source ./VERSION/2.0/fire-root.sh
+source ./VERSION/2.0/fire-gem/fire-root.sh
 
 # Now $V_ROOT is set by fire-root.sh, use it to call other scripts
 
