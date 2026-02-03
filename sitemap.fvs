@@ -80,6 +80,7 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/senti
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen.json .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-object.bgin .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/commit_msg.tmp .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/Readme.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-commit.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/commit_msg.tmp .return
