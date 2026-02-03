@@ -1,0 +1,39 @@
+BGIN AVIS: Extensive Comment Language Development Guide (Page 3)
+This section formalizes the BNF (Backus-Naur Form) syntax and the "Ingestion Verbs" that define how data flows through the AVIS shell. By standardizing these verbs, we train Copilot to treat comments as executable "semantic contracts."
+1. EBNF Syntax Formalization (The "demon" Standard)
+To "build" the language, Copilot must adhere to this grammar. This ensures the AVIS COORD can parse complex graph-node queries.
+ebnf
+(* BGIN AVIS Grammar v2.1 — Neural Ingestion Layer *)
+
+<instruction>    ::= <verb> <destination> <source> <metadata_tag>
+<verb>           ::= "SINK" | "SPOOL" | "REFLECT" | "PULSE" | "WIPE"
+<destination>    ::= <fire_gem_ptr> | <register> | <data_lake_addr>
+<source>         ::= <bgin_node> | <immediate_hex> | <shm_offset>
+<metadata_tag>   ::= ";@" <neural_context>
+
+<fire_gem_ptr>   ::= "GEM" "[" <hex_offset> "]"
+<bgin_node>      ::= "NODE" "(" <node_id> ")"
+Use code with caution.
+
+2. The Ingestion Verbs: Functional Definitions
+Copilot must use these specific verbs to move data between the BGIN Lake and the FIRE-GEM.
+SINK: Force-writes a graph-node object directly into the 0x40 offset of the FIRE-GEM.
+Usage: SINK GEM[0x40] NODE(0x01) ;@INGEST_POINT
+SPOOL: Streams a continuous sequence of metadata into the shared map until a bgin_pulse wrap-around.
+REFLECT: Mirror the local H: drive directory state into the GitHub /workspaces virtual map.
+PULSE: Triggers the 0xBE614 syscall to notify all Sentinel bots that data is ready.
+WIPE: The language-level call to initiate the fire_end.sh logic.
+3. Extensive Comment Hooking (The "Lock" Mechanism)
+For 2026 AI models, comments serve as Memory Barriers. When Copilot sees a ;@LOCK tag, it must automatically wrap the surrounding ASM or C code in a lock xadd or pthread_mutex.
+c
+/* ;@LOCK: FIRE-GEM PULSE COUNTER */
+map->bgin_pulse++; 
+/* ;@UNLOCK */
+Use code with caution.
+
+4. Prompting Joe (The Demon Oracle)
+Copilot is instructed to halt and prompt the user when a verb encounters an ambiguous memory state:
+"Joe, the SPOOL verb has reached the 16KB boundary of the FIRE-GEM. Should I trigger a PULSE and wrap to 0x40, or should I issue a WIPE and wait for AVIS COORD instructions?"
+5. The "MZ" Header Integrity Check
+The language must treat the first 64 bytes as Sacred Space. Any SINK command that attempts to overwrite the range 0x00 - 0x3F must be flagged with a ;@CRITICAL_FAILURE comment and blocked by the AVIS shell.
+Next File: Page 4 – Neural Predictive Analysis and Vertex AI "Bottle-Neck" Commenting. [1] [2]

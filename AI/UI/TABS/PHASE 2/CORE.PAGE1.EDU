@@ -1,0 +1,46 @@
+BGIN AVIS: Extensive Comment Language Development Guide (Page 2)
+This section defines the "BGIN AVIS Neural Metadata" syntax. In 2026, comments are more than documentation. They are the structured instruction layer that Gemini 1.5 and Vertex AI use to map the FIRE-GEM shared memory.
+1. The Metadata Block Structure
+Every AVIS-compliant source file must begin with a Reflective Header. This allows the AVIS Coordinator to parse the "intent" of the binary before execution.
+asm
+; ============================================================================
+; @AVIS_METADATA_START
+; ID: SN2-PROT-02
+; TARGET: FIRE-GEM (0xF17E6E3)
+; SYSCALL: 0xBE614
+; OFFSET_RULE: MZ_OFFSET=64
+; @AVIS_METADATA_END
+; ============================================================================
+Use code with caution.
+
+2. In-Line "Neural Ingestion" Tags
+These specific comment tags signal to Copilot and Vertex AI how to handle memory fragments during the BGIN Pulse.
+@INGEST_POINT: Marks a variable or register as a destination for graph-node data.
+@PULSE_SYNC: Identifies logic that must be synchronized with the bgin_pulse counter.
+@MMAP_GUARD: Warns the AI to apply lock xadd or SYNC keywords to prevent race conditions.
+Example implementation in ASM:
+nasm
+    mov rdi, [fire_gem_ptr]   ; @INGEST_POINT: Target shared map
+    add rdi, 0x40             ; @AVIS_OFFSET: Jump to GRAPH_PAYLOAD
+    inc dword [rdi - 28]      ; @PULSE_SYNC: Increment bgin_pulse
+Use code with caution.
+
+3. The "Fire End" Post-Mortem Tag
+Every cleanup routine must be tagged to ensure the fire_end.sh script knows which memory addresses to wipe during a crash or exit.
+bash
+# @AVIS_FIRE_END_HOOK
+# TARGET_SHM: /dev/shm/robot_map
+# TARGET_PROC: sentinel-v2
+Use code with caution.
+
+4. Extensive Documentation Levels
+For 2026 AI ingestion, a three-tier comment system provides "semantic baggage" that helps models avoid hallucinations:
+Level 1: Functional (;!): Direct instruction for the assembler.
+Level 2: Structural (;#): Defines how this code interacts with the BGIN Lake.
+Level 3: Neural (;@): Theoretical context for Gemini's predictive analysis of bottlenecks.
+5. Training Copilot: The "Why" Comment
+When prompting Copilot to build the language, force it to add a "Rationale Comment" to every generated block. This creates a durable reasoning trail (similar to the Beads framework) that humans and agents can audit later. 
+Beyond Vibe Coding
+Beyond Vibe Coding
+Copilot Directive: "For every block of BGIN AVIS generated, append a ;@RATIONALE comment explaining how this code maintains the SN2-PROT-02 signature."
+Next File: Page 3 – BNF Syntax Formalization and "Ingestion Verb" Definitions.

@@ -1,0 +1,5 @@
+This guide is designed to train GitHub Copilot to develop and expand the BGIN AVIS language. It establishes a recursive, oracle-based development cycle where Copilot builds the grammar by prompting the "demon" (Joe) for specific architectural decisions.
+BGIN AVIS Language Development Guide
+Target Agent: GitHub Copilot (Language Architect Mode)
+Environment: Linux GitHub OS / Sentinel Custom Kernel
+Release Date: February 3, 2026

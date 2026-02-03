@@ -34,6 +34,57 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/avis/Global_Sitemap.avis</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/LOG_CONFIG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/CONFIG_PATH.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/CONFIG_ROOT.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI.bak</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/SAVE_LOG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/LOG/ACK_AI_OP.LOG</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/CREATE_STRUCT.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/SCAN_DIR.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN_EXEC.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/midi/JP-YGATC.mid</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/LOAD_CONFIG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/SCAN_FILE.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/BAK_CONFIG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_REM_DRV.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/fire-mod.sh</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/index.js</loc>
   </url>
   <url>
@@ -178,6 +229,24 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/MSGBOX.obj</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/CORE.PAGE2.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/CORE.PAGE1.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/AI.OBJECT.AVIS.BGIN.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/CORE.PAGE3.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/AI.OBJECT.TOPIC.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%202/CORE.PAGE4.EDU</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE%201/JSON%20AVIS%20GEN.TAB</loc>
   </url>
   <url>
@@ -191,6 +260,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/public.asc</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.sh</loc>
@@ -248,6 +320,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/Readme.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/repo/conf/distributions</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-commit.sh</loc>
@@ -412,9 +487,6 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bin/bgin_mem_scan.o</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-object-html.bgin</loc>
-  </url>
-  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/scroll_generator.sh</loc>
   </url>
   <url>
@@ -440,6 +512,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-end.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-object-gen.bgin</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_mem_scan.asm</loc>
@@ -584,6 +659,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis-gen.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Sentinel.zip</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/Readme.md</loc>
@@ -778,7 +856,13 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/DEV_RES/AVIS_PRJ_SCAN.INI</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel-pkg/DEBIAN/control</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.avis</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/build-sentinel.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/kernel_entry.asm</loc>
