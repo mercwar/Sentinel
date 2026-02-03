@@ -1,0 +1,8 @@
+Origin: Sentinel-OS
+Label: Sentinel Core
+Codename: bookworm
+Architectures: amd64
+Components: main
+Description: Full Sentinel V2 Base Core signed by CVBGOD
+SignWith: 2ED0213EFEFE9340
+

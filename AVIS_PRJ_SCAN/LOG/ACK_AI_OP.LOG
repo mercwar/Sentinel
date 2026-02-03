@@ -1,0 +1,40 @@
+AVIS PROJECT SCAN LOG
+Generated: Tue 02/03/2026 13:08:39.22
+Removable Drive: H:
+Project Root: H:\htdocs\robo-knight\Sentinel
+App Root: AVIS_PRJ_SCAN\
+
+[DIR] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION 
+[DIR] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\LOG 
+[DIR] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\midi 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION\2.0 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION\2.0\AI 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION\2.0\AVIS_PRJ_SCAN 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION\2.0\fire-gem 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION\2.0\INCLUDE 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION\2.0\LOG 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION\2.0\OUTPUT 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION\2.0\repo 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION\2.0\SOURCE 
+[DIR] H:\htdocs\robo-knight\Sentinel\VERSION\2.0\repo\conf 
+ 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN_v1-06.zip 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN_v1-07.zip 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\AVIS_PRJ_SCAN.INI 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\AVIS_PRJ_SCAN.INI.bak 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\AVIS_PRJ_SCAN.INI.tmp 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\AVIS_PRJ_SCAN_EXEC.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\AVIS_REM_DRV.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\BAK_CONFIG.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\CONFIG_PATH.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\CONFIG_ROOT.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\CREATE_STRUCT.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\LOAD_CONFIG.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\LOG_CONFIG.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\SAVE_LOG.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\SCAN_DIR.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\SCAN_FILE.BAT 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\LOG\ACK_AI_OP.LOG 
+[FILE] H:\htdocs\robo-knight\Sentinel\AVIS_PRJ_SCAN\midi\JP-YGATC.mid 
