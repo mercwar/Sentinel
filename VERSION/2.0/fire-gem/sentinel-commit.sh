@@ -5,7 +5,7 @@
 
 echo "[BGIN] INITIALIZING SENTINEL DISPATCH..."
 
-RES_FILE="./VERSION/2.0/commit_msg.tmp"
+RES_FILE="commit_msg.tmp"
 DEFAULT_MSG="BGIN: Sentinel v2.0 Alpha Pulse [skip ci]"
 
 # 1. READ: Extract description from the resource file
