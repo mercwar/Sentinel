@@ -4,7 +4,7 @@
 
 set -euo pipefail
 # Root initialization
-source /workspaces/Sentinel/VERSION/2.0/fire-root.sh
+source /workspaces/Sentinel/VERSION/2.0/fire-gem/fire-root.sh
 
 echo "[fire-mod] Starting ..."
 
