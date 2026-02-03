@@ -1,4 +1,4 @@
-AVIS-DATALAKE-VERSION: 1.04.00.CVBGOD
+AVIS-DATALAKE-VERSION: 2.00.00.CVBGOD
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AVIS .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/commit_msg.tmp .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel_v1_03.yml .return
@@ -65,6 +65,36 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI/UI/README.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI/README.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/sitemap.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/scroll_generator.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-commit.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/commit_msg.tmp .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-print.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-mod.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-nav.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-object-html.bgin .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-push-exec.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-root.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-end.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-source-exec.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-gem.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-sitemap.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen.json .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-object.bgin .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/Readme.md .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-commit.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/commit_msg.tmp .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/avis-print.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-mod.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-nav.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-object-html.bgin .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-push-exec.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-root.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-end.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-source-exec.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-sitemap.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/avis-gen.json .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-object.bgin .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/avis-gen.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/bgin_audit.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/avis-gen.json .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.02/SPEC/sentinel_template.json .return
@@ -287,7 +317,11 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/CONSOLE/modConCleaner.bas 
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/CONSOLE/FRMNavigator.frx .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AVIS_COORD: .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/index.dhtml .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_swarm_dispatch.asm .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/hygiene_lock.log .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_shadow_map.asm .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_auto_purge.asm .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_payload_manifest.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_shadow_net.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/NULL .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/LICENSE .return
