@@ -1,0 +1,5 @@
+Package: sentinel-v2-core
+Version: 2.0.0
+Architecture: amd64
+Maintainer: Joseph Michael Catalano <mercwar01@gmail.com>
+Description: Full Sentinel V2 Base Core signed by CVBGOD
