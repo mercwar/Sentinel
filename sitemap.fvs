@@ -179,11 +179,14 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/av
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/bgin_audit.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/avis-gen.json .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-clip.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_portal.php .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-gem-v2.1.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/debug_gem.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-display.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-mon.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/startup_pulse.raw .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-jobs.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/pulse.raw .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_app.c .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-new-file.raw .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/bash-kernel-gcc.sh .return
@@ -303,6 +306,7 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis_history
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/parse_replace.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis-gen.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/Sentinel.zip .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/_config.yml .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/Readme.md .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04.zip .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AI_AVIS_FVS.exe .return
@@ -430,6 +434,7 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/CONSOLE/FRMNavigator.frx .
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/workspaces/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AVIS_COORD: .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/index.dhtml .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/sentinel_v2_kern .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/full_peek.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_swarm_dispatch.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/hygiene_lock.log .return
