@@ -1,0 +1,9 @@
+Package: sentinel-v2-massive
+Version: 2.0.4
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: CVBGOD <mercwar@sentinel.os>
+Depends: nasm, gcc
+Description: Sentinel-OS Massive Deployment Package (AVIS-GEN v2.04)
+ Pulse-aligned binary for Red Hat and Ubuntu.

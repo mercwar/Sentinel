@@ -1,25 +1,43 @@
 #!/bin/bash
-# #[avis] begin template bash
 # ;@PROTOCOL: BGIN.AVIS-GEN.V2.00
 # ;@VERSION: 2.0.4
-# avis_coord_dir: /VERSION/2.0/fire-gem/
-# avis_coord_file: massive_deploy.sh
 
-source ./VERSION/2.0/fire-gem/fire-root.sh
+V_ROOT="/workspaces/Sentinel"
+cd "$V_ROOT"
 
-#BGIN
-echo "[BGIN] Initiating Universal Pulse for Red Hat & Ubuntu..."
+echo "[BGIN] REPAIRING DEBIAN CONTROL CONTRACT..."
 
-# DEBIAN BUILD (Using dpkg-deb)
+# 1. Manifest a VALID control file
 mkdir -p sentinel-deb/DEBIAN
-echo "Package: sentinel-v2-massive" > sentinel-deb/DEBIAN/control
-echo "Version: 2.0.4" >> sentinel-deb/DEBIAN/control
-echo "Depends: sentinel-v1-core (= 1.05)" >> sentinel-deb/DEBIAN/control
+cat <<EOF > sentinel-deb/DEBIAN/control
+Package: sentinel-v2-massive
+Version: 2.0.4
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: CVBGOD <mercwar@sentinel.os>
+Depends: nasm, gcc
+Description: Sentinel-OS Massive Deployment Package (AVIS-GEN v2.04)
+ Pulse-aligned binary for Red Hat and Ubuntu.
+EOF
+
+# 2. Build the Debian Pulse
+echo "[AVIS] BUILDING DEBIAN PACKAGE..."
 dpkg-deb --build sentinel-deb sentinel-v2-massive.deb
 
-# RED HAT BUILD (Using Alien for RPM reflection)
-# Alien converts the AVIS-GEN compliant .deb into a .rpm
+# 3. Handle 'alien' dependency (Red Hat Reflection)
+if ! command -v alien &> /dev/null; then
+    echo "[AVIS] ALIEN NOT FOUND. PULLING FROM APT..."
+    sudo apt-get update && sudo apt-get install -y alien
+fi
+
+# 4. Reflect to RPM
+echo "[AVIS] REFLECTING TO RPM FOR RED HAT..."
 sudo alien -r sentinel-v2-massive.deb --scripts
 
-echo "[BGIN] Massive Deployment Complete. Pulse Ingested."
-#!#
+echo "--------------------------------------------------"
+echo "[SUCCESS] MASSIVE DEPLOYMENT SOLIDIFIED."
+echo "[SUCCESS] DEB: sentinel-v2-massive.deb"
+echo "[SUCCESS] RPM: $(ls *.rpm 2>/dev/null || echo 'RPM_PENDING')"
+echo "--------------------------------------------------"
+

@@ -13,12 +13,24 @@ echo "------------------------------------------------"
 
 # 1. LOAD AND SPLIT
 # We read the file stream until the #!# marker is hit
-while IFS= read -r line; do
-    # Check for the terminator immediately
-    if [[ "$line" == "#!#" ]]; then
+# ;@PROTOCOL: BGIN.AVIS-TERMINATOR.FIX
+# ;@DESC: Detects CRLF (\r\n) or the RECOVERY_SIG_MATCHED string
+
+while IFS= read -r line || [[ -n "$line" ]]; do
+    # 1. Check for the literal RECOVERY_SIG_MATCHED string
+    if [[ "$line" == *"RECOVERY_SIG_MATCHED"* ]]; then
         echo "$line" >> "$TEMP_RAW"
         break
     fi
+
+    # 2. Check for empty lines or specific CRLF sequences
+    # Note: Bash 'read' often strips \r; if the line is purely \r\n, 
+    # it may appear as an empty string.
+    if [[ "$line" == $'\r' ]] || [[ "$line" == $'\r\n' ]]; then
+        echo "$line" >> "$TEMP_RAW"
+        break
+    fi
+
     # Keep the line in the raw buffer
     echo "$line" >> "$TEMP_RAW"
 done

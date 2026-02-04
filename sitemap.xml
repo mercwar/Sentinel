@@ -25,6 +25,9 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/.github/Readme.md</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel-deb/DEBIAN/control</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sh/README.MD</loc>
   </url>
   <url>
@@ -538,13 +541,25 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/avis-gen.json</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-clip.sh</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-gem-v2.1.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/debug_gem.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-display.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-mon.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_app.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-new-file.raw</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/bash-kernel-gcc.sh</loc>
@@ -782,6 +797,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/sentinel-chmod.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-new-file.raw</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.04/asm_install.sh</loc>
@@ -1307,5 +1325,8 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS.zip</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/avis_test_output.txt</loc>
   </url>
 </urlset>

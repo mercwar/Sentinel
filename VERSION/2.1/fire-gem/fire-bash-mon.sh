@@ -7,5 +7,4 @@ ipcrm -m 0
 # Set the signature in the mapped file
 printf "MZ" | dd of=/dev/shm/fire-gem-0x0f17e6e3 bs=1 conv=notrunc
 
-# Launch monitor with the forced key
-GEM_KEY="0x0f17e6e3" bash /workspaces/Sentinel/VERSION/2.0.1/bash-debug_gem.sh
+

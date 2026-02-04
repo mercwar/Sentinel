@@ -1,0 +1,2 @@
+# ;@PROTOCOL: BGIN.AVIS-TERMINATOR.FIX
+# ;@DESC: Detects CRLF (\r\n) or the RECOVERY_SIG_MATCHED string
