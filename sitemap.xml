@@ -562,6 +562,9 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-jobs.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/pulse.raw</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_app.c</loc>
   </url>
   <url>
@@ -1301,6 +1304,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/index.dhtml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_v2_kern</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/full_peek.sh</loc>
