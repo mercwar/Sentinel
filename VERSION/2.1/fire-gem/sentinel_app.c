@@ -43,5 +43,3 @@ void _start() {
     );
 }
 
-RECOVERY_SIG_MATCHED
-'/workspaces/Sentinel/VERSION/2.0.1/bash-sentinel_v2.sh'

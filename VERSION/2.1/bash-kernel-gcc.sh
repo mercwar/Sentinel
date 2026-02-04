@@ -1,0 +1,1 @@
+gcc -nostdlib -o /workspaces/Sentinel/sentinel_v2_kern /workspaces/Sentinel/VERSION/2.1/fire-gem/sentinel_app.c

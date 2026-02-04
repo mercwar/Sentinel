@@ -33,7 +33,7 @@ find "$V_ROOT/VERSION/2.1" -type f -name "*.c" -exec chmod 644 {} +
 
 # 3. SPECIAL PERMISSION: FIRE-GEM EXECUTABLES
 chmod +x /workspaces/Sentinel/VERSION/2.0.1/fire-gem.sh
-chmod +x /workspaces/Sentinel/VERSION/2.1.0/fire-gem.sh
+chmod +x /workspaces/Sentinel/VERSION/2.1/fire-gem/fire-gem-v2.1.sh
 
 echo "[SUCCESS] Sentinel-OS Permissions Synchronized."
 #!#
