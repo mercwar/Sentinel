@@ -1,31 +1,41 @@
-@echo off
-setlocal DisableDelayedExpansion
-set "output_file=output.txt"
+#!/bin/bash
+# Avis fire-end comment block
 
-echo [AVIS BGIN] Paste your script below.
-echo [INFO] Press ENTER after each line.
-echo [INFO] Press CTRL+C then 'Y' when completely finished.
-echo -------------------------------------------------------
+TEMP_RAW="./VERSION/2.0.1/bash-new-file.sh"
+> "$TEMP_RAW"
 
-:loop
-set "user_input="
+echo "======================================================="
+echo "   GITHUB PASTE LAUNCHER"
+echo "======================================================="
+#echo "Press [ENTER] to start..."
+#read -r 
 
-:: Read one line from stdin (empty lines allowed)
-set /p "user_input="
+echo "[ACTIVE] Paste content. Press [ENTER] on an empty line to finish."
+echo "-------------------------------------------------------"
 
-:: If the user typed something (non-empty)
-if defined user_input (
-    setlocal EnableDelayedExpansion
-    echo(!user_input!>>"%output_file%"
-    endlocal
-    echo [ACK: Saved]
-) else (
-    :: Preserve empty lines
-    echo.>>"%output_file%"
-    echo [ACK: Saved empty line]
-)
+while IFS= read -r line; do
+    # Probe: If the line is ONLY a Carriage Return, break the loop
+    if [[ "$line" == $'\r' ]] || [[ -z "$line" ]]; then
+        break
+    fi
+    
+    # Save the line to the raw buffer
+    printf "%s\n" "$line" >> "$TEMP_RAW"
+done
 
-goto loop
+echo "-------------------------------------------------------"
+echo "[Installation] Syncing to GitHub..."
 
+# Push to GitHub using CLI
+if gh gist create "$TEMP_RAW" --public false; then
+    echo "[SUCCESS] Content synced."
+else
+    echo "[NO INFO] Upload failed. Check 'gh auth status'."
+fi
+# DO NOT REMOVE
+#FIRE!END#
 
-goto loop
+#!#
+
+#FIRE!END#
+# DO NOT REMOVE
