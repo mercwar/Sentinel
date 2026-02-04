@@ -1,0 +1,14 @@
+title: Sentinel-OS Authority
+theme: jekyll-theme-primer
+
+# EMERGENCY SHIELD: Prevent Jekyll from scanning kernel binaries
+exclude:
+  - VERSION/
+  - sentinel-deb/
+  - build/
+  - .avis_gateway_buffer
+  - "*.deb"
+  - "*.o"
+  - "*.asm"
+  - "sentinel_v2"
+  - "mz_reflector"

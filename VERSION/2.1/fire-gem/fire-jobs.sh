@@ -1,11 +1,9 @@
-
-
-
 bash /workspaces/Sentinel/VERSION/2.1/fire-gem/fire-gem-v2.1.sh
 # ;@PROTOCOL: BGIN.AVIS-GEN.V2.1
 # ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340)
 # ;@DESC: Critical Jekyll Recovery & Symlink Purge
-
+#BGIN
+#!/bin/bash
 set -euo pipefail
 V_ROOT="/workspaces/Sentinel"
 
