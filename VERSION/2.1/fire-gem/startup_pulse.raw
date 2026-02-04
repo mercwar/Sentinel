@@ -1,39 +1,36 @@
+#!/usr/bin/php
+<?php
+/* ;@PROTOCOL: BGIN.AVIS-GEN.V2.1 */
+/* ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340) */
+/* ;@DESC: Sentinel Web Portal (Authority Clean) */
 
+// 1. SHMOP AUTHORITY CHECK
+if (!function_exists('shmop_open')) {
+    echo "[BGIN] SHMOP MISSING. ATTEMPTING EMERGENCY INGESTION...\n";
+    passthru("sudo apt-get update && sudo apt-get install -y php-shmop");
+    echo "[AVIS] EXTENSION PULSED. PLEASE RE-RUN.\n";
+    exit(1);
+}
 
+// 2. ANCHOR CONSTANTS
+$shm_key = 0x0f17e6e3;
+$offset = 0x40; 
 
-bash /workspaces/Sentinel/VERSION/2.1/fire-gem/fire-gem-v2.1.sh
-# ;@PROTOCOL: BGIN.AVIS-GEN.V2.1
-# ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340)
-# ;@DESC: Critical Jekyll Recovery & Symlink Purge
+// 3. PEEK AT PULSE
+$shm_id = @shmop_open($shm_key, "a", 0, 0);
 
-set -euo pipefail
-V_ROOT="/workspaces/Sentinel"
+if (!$shm_id) {
+    die("[WAITING] SHM 0x0f17e6e3 NOT FOUND. IS THE REFLECTOR PULSING?\n");
+}
 
-echo "[BGIN] PURGING POISONED SYMLINKS..."
+$raw_data = shmop_read($shm_id, $offset, 32);
+$hex_data = bin2hex($raw_data);
 
-# 1. REMOVE THE SYMLINK CAUSING THE REALPATH ERROR
-rm -f "$V_ROOT/mz_reflector"
+echo "\n--- SENTINEL-OS PORTAL PULSE ---\n";
+echo "RAW DATA: " . $raw_data . "\n";
+echo "HEX PEEK: " . strtoupper(chunk_split($hex_data, 2, ' ')) . "\n";
+echo "--------------------------------\n";
 
-# 2. MANIFEST CRITICAL CONFIG TO SHIELD KERNEL PATHS
-cat <<EOF > "$V_ROOT/_config.yml"
-title: Sentinel-OS Authority
-theme: jekyll-theme-primer
-
-# EMERGENCY SHIELD: Prevent Jekyll from scanning kernel binaries
-exclude:
-  - VERSION/
-  - sentinel-deb/
-  - build/
-  - .avis_gateway_buffer
-  - "*.deb"
-  - "*.o"
-  - "*.asm"
-  - "sentinel_v2"
-  - "mz_reflector"
-EOF
-
-echo "--------------------------------------------------"
-echo "[SUCCESS] JEKYLL RECOVERY COMPLETE."
-echo "[SUCCESS] _config.yml CREATED. GHOST LINK REMOVED."
-echo "--------------------------------------------------"
+shmop_close($shm_id);
+?>
 RECOVERY_SIG_MATCHED

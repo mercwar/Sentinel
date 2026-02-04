@@ -1,28 +1,31 @@
-php -f sentinel_portal.php
-/* ;@PROTOCOL: BGIN.AVIS-GEN.V2.1 */
-/* ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340) */
-/* ;@DESC: Sentinel Web Portal (Pulse Monitor Bridge) */
-
+#!/usr/bin/php
 <?php
+# ;@PROTOCOL: BGIN.AVIS-GEN.V2.1.2
+# ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340)
+
 $shm_key = 0x0f17e6e3;
-$offset = 0x40; // Robot Data Ingestion Point
+$offset = 0x40;
 
-echo "--- SENTINEL PORTAL v2.1 ---\n";
-echo "TARGET KEY: " . dechex($shm_key) . "\n";
-
-// 1. Attach to the FIRE-GEM Segment
-$shm_id = shmop_open($shm_key, "a", 0, 0);
-
-if (!$shm_id) {
-    die("[ERROR] SHM SEGMENT NOT FOUND. IS THE REFLECTOR PULSING?\n");
+// 1. AUTO-AUTHORIZE SHMOP
+if (!function_exists('shmop_open')) {
+    echo "[BGIN] EXTENSION MISSING. INSTALLING SHMOP...\n";
+    passthru("sudo apt-get update && sudo apt-get install -y php-shmop");
 }
 
-// 2. Peek at the Robot Data Entry
-$data = shmop_read($shm_id, $offset, 32);
+// 2. ATTACH TO SPINE
+$shm_id = @shmop_open($shm_key, "a", 0, 0);
+if (!$shm_id) {
+    die("[WAITING] SHM 0x0f17e6e3 NOT FOUND. RUN mz_reflector.\n");
+}
 
-echo "INGESTED DATA: " . $data . "\n";
-echo "---------------------------\n";
+// 3. READ PULSE
+$raw_data = shmop_read($shm_id, $offset, 32);
+$hex_data = bin2hex($raw_data);
+
+echo "\n--- SENTINEL-OS PORTAL PULSE ---\n";
+echo "RAW: " . $raw_data . "\n";
+echo "HEX: " . strtoupper(chunk_split($hex_data, 2, ' ')) . "\n";
+echo "--------------------------------\n";
 
 shmop_close($shm_id);
 ?>
-RECOVERY_SIG_MATCHED

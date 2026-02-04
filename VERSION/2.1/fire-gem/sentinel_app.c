@@ -1,4 +1,3 @@
-gcc -nostdlib -o sentinel_v2_kern sentinel_app.c
 /* ;@PROTOCOL: BGIN.AVIS-GEN.V2.1 */
 /* ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340) */
 /* ;@DESC: Hybrid ASM/C Kernel with MZ-Opcode Alignment */
