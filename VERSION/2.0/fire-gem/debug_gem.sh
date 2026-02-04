@@ -36,7 +36,7 @@ while true; do
     ipcs -m -i "$SHM_ID" | grep -A 5 "Shared Memory"
     echo "--------------------------------------------------"
     echo "[AVIS] CURRENT HEADER PEEK (HEX):"
-    hexdump -n 16 -C /dev/shm/fire_gem_pulse 2>/dev/null || echo "[WAITING FOR PULSE]"
+    hexdump -n 128 -C /dev/shm/fire_gem_pulse 2>/dev/null || echo "[WAITING FOR PULSE]"
     sleep 1
 done
 #!#

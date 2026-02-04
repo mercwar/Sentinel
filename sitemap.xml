@@ -715,10 +715,16 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-gem/fire-gem-v2.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-clear-mon.sh</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-mz_reflector-key.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-bash.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-full_peek.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-ubuntu-install.sh</loc>
@@ -1250,6 +1256,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/index.dhtml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/full_peek.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_swarm_dispatch.asm</loc>
