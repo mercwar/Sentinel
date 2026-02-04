@@ -1,31 +1,22 @@
 #!/usr/bin/php
 <?php
-# ;@PROTOCOL: BGIN.AVIS-GEN.V2.1.2
-# ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340)
+/* ;@PROTOCOL: BGIN.AVIS-GEN.V2.1.2 */
+/* ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340) */
 
 $shm_key = 0x0f17e6e3;
-$offset = 0x40;
+$offset = 0x40; // 64 decimal
 
-// 1. AUTO-AUTHORIZE SHMOP
-if (!function_exists('shmop_open')) {
-    echo "[BGIN] EXTENSION MISSING. INSTALLING SHMOP...\n";
-    passthru("sudo apt-get update && sudo apt-get install -y php-shmop");
-}
-
-// 2. ATTACH TO SPINE
 $shm_id = @shmop_open($shm_key, "a", 0, 0);
-if (!$shm_id) {
-    die("[WAITING] SHM 0x0f17e6e3 NOT FOUND. RUN mz_reflector.\n");
-}
-
-// 3. READ PULSE
-$raw_data = shmop_read($shm_id, $offset, 32);
-$hex_data = bin2hex($raw_data);
 
 echo "\n--- SENTINEL-OS PORTAL PULSE ---\n";
-echo "RAW: " . $raw_data . "\n";
-echo "HEX: " . strtoupper(chunk_split($hex_data, 2, ' ')) . "\n";
+if (!$shm_id) {
+    echo "STATUS: [OFFLINE] SHM 0x0f17e6e3 NOT FOUND\n";
+} else {
+    $raw_data = shmop_read($shm_id, $offset, 32);
+    $hex_data = bin2hex($raw_data);
+    echo "RAW: " . trim($raw_data) . "\n";
+    echo "HEX: " . strtoupper(chunk_split($hex_data, 2, ' ')) . "\n";
+    shmop_close($shm_id);
+}
 echo "--------------------------------\n";
-
-shmop_close($shm_id);
 ?>
