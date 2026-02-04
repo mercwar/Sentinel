@@ -3,7 +3,7 @@ cat << 'AVIS_PULSE'
 <!-- ;@PROTOCOL: BGIN.AVIS-GEN.V2.00 -->
 <!-- ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340) -->
 <!-- avis_coord_dir: VERSION/2.0/fire-gem -->
-<!-- avis_coord_file: avis-gen.sh -->
+<!-- avis_coord_file: avis-genx.sh -->
 
 #BGIN
 cat << 'AVIS_PULSE'

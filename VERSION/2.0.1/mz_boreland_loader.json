@@ -1,0 +1,21 @@
+{
+  "protocol": "BGIN.AVIS-GEN.V2.01",
+  "authority": "CVBGOD",
+  "loader_type": "BORELAND_MZ_REFERENCE",
+  "MZ_HEADER_MAP": {
+    "signature": "0x4D5A",
+    "last_page_bytes": "0x02",
+    "total_pages": "0x04",
+    "relocation_entries": "0x06",
+    "header_paragraphs": "0x08",
+    "min_extra_paragraphs": "0x0A",
+    "max_extra_paragraphs": "0x0C",
+    "stack_segment": "0x0E",
+    "stack_pointer": "0x10",
+    "checksum": "0x12",
+    "instruction_pointer": "0x14",
+    "code_segment": "0x16",
+    "relocation_table_offset": "0x18"
+  },
+  "BGIN_INGESTION_OFFSET": 64
+}

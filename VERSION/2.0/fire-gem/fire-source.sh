@@ -3,22 +3,25 @@
 /* ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340) */
 /* ;@VERSION: 2.0.1 */
 /* avis_coord_dir: VERSION/2.0/fire-gem */
-/* avis_coord_file: fire-source-exec.sh */
+/* avis_coord_file: fire-source.sh */
 
 #BGIN
 #!/bin/bash
 # ;@ENGINE: BGIN.AVIS_CJS_v2.0
-# ;@DESC: Sentinel-OS 0xBE614 Pulse Initiator
+# ;@DESC: Core Source Ingestor for MZ-Shared Protocol
 
 # 1. ATTACH ANCHOR
-source "$(dirname "${BASH_SOURCE[0]}")/fire-root.sh"
+source "$(dirname "${BASH_SOURCE}")/fire-root.sh"
 
-echo "[BGIN] FIRING 2.0 KERNEL PULSE..."
+echo "[BGIN] FIRING 2.0 SOURCE FROM: $V_ROOT"
 echo "--------------------------------------------------"
 
-# 2. TRIGGER THE INGESTOR GATEWAY
-# This calls the glob-locked gateway for the next robot drop
-bash "$V_ROOT/VERSION/2.0.1/fire-gem.sh"
+# 2. TRIGGER THE SOURCE EXECUTION
+# Directs the data pulse into the verified versioned path
+source "$V_ROOT/VERSION/2.0/fire-gem/fire-source-exec.sh"
+
+# 3. HANDSHAKE (Optional)
+# echo "# Yes # Next FILE # Continue"
 
 #!#
 
