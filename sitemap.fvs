@@ -7,6 +7,7 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel_scroll.yml .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel_handshake.yml .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/.github/Readme.md .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/sentinel-deb/DEBIAN/control .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/sh/README.MD .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/sh/sentinel_sync_bots.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/sh/CVBGOD/sweep_probe.sh .return
@@ -78,7 +79,6 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/BEGIN.o
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/REG_MSGBOX.obj .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/RETURN_EXE.obj .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/MSGBOX.obj .return
-OBJECT: https://github.com/mercwar/Sentinel/blob/main/sentinel_v2 .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE2.EDU .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE1.EDU .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js .return
@@ -178,7 +178,15 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/se
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/avis-gen.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/bgin_audit.asm .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/avis-gen.json .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-clip.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-gem-v2.1.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/debug_gem.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-display.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-mon.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/startup_pulse.raw .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_app.c .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-new-file.raw .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/bash-kernel-gcc.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.02/SPEC/sentinel_template.json .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/AVIS/phantom_lock.log .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/AVIS/os_shard_map.avis .return
@@ -257,6 +265,7 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/mz_boreland_
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-ipcs.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-sentinel_v2.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/sentinel-chmod.sh .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-new-file.raw .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/1.04/asm_install.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/SPEC/sentinel_template.json .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/AVIS/avis_escape_map.json .return
@@ -432,3 +441,4 @@ OBJECT: https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/NULL .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/LICENSE .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/avis_reader.sh .return
 OBJECT: https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS.zip .return
+OBJECT: https://github.com/mercwar/Sentinel/blob/main/avis_test_output.txt .return
