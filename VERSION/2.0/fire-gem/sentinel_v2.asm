@@ -1,9 +1,9 @@
-nasm -f elf64 sentinel_v104.asm -o /workspaces/Sentinel/build/v104.o
+nasm -f elf64 sentinel_v105.asm -o /workspaces/Sentinel/build/v105.o
 ; @ PROTOCOL: BGIN.AVIS-GEN.V2.01 @;
 ; @ AUTHORITY: CVBGOD (2ED0213EFEFE9340) @;
-; @ AVIS_COORD_DIR: VERSION/v1.04/SOURCE
-; @ AVIS_COORD_FILE: sentinel_v104.asm
-; @ AVIS_ROLE: LEGACY_SOURCE
+; @ AVIS_COORD_DIR: VERSION/v1.05/SOURCE
+; @ AVIS_COORD_FILE: sentinel_v105.asm
+; @ AVIS_ROLE: EXTENDED_SOURCE
 
 BITS 64
 SECTION .text
@@ -11,13 +11,14 @@ SECTION .text
 _start:
     dw 0x5A4D              ; MZ Signature
     times 62 db 0x90       ; Ingestion Offset 64
-    db "BGIN-V1.04-ACTIVE" ; Version Marker
+    db "BGIN-V1.05-HYBRID" ; Extended Identifier
     
-    mov rax, 0xBE614       ; Pulse Syscall
-    mov rdi, 0xF17E6E3     ; Key
+    ; v1.05 Extended Pulse Logic
+    mov rax, 0xBE614       
+    mov rdi, 0x0F17E6E3    
+    mov rsi, 0x105         ; High-Byte Version Signal
     syscall
     
-    mov rax, 60            ; exit
-    xor rdi, rdi
+    mov rax, 60
     syscall
 RECOVERY_SIG_MATCHED

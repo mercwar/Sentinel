@@ -340,6 +340,9 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-print.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/setup_env.sh</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-mod.sh</loc>
   </url>
   <url>
@@ -374,6 +377,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/current_sentinel</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_pulse.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen-v4.json</loc>
@@ -530,6 +536,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/avis-gen.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-gem-v2.1.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.02/SPEC/sentinel_template.json</loc>
@@ -1127,9 +1136,6 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.fvs</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_v2.o</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/global_vector_init.sh</loc>

@@ -1,27 +1,21 @@
-RECOVERY_SIG_MATCHEDbash /workspaces/Sentinel/VERSION/2.0.1/fire-gem/fire-gem-v2.sh
-sh /workspaces/Sentinel/VERSION/2.0.1/fire-gem/fire-gem-v2.sh
-# ;@PROTOCOL: BGIN.AVIS-GEN.V2.01
+#!/bin/bash
+# ;@PROTOCOL: BGIN.AVIS-GEN.V2.1
 # ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340)
-# ;@DESC: Term 127 Path Restoration
+# ;@AVIS_COORD_DIR: VERSION/2.1/fire-gem
+# ;@AVIS_COORD_FILE: fire-gem-v2.1.sh
 
-set -euo pipefail
-V_ROOT="/workspaces/Sentinel"
+# --- ANCHOR ENVIRONMENT ---
+export V_ROOT="/workspaces/Sentinel"
+export V_TARGET="$V_ROOT/VERSION/2.1/fire-gem"
+export TEMP_BUF="$V_ROOT/.avis_gateway_buffer"
 
-echo "[BGIN] REPAIRING COMMAND PATHS..."
+mkdir -p "$V_TARGET"
+cd "$V_ROOT"
 
-# 1. Sync the Sentinel Root to the Environment Path
-export PATH="$PATH:$V_ROOT/VERSION/2.0/fire-gem:$V_ROOT/VERSION/2.0.1/fire-gem"
-
-# 2. Grant Universal Authority to the Coordinate Dir
-chmod +x "$V_ROOT/VERSION/2.0/fire-gem/"*
-
-# 3. Verify the binary location
-if [ ! -x "$(command -v nasm)" ]; then
-    echo "[AVIS] NASM NOT FOUND. INSTALLING..."
-    sudo apt-get update && sudo apt-get install -y nasm
-fi
-
+# --- INITIALIZE GATEWAY ---
 echo "--------------------------------------------------"
-echo "[SUCCESS] PATHS ANCHORED. EXIT 127 RESOLVED."
+echo "[BGIN] CLASSIC FILE EDITOR WRAPPER ACTIVE"
+echo "[BGIN] PROTOCOL: AVIS-GEN.V2.1"
+echo "[AVIS] TARGET: $V_TARGET"
 echo "--------------------------------------------------"
-RECOVERY_SIG_MATCHED
+echo "[READY] PASTE SOURCE CODE + RECOVERY_SIG_MATCHED"

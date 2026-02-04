@@ -1,43 +1,46 @@
-gcc -o bgin_probe bgin_probe.c
-/* ;@PROTOCOL: BGIN.AVIS-GEN.V2.01 */
+gcc -nostdlib -o sentinel_v2_kern sentinel_app.c
+/* ;@PROTOCOL: BGIN.AVIS-GEN.V2.1 */
 /* ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340) */
-/* ;@AVIS_COORD_DIR: VERSION/v1.04 */
-/* ;@AVIS_COORD_FILE: bgin_probe.c */
-/* ;@AVIS_ROLE: SOURCE_FILE */
+/* ;@DESC: Hybrid ASM/C Kernel with MZ-Opcode Alignment */
 
-#include <stdio.h>
-#include <fcntl.h>
-#include <sys/mman.h>
-#include <unistd.h>
-#include <string.h>
+#include <stdint.h>
 
-int main() {
-    printf("[BGIN] PROBE ACTIVE: VERSION v1.04\n");
+/* --- HARDCODED MZ TABLE (Intel 8086 Aligned) --- */
+unsigned char mz_header[64] = {
+    0x4D, 0x5A,                   /* 0x00: 'MZ' Signature */
+    0x90, 0x90, 0x90, 0x90, 0x90, /* 0x02: NOP Padding */
+    /* ... 0x08 - 0x3B: DOS Compatibility Stubs ... */
+    [0x3C] = 0x40, 0x00, 0x00, 0x00, /* 0x3C: e_lfanew -> Offset 64 */
+    /* 0x40: BGIN Ingestion Magic */
+    0x42, 0x47, 0x49, 0x4E,       /* 'BGIN' */
+    0x02, 0x00, 0x01, 0x02,       /* Version 2.0.1.2 */
+    0x14, 0xE6, 0x17, 0x0F        /* Key: 0x0F17E614 (Linked) */
+};
 
-    // 1. Open the FIRE-GEM Pulse Segment
-    int fd = open("/dev/shm/fire_gem_pulse", O_RDONLY);
-    if (fd < 0) {
-        perror("[ERROR] SHM MISSING");
-        return 1;
-    }
-
-    // 2. Map the 16KB AVIS Buffer
-    unsigned char *ptr = mmap(NULL, 16384, PROT_READ, MAP_SHARED, fd, 0);
-    
-    // 3. Verify MZ Signature (0x4D 0x5A)
-    if (ptr[0] == 0x4D && ptr[1] == 0x5A) {
-        printf("[SUCCESS] BORELAND MZ SIGNATURE DETECTED.\n");
-    } else {
-        printf("[WARNING] MZ SIGNATURE MISMATCH: %02X %02X\n", ptr[0], ptr[1]);
-    }
-
-    // 4. Ingest Robot Data from Offset 0x40
-    printf("[AVIS] DATA AT OFFSET 0x40: ");
-    for(int i = 0x40; i < 0x54; i++) {
-        putchar(ptr[i]);
-    }
-    printf("\n[BGIN] PROBE COMPLETE.\n");
-
-    return 0;
+/* --- SYSCALL 0xBE614 PULSE --- */
+static inline void fire_gem_pulse() {
+    __asm__ volatile (
+        "mov $0xBE614, %%rax\n"   /* Syscall: Robot Data Entry */
+        "mov $0xF17E6E3, %%rdi\n" /* Key: FIRE-GEM SHM */
+        "syscall"
+        : : : "rax", "rdi"
+    );
 }
+
+void _start() {
+    /* 1. Pulse the Reflector */
+    fire_gem_pulse();
+
+    /* 2. Map the 0x40 Handshake */
+    volatile char *bgin_ptr = (char *)&mz_header[0x40];
+    
+    /* 3. Termination Pulse */
+    __asm__ volatile (
+        "mov $60, %%rax\n"
+        "xor %%rdi, %%rdi\n"
+        "syscall"
+        : : : "rax", "rdi"
+    );
+}
+
 RECOVERY_SIG_MATCHED
