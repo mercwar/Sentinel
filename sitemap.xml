@@ -331,6 +331,9 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-commit.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_monitor.c</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/commit_msg.tmp</loc>
   </url>
   <url>
@@ -406,6 +409,9 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-gem.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/pulse.raw</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-sitemap.sh</loc>
   </url>
   <url>
@@ -413,6 +419,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-object.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_v2.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/mz_reflector</loc>
@@ -458,9 +467,6 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.o</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/build.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/pulse.raw</loc>
@@ -710,9 +716,6 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_net_pulse.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-gem/fire-gem-v2.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-clear-mon.sh</loc>
