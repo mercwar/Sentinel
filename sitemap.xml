@@ -283,7 +283,16 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/JSON%20AVIS%20GEN.TAB</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/install-train.TAB</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/asm-mz-train.TAB</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/TAB1.TAB</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/Kernel-train.TAB</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/README.md</loc>
@@ -319,7 +328,31 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-nav.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen-v2.json</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-object-html.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/fire-gem/massive_deploy.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/sentinel_v2.asm_bk</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/reflector.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/sentinel_univ.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/sentinel_v2.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/current_sentinel</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen-v4.json</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-push-exec.sh</loc>
@@ -328,7 +361,16 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-root.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-end.bak</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/.avis_raw_buffer</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-end.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_core.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-source-exec.sh</loc>
@@ -349,7 +391,13 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen-v3.json</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/commit_msg.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-->/avis-gen.sh--></loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/readme.md</loc>
@@ -361,13 +409,28 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/avis.bgin</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/commit_msg.tmp</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/php.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/template.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.scroll</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.scroll.bk</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/avis-html.bgin</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/Readme.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-template.md</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/repo/conf/distributions</loc>
