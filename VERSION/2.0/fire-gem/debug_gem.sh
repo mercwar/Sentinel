@@ -21,7 +21,7 @@ echo "[BGIN] TARGET: $GEM_KEY | ROOT: $V_ROOT"
 echo "--------------------------------------------------"
 
 # 2. VERIFY SEGMENT
-SHM_ID=$(ipcs -m | grep "$GEM_KEY" | awk '{print $2}')
+SHM_ID=$(ipcs -m | grep -E "${GEM_KEY#0x}|${GEM_KEY}" | awk '{print $2}')
 
 if [ -z "$SHM_ID" ]; then
     echo "[ERROR] FIRE-GEM NOT FOUND. RUN mz_reflector FIRST."
