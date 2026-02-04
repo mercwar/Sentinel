@@ -1,0 +1,260 @@
+
+{
+  "protocol": "BGIN.AVIS-GEN.V2.00",
+  "authority": "CVBGOD",
+  "AVIS_VERSION": "2.0.2",
+
+  "processor": {
+    "ENGINE": "BGIN.AVIS_CJS_v2.0",
+    "ACTION": "COPY_BGIN_AVIS_COORD",
+    "DETECT": "AUTO_PROC",
+    "BGIN_LOGIC": {
+      "AVIS_ROLE": ["BASH", "SHELL", "ALL"],
+      "OPEN": "#BGIN",
+      "CLOSE": "#!#",
+      "MODE": "MIGRATE_FILE",
+      "FIDELITY": "BIT_PERFECT"
+    }
+  },
+
+  "DETECTION_LOGIC": {
+    "PIPELINE": [
+      {
+        "stage": 1,
+        "name": "EXTENSION_DETECTION",
+        "method": "lookup",
+        "confidence": 0.40,
+        "map": {
+          ".c": "C_COMMENT", ".h": "C_COMMENT", ".cpp": "CPP_COMMENT", ".hpp": "CPP_COMMENT",
+          ".asm": "ASM_COMMENT", ".s": "ASM_COMMENT", ".html": "HTML_COMMENT", ".htm": "HTML_COMMENT",
+          ".xml": "XML_COMMENT", ".js": "JS_COMMENT", ".ts": "TS_COMMENT", ".php": "PHP_COMMENT",
+          ".sh": "SHELL_COMMENT", ".bash": "BASH_COMMENT", ".ps1": "POWERSHELL_COMMENT",
+          ".ini": "INI_COMMENT", ".conf": "CONF_COMMENT", ".yaml": "YAML_COMMENT", ".yml": "YAML_COMMENT",
+          ".toml": "TOML_COMMENT", ".json": "JSON_COMMENT", ".md": "MD_COMMENT", ".rst": "RST_COMMENT",
+          ".py": "PY_COMMENT", ".rb": "RUBY_COMMENT", ".pl": "PERL_COMMENT", ".lua": "LUA_COMMENT",
+          ".sql": "SQL_COMMENT", ".css": "CSS_COMMENT", ".scss": "SCSS_COMMENT", ".java": "JAVA_COMMENT",
+          ".kt": "KOTLIN_COMMENT", ".go": "GO_COMMENT", ".r": "R_COMMENT", ".m": "MATLAB_COMMENT",
+          ".f": "FORTRAN_COMMENT", ".vbs": "VBS_COMMENT", ".bat": "BATCH_COMMENT", ".swift": "SWIFT_COMMENT",
+          ".rs": "RUST_COMMENT", ".zig": "ZIG_COMMENT", ".hs": "HASKELL_COMMENT", ".erl": "ERLANG_COMMENT",
+          ".ex": "ELIXIR_COMMENT", ".sol": "SOLIDITY_COMMENT", "Dockerfile": "DOCKER_COMMENT",
+          "Makefile": "MAKE_COMMENT", "CMakeLists.txt": "CMAKE_COMMENT",
+          ".bgin": "BGIN_INGEST_PROTOCOL",
+          ".gem": "FIRE_GEM_DATA",
+          ".sentinel": "SENTINEL_SCROLL"
+        }
+      },
+      {
+        "stage": 2,
+        "name": "SHEBANG_DETECTION",
+        "method": "line_1_match",
+        "confidence": 0.55,
+        "map": {
+          "#!/bin/bash": "BASH_COMMENT",
+          "#!/bin/sh": "SHELL_COMMENT",
+          "#!/usr/bin/env python": "PY_COMMENT",
+          "#!/usr/bin/env node": "JS_COMMENT",
+          "#!/usr/bin/php": "PHP_COMMENT",
+          "#!/usr/bin/env ruby": "RUBY_COMMENT",
+          "#!/usr/bin/env perl": "PERL_COMMENT",
+          "#!/usr/bin/env lua": "LUA_COMMENT"
+        }
+      },
+      {
+        "stage": 3,
+        "name": "MAGIC_BYTE_DETECTION",
+        "method": "hex_signature",
+        "confidence": 0.95,
+        "map": {
+          "0x4D5A": "MZ_HEADER_DETECTED",
+          "0x4D5A53454E54494E454C": "SENTINEL_V2_IDENTITY",
+          "0x0F17E6E3": "FIRE_GEM_ACTIVE_SEGMENT",
+          "0x7F454C46": "ELF_BINARY_BASE",
+          "0x23212F757372": "SHELL_COMMENT",
+          "0x3C21444F4354595045": "HTML_COMMENT",
+          "0x3C3F786D6C": "XML_COMMENT",
+          "0x23212F62696E": "SHELL_COMMENT",
+          "0x00BE6140": "SENTINEL_SYSCALL_HOOK"
+        }
+      },
+      {
+        "stage": 4,
+        "name": "MIME_TYPE_DETECTION",
+        "method": "mime_lookup",
+        "confidence": 0.50,
+        "map": {
+          "text/html": "HTML_COMMENT",
+          "application/xml": "XML_COMMENT",
+          "application/json": "JSON_COMMENT",
+          "text/x-shellscript": "SHELL_COMMENT",
+          "text/x-c": "C_COMMENT",
+          "text/x-c++": "CPP_COMMENT",
+          "text/x-python": "PY_COMMENT",
+          "text/x-php": "PHP_COMMENT",
+          "text/x-sql": "SQL_COMMENT",
+          "text/css": "CSS_COMMENT"
+        }
+      },
+      {
+        "stage": 5,
+        "name": "COMMENT_PATTERN_INFERENCE",
+        "method": "regex_scan",
+        "confidence": 0.65,
+        "patterns": {
+          "^//": "CPP_COMMENT",
+          "^/\\*": "C_COMMENT",
+          "^#": "SHELL_COMMENT",
+          "^;@": "AVIS_NEURAL_TAG",
+          "^;#": "AVIS_STRUCTURAL_TAG",
+          "^;!": "AVIS_FUNCTIONAL_TAG",
+          "^;": "INI_COMMENT",
+          "^--": "SQL_COMMENT",
+          "^<!--": "HTML_COMMENT",
+          "^%": "MATLAB_COMMENT",
+          "^C ": "FORTRAN_COMMENT",
+          "^'": "VBS_COMMENT"
+        },
+        "fallback": "SHELL_COMMENT"
+      },
+      {
+        "stage": 6,
+        "name": "EMBEDDED_LANGUAGE_SCAN",
+        "method": "content_parse",
+        "confidence": 0.70,
+        "rules": {
+          "HTML+JS": "HTML_COMMENT",
+          "HTML+PHP": "PHP_COMMENT",
+          "HTML+CSS": "HTML_COMMENT",
+          "XML+XSLT": "XML_COMMENT",
+          "JS+JSON": "JS_COMMENT",
+          "PHP+HTML": "PHP_COMMENT"
+        }
+      },
+      {
+        "stage": 7,
+        "name": "ENTROPY_HEURISTIC",
+        "method": "entropy_profile",
+        "confidence": 0.30,
+        "profiles": {
+          "high_entropy": "BINARY_UNSUPPORTED",
+          "medium_entropy": "SOURCE_CODE",
+          "low_entropy": "CONFIG_DATA"
+        }
+      },
+      {
+        "stage": 8,
+        "name": "ROLE_ASSIGNMENT",
+        "method": "role_map",
+        "confidence": 0.80,
+        "map": {
+          "SOURCE": [
+            "C_COMMENT", "CPP_COMMENT", "JS_COMMENT", "PHP_COMMENT",
+            "JAVA_COMMENT", "KOTLIN_COMMENT", "GO_COMMENT",
+            "RUST_COMMENT", "SWIFT_COMMENT", "ZIG_COMMENT"
+          ],
+          "SHELL": [
+            "SHELL_COMMENT", "BASH_COMMENT", "POWERSHELL_COMMENT"
+          ],
+          "MARKUP": [
+            "HTML_COMMENT", "XML_COMMENT", "MD_COMMENT"
+          ],
+          "DATA": [
+            "JSON_COMMENT", "INI_COMMENT", "YAML_COMMENT", "TOML_COMMENT"
+          ],
+          "LOWLEVEL": [
+            "ASM_COMMENT", "BGIN_INGEST_PROTOCOL", "FORTRAN_COMMENT"
+          ],
+          "SYSTEM": [
+            "MZ_HEADER_DETECTED", "SENTINEL_V2_IDENTITY", "FIRE_GEM_ACTIVE_SEGMENT"
+          ]
+        }
+      },
+      {
+        "stage": 9,
+        "name": "FIRE_GEM_SAFETY_CHECK",
+        "method": "safety_eval",
+        "confidence": 1.00,
+        "SAFE": [
+          "C_COMMENT", "CPP_COMMENT", "JS_COMMENT", "PHP_COMMENT",
+          "SHELL_COMMENT", "HTML_COMMENT", "XML_COMMENT",
+          "SENTINEL_V2_IDENTITY", "MZ_HEADER_DETECTED", "ASM_COMMENT"
+        ],
+        "UNSAFE": [
+          "SQL_COMMENT", "BATCH_COMMENT", "VBS_COMMENT", "CORRUPT_MZ_OFFSET"
+        ],
+        "ACTION_ON_UNSAFE": "TRIGGER_FIRE_END"
+      },
+      {
+        "stage": 10,
+        "name": "FINAL_CLASSIFICATION",
+        "method": "confidence_merge",
+        "output": "AVIS_COMMENT_PROTOCOL",
+        "merge_strategy": "weighted",
+        "weights": {
+          "EXTENSION": 0.40,
+          "SHEBANG": 0.55,
+          "MAGIC": 0.95,
+          "MIME": 0.50,
+          "PATTERN": 0.65,
+          "EMBEDDED": 0.70,
+          "ENTROPY": 0.30,
+          "ROLE": 0.80,
+          "FIRE_SAFETY": 1.00
+        }
+      }
+    ],
+    "fire-end": {
+      "header-1": "#FIRE!END# DO NOT MODIFY",
+      "header-2": "#@AVIS_FIRE_END_HOOK",
+      "header-3": "pkill -f sentinel-v2",
+      "header-4": "rm /dev/shm/robot_map",
+      "header-5": "SENTINEL_V2_EXIT_SUCCESS",
+      "header-6": "#FIRE!END#",
+      "header-7": "#FIRE!END# DO NOT MODIFY",
+      "footer-8": "#!# RECOVERY_SIG_MATCHED"
+    }
+  },
+
+  "AVIS": {
+    "AVIS_ROLE": ["SOURCE", "SITEMAP_PUSH_COMMIT", "SHELL"],
+    "AVIS_LOGIC": {
+      "C_COMMENT":        { "OPEN": "/*",   "CLOSE": "*/",   "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "CPP_COMMENT":      { "OPEN": "// ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "ASM_COMMENT":      { "OPEN": "; ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "HTML_COMMENT":     { "OPEN": "<!-- ", "CLOSE": " -->","AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "XML_COMMENT":      { "OPEN": "<!-- ", "CLOSE": " -->","AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "JS_COMMENT":       { "OPEN": "// ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "TS_COMMENT":       { "OPEN": "// ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "PHP_COMMENT":      { "OPEN": "/*",   "CLOSE": "*/",   "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "SHELL_COMMENT":    { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "BASH_COMMENT":     { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "POWERSHELL_COMMENT": { "OPEN": "# ", "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "INI_COMMENT":      { "OPEN": "; ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "CONF_COMMENT":     { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "YAML_COMMENT":     { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "TOML_COMMENT":     { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "JSON_COMMENT":     { "OPEN": "// ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "MD_COMMENT":       { "OPEN": "<!-- ", "CLOSE": " -->","AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "RST_COMMENT":      { "OPEN": ".. ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "PY_COMMENT":       { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "RUBY_COMMENT":     { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "PERL_COMMENT":     { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "LUA_COMMENT":      { "OPEN": "-- ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "SQL_COMMENT":      { "OPEN": "-- ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "CSS_COMMENT":      { "OPEN": "/*",   "CLOSE": "*/",   "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "SCSS_COMMENT":     { "OPEN": "// ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "JAVA_COMMENT":     { "OPEN": "// ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "KOTLIN_COMMENT":   { "OPEN": "// ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "GO_COMMENT":       { "OPEN": "// ",  "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "R_COMMENT":        { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "MATLAB_COMMENT":   { "OPEN": "% ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "FORTRAN_COMMENT":  { "OPEN": "C ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "VBS_COMMENT":      { "OPEN": "' ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "BATCH_COMMENT":    { "OPEN": "REM ", "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "DOCKER_COMMENT":   { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "MAKE_COMMENT":     { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "CMAKE_COMMENT":    { "OPEN": "# ",   "CLOSE": "",     "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." },
+      "BGIN_INGEST_PROTOCOL": { "OPEN": "/*", "CLOSE": "*/", "AVIS_COORD_DIR": "/", "AVIS_COORD_FILE": "." }
+    }
+  }
+}
+

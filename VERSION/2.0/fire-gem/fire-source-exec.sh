@@ -1,18 +1,20 @@
 #!/bin/bash
-#BGIN
-# /* AVIS_COORD: VERSION/2.0/fire-source.sh */
-# /* AVIS_ROLE:  */
-# Root initialization
-source ./VERSION/2.0/fire-gem/fire-root.sh
-echo "[BGIN] FIRING 2.0 SOURCE FROM: $V_ROOT"
-echo "--------------------------------------------------"
+# /* AVIS_COORD: VERSION/2.0/fire-gem/fire-source-exec.sh */
 
-# Execute the ingestor script using absolute local path
-"$V_ROOT/avis-gen.sh"
+# 1. Locate fire-root relative to this script
+source "$(dirname "$0")/fire-root.sh"
+
+echo "[BGIN] FIRING 2.0 KERNEL PULSE..."
+
+# 2. DEFINITIVE PATH: Point to the versioned gem directory
+INGESTOR="$V_ROOT/VERSION/2.0/fire-gem/avis-gen.sh"
+
+if [ -f "$INGESTOR" ]; then
+    bash "$INGESTOR"
+else
+    echo "[ERROR] avis-gen.sh MISSING AT $INGESTOR"
+    echo "[DEBUG] CHECKING DIRECTORY: $(ls -d $V_ROOT/VERSION/2.0/fire-gem/)"
+    exit 1
+fi
 
 
-#!#
-
-echo "#FIRE!END#"
-
-echo  "# Yes # Next Sentinal asm file Gemini"

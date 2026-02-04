@@ -1,0 +1,29 @@
+; @ #[avis] begin fire-gem scroll @;
+; @ PROTOCOL: BGIN.AVIS-GEN.V2.00 @;
+; @ VERSION: 2.0.4 @;
+; @ GPG_ID: 2ED0213EFEFE9340 @;
+; @ avis_coord_dir: /VERSION/2.0/AI/bgin-avis
+; @ avis_coord_file: sentinel_v2.scroll
+
+;! --- SYSTEM STATE METADATA ---
+;! SEGMENT_KEY: 0xF17E6E3 (FIRE-GEM)
+;! SYSCALL_ID: 0xBE614 (BGIN_INGEST)
+;! MZ_OFFSET: 64 (BIT_PERFECT)
+
+section .text
+    global _start
+
+_start:
+    mov rax, 0xBE614           ; BGIN Syscall
+    mov rdi, 0xF17E6E3         ; Map FIRE-GEM
+    syscall
+
+    mov rax, 60                ; sys_exit
+    xor rdi, rdi
+    syscall
+
+; @ #FIRE!END# DO NOT MODIFY @;
+; @ #!# @;
+; @ #FIRE!END# @;
+; @ #FIRE!END# DO NOT MODIFY @;
+; @ #!# RECOVERY_SIG_MATCHED @;

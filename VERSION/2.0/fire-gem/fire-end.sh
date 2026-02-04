@@ -1,17 +1,15 @@
 #!/bin/bash
-# Avis fire-end comment block
-
-# Reads from stdin, converts LF to CRLF, writes to output file
-
-if [ -z "$1" ]; then
-    echo "Usage: $0 output_file"
-    exit 1
-fi
-
-output_file="$1"
-
-# Convert LF to CRLF and write to output file
-sed 's/$/\r/' > "$output_file"
+# fire-end.sh
+# EOF
 
 
-# DO NOT REMOVE
+source ./VERSION/2.0/fire-gem/fire-root.sh
+
+#FIRE!END# DO NOT MODIFY
+#FIRE!END#
+
+#!#
+
+#FIRE!END# DO NOT MODIFY
+#FIRE!END#
+echo "#FIRE!END"

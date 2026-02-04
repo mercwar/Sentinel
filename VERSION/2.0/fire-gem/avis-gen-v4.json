@@ -1,0 +1,18 @@
+{
+  "protocol": "BGIN.AVIS-GEN.V2.00",
+  "authority": "CVBGOD",
+  "GPG_ID": "2ED0213EFEFE9340",
+  "AVIS_VERSION": "2.0.4",
+  "processor": {
+    "ENGINE": "BGIN.AVIS_CJS_v2.0",
+    "BGIN_LOGIC": {
+      "OPEN": "#BGIN",
+      "CLOSE": "#!#",
+      "MODE": "MIGRATE_FILE"
+    }
+  },
+  "fire-end": {
+    "header-4": "#!#",
+    "footer-8": "#!# RECOVERY_SIG_MATCHED"
+  }
+}

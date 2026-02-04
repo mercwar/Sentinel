@@ -1,15 +1,10 @@
 #!/bin/bash
-#BGIN
-# /* AVIS_COORD: VERSION/2.0/fire-root.sh */
-# /* AVIS_ROLE:  */
+# /* AVIS_COORD: VERSION/2.0/fire-gem/fire-root.sh */
 
-# 1. ANCHOR: Define the versioned root directory (directory of the current script)
-V_ROOT="$(cd "$(dirname "$0")" && pwd)"
+# Fix: Go up TWO levels to reach /workspaces/Sentinel from /fire-gem
+export V_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+export FIRE_GEM_ADDR="0xF17E6E3"
+
+# Navigate to the real root
 cd "$V_ROOT" || exit 1
-
-echo "[BGIN] FIRING 2.0 KERNEL FROM: $V_ROOT"
-#echo "--------------------------------------------------"
-
-
-
-#!#
+echo "[BGIN] FIRE-GEM ANCHOR LOCKED AT: $V_ROOT"

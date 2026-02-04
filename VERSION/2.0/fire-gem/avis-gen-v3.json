@@ -1,0 +1,31 @@
+{
+  "protocol": "BGIN.AVIS-GEN.V2.00",
+  "authority": "CVBGOD",
+  "AVIS_VERSION": "2.0.3",
+  "processor": {
+    "ENGINE": "BGIN.AVIS_CJS_v2.0",
+    "BGIN_LOGIC": {
+      "OPEN": "#BGIN",
+      "CLOSE": "#!#",
+      "MODE": "MIGRATE_FILE"
+    }
+  },
+  "DETECTION_LOGIC": {
+    "PIPELINE": [
+      {
+        "stage": 2,
+        "name": "SHEBANG_DETECTION",
+        "map": { "#!/bin/bash": "BASH_COMMENT" }
+      },
+      {
+        "stage": 10,
+        "name": "FINAL_CLASSIFICATION",
+        "output": "AVIS_VERSION_2_0_3"
+      }
+    ],
+    "fire-end": {
+      "header-4": "#!#",
+      "footer-8": "#!# RECOVERY_SIG_MATCHED"
+    }
+  }
+}

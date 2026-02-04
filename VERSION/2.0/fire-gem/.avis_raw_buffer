@@ -1,0 +1,23 @@
+; @ #[avis] begin fire-gem scroll @;
+; @ PROTOCOL: BGIN.AVIS-GEN.V2.00 @;
+; @ VERSION: 2.0.4 @;
+; @ avis_coord_dir: /VERSION/2.0/AI/bgin-avis
+; @ avis_coord_file: sentinel_v2.scroll
+
+section .text
+    global _start
+_start:
+    mov rax, 0xBE614
+    mov rdi, 0xF17E6E3
+    syscall
+    mov rax, 60
+    xor rdi, rdi
+    syscall
+
+; @ #FIRE!END# DO NOT MODIFY @;
+; @ #!# @;
+; @ #FIRE!END# @;
+; @ #FIRE!END# DO NOT MODIFY @;
+; @ #!# RECOVERY_SIG_MATCHED @;
+
+'/workspaces/Sentinel/VERSION/2.0/fire-gem/fire-source-exec.sh'

@@ -1,6 +1,17 @@
 {
   "protocol": "BGIN.AVIS-GEN.V2.00",
   "authority": "CVBGOD",
+  "AVIS_VERSION": "2.0.4",
+  "BGIN_LOGIC": {
+    "OPEN": "#BGIN",
+    "CLOSE": "#!#",
+    "MODE": "MIGRATE_FILE",
+    "FIDELITY": "BIT_PERFECT"
+  }
+}
+{
+  "protocol": "BGIN.AVIS-GEN.V2.00",
+  "authority": "CVBGOD",
   "BGIN_LOGIC": {
     "OPEN": "#BGIN",
     "CLOSE": "#!#",
@@ -13,19 +24,18 @@
     "DETECT": "AUTO_PROC"
   },
   "AVIS": {
-    "AVIS_ROLE": [
-      "SOURCE",
-      "SITEMAP_PUSH_COMMIT",
-      "SHELL"
-    ],
+    "AVIS_ROLE": ["SOURCE", "SITEMAP_PUSH_COMMIT", "SHELL"],
     "AVIS_LOGIC": {
       "OPEN": "/*",
       "CLOSE": "*/",
-      "AVIS_COORD_DIR": "/",
-      "AVIS_COORD_FILE": "."
+      "AVIS_COORD_DIR": "avis_coord_dir",
+      "AVIS_COORD_FILE": "template.c"
+    },
+    "AVIS_GEMINI_ASM": {
+      "OPEN": "; @",
+      "CLOSE": "@;",
+      "AVIS_COORD_DIR": "avis_coord_dir",
+      "AVIS_COORD_FILE": "sentinel_v2.asm"
     }
   }
 }
-
-
-

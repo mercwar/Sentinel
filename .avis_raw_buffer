@@ -1,13 +1,50 @@
+; @ #[avis] begin fire-gem scroll @;
+; @ PROTOCOL: BGIN.AVIS-GEN.V2.00 @;
+; @ AUTHORITY: CVBGOD (2ED0213EFEFE9340) @;
+; @ avis_coord_dir: VERSION/2.0/fire-gem
+; @ avis_coord_file: avis-gen.sh
+
 #BGIN
-<!--
-/* AVIS_COORD_DIR: VERSION/v1.04 */
-/* AVIS_COORD_FILE: SENTINEL-TEST-FILE.HTML */
-/* AVIS_ROLE: SOURCE_FILE */
--->
-<html>
-<head>
-</head>
-<body>
-</body>
-</html>
+#!/bin/bash
+# ;@ENGINE: BGIN.AVIS_CJS_v2.0
+# ;@DESC: Hard-Separator Ingestor for CVBGOD Master Mode
+
+set -euo pipefail
+# Source anchor
+source "$(dirname "$0")/fire-root.sh"
+
+TEMP_RAW=".avis_raw_buffer"
+: > "$TEMP_RAW"
+
+echo "[BGIN] PULSE INGESTING... (Awaiting RECOVERY_SIG_MATCHED)"
+
+while IFS= read -r -t 2 line || [[ -n "$line" ]]; do
+	echo "$line" >> "$TEMP_RAW"
+	case "$line" in
+		"#!# RECOVERY_SIG_MATCHED") break ;;
+	esac
+done
+
+# --- THE BIT-PERFECT FIX: HARD SLASH SEPARATOR ---
+COORD_DIR=$(grep -i -m1 "avis_coord_dir" "$TEMP_RAW" | awk -F': ' '{print $2}' | tr -d '\r ')
+COORD_FILE=$(grep -i -m1 "avis_coord_file" "$TEMP_RAW" | awk -F': ' '{print $2}' | tr -d '\r ')
+
+# FORCE LITERAL SLASH BETWEEN ROOT AND VERSION
+TARGET_DIR="${V_ROOT}/${COORD_DIR}"
+TARGET_PATH="${TARGET_DIR}/${COORD_FILE}"
+
+mkdir -p "$TARGET_DIR"
+cat "$TEMP_RAW" > "$TARGET_PATH"
+chmod 755 "$TARGET_PATH"
+
+echo "------------------------------------------------"
+echo "[AVIS] INSTALL SUCCESS: $TARGET_PATH"
+echo "[BGIN] BYTES INGESTED: $(wc -c < "$TARGET_PATH")"
+echo "------------------------------------------------"
 #!#
+
+; @ #FIRE!END# DO NOT MODIFY @;
+; @ #!# @;
+; @ #FIRE!END# @;
+; @ #FIRE!END# DO NOT MODIFY @;
+; @ #!# RECOVERY_SIG_MATCHED @;
