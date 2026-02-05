@@ -544,6 +544,9 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_portal.php</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/test_pulse.php</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-gem-v2.1.sh</loc>
   </url>
   <url>
@@ -556,16 +559,31 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-mon.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/startup_pulse.raw</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_portal.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-jobs.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_dashboard.php</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fine-bgin-pulse-auth.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/pulse.raw</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_app.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel-app.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel-dashboard.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/startup_pulse.php</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-new-file.raw</loc>

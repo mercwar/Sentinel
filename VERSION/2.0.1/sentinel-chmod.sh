@@ -15,6 +15,8 @@ set -euo pipefail
 # 1. RESOLVE ANCHOR
 V_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo "${GITHUB_WORKSPACE:-$(pwd)}")"
 
+chmod +x /workspaces/Sentinel/VERSION/2.0.1/sentinel-chmod.sh
+
 echo "[BGIN] APPLYING UNIVERSAL AUTHORITY TO: $V_ROOT"
 
 # 2. LOCK PERMISSIONS (644 for Source, 755 for Engines)
@@ -30,6 +32,7 @@ find "$V_ROOT/VERSION/2.0" -type f -name "*.c" -exec chmod 644 {} +
 find "$V_ROOT/VERSION/2.1" -type f -name "*.sh" -exec chmod 755 {} +
 find "$V_ROOT/VERSION/2.1" -type f -name "*.asm" -exec chmod 644 {} +
 find "$V_ROOT/VERSION/2.1" -type f -name "*.c" -exec chmod 644 {} +
+find "$V_ROOT/VERSION/2.1" -type f -name "*.php" -exec chmod 755 {} +
 
 # 3. SPECIAL PERMISSION: FIRE-GEM EXECUTABLES
 chmod +x /workspaces/Sentinel/VERSION/2.0.1/fire-gem.sh

@@ -1,40 +1,38 @@
-/* ;@PROTOCOL: BGIN.AVIS-GEN.V2.1 */
+gcc -o /workspaces/Sentinel/VERSION/2.1/fire-gem/sentinel_gl_monitor /workspaces/Sentinel/VERSION/2.1/fire-gem/sentinel_gl_monitor.c -lGL -lGLU -lglut
+/* ;@PROTOCOL: BGIN.AVIS-GEN.V2.1.9 */
 /* ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340) */
-/* ;@DESC: Corrected Hybrid Kernel (Fixed Array + Clean Header) */
+/* ;@DESC: OpenGL Hardware Pulse Monitor */
 
-#include <stdint.h>
+#include <GL/glut.h>
+#include <sys/shm.h>
+#include <stdio.h>
 
-/* --- HARDCODED MZ TABLE (Intel 8086 Aligned) --- */
-/* Fixed: Array size [256] ensures BGIN at offset 64 fits */
-unsigned char mz_header[256] = {
-    0x4D, 0x5A,                   /* 0x00: 'MZ' Signature */
-    0x90, 0x90, 0x90, 0x90, 0x90, /* 0x02: NOP Padding */
-    [0x3C] = 0x40, 0x00, 0x00, 0x00, /* 0x3C: e_lfanew -> Offset 64 */
-    /* 0x40: BGIN Ingestion Magic */
-    [0x40] = 0x42, 0x47, 0x49, 0x4E, /* 'BGIN' */
-    0x02, 0x00, 0x01, 0x02,          /* Version 2.0.1.2 */
-    0x14, 0xE6, 0x17, 0x0F           /* Key: 0x0F17E614 */
-};
+unsigned char *pulse_ptr;
 
-/* --- SYSCALL 0xBE614 PULSE --- */
-static inline void fire_gem_pulse() {
-    __asm__ volatile (
-        "mov $0xBE614, %%rax\n"   
-        "mov $0x0F17E6E3, %%rdi\n" 
-        "syscall"
-        : : : "rax", "rdi"
-    );
+void display() {
+    glClear(GL_COLOR_BUFFER_BIT);
+    glBegin(GL_LINE_STRIP);
+    glColor3f(0.0f, 1.0f, 0.0f); // Sentinel Green
+
+    for (int i = 0; i < 32; i++) {
+        float x = ((float)i / 31.0f) * 2.0f - 1.0f;
+        float y = ((float)pulse_ptr[64 + i] / 255.0f) * 2.0f - 1.0f;
+        glVertex2f(x, y);
+    }
+
+    glEnd();
+    glFlush();
+    glutPostRedisplay();
 }
 
-void _start() {
-    fire_gem_pulse();
-    
-    /* Termination Pulse */
-    __asm__ volatile (
-        "mov $60, %%rax\n"
-        "xor %%rdi, %%rdi\n"
-        "syscall"
-        : : : "rax", "rdi"
-    );
+int main(int argc, char** argv) {
+    int shmid = shmget(0x0F17E6E3, 16384, 0666);
+    pulse_ptr = shmat(shmid, NULL, SHM_RDONLY);
+
+    glutInit(&argc, argv);
+    glutCreateWindow("SENTINEL-OS LIVE PULSE");
+    glutDisplayFunc(display);
+    glutMainLoop();
+    return 0;
 }
 RECOVERY_SIG_MATCHED

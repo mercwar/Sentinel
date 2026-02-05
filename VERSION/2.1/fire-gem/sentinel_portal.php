@@ -1,22 +1,23 @@
 #!/usr/bin/php
 <?php
-/* ;@PROTOCOL: BGIN.AVIS-GEN.V2.1.2 */
-/* ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340) */
+/* ;@PROTOCOL: BGIN.AVIS-GEN.V2.2.0 (PHYSICAL_BRIDGE) */
+$file = "/dev/shm/fire-gem-0x0f17e6e3";
 
-$shm_key = 0x0f17e6e3;
-$offset = 0x40; // 64 decimal
+echo "\n--- SENTINEL-OS PORTAL [PHYSICAL PEEK] ---\n";
 
-$shm_id = @shmop_open($shm_key, "a", 0, 0);
-
-echo "\n--- SENTINEL-OS PORTAL PULSE ---\n";
-if (!$shm_id) {
-    echo "STATUS: [OFFLINE] SHM 0x0f17e6e3 NOT FOUND\n";
-} else {
-    $raw_data = shmop_read($shm_id, $offset, 32);
-    $hex_data = bin2hex($raw_data);
-    echo "RAW: " . trim($raw_data) . "\n";
-    echo "HEX: " . strtoupper(chunk_split($hex_data, 2, ' ')) . "\n";
-    shmop_close($shm_id);
+if (!file_exists($file)) {
+    die("STATUS: [OFFLINE] Memory spine not found in /dev/shm\n");
 }
-echo "--------------------------------\n";
+
+// 1. OPEN THE PHYSICAL MEMORY FILE
+$handle = fopen($file, "rb");
+// 2. SEEK TO THE 64-BYTE (0x40) INGESTION POINT
+fseek($handle, 64);
+// 3. PULL THE 32-BYTE ROBOT SIGNATURE
+$data = fread($handle, 32);
+fclose($handle);
+
+echo "RAW DATA: " . trim($data) . "\n";
+echo "HEX PEEK: " . strtoupper(bin2hex($data)) . "\n";
+echo "------------------------------------------\n";
 ?>

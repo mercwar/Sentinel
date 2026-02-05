@@ -1,0 +1,1 @@
+php /workspaces/Sentinel/VERSION/2.1/fire-gem/sentinel_dashboard.php

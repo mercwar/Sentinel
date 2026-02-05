@@ -1,4 +1,4 @@
-#!/usr/bin/php
+php
 <?php
 /* ;@PROTOCOL: BGIN.AVIS-GEN.V2.1 */
 /* ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340) */

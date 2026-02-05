@@ -1,6 +1,6 @@
 #!/bin/bash
 # 1. SETUP ENVIRONMENT
-GEM_KEY=${GEM_KEY:-"0xf17e6e3"}
+GEM_KEY=${GEM_KEY:-"0x0f17e6e3"}
 V_ROOT=${V_ROOT:-"/workspaces/Sentinel"}
 
 echo "--------------------------------------------------"
@@ -18,7 +18,7 @@ if [ -z "$SHM_ID" ]; then
 fi
 
 # 3. MONITOR LOOP
-echo "[BGIN] MONITORING PULSE 0xBE614 [CTRL+C to EXIT]"
+echo "[BGIN] MONITORING PULSE 0x0f17e6e3 [CTRL+C to EXIT]"
 while true; do
     # Peek at the first 128 bytes of the SHM file
     PEEK=$(hexdump -n 128 -C /dev/shm/fire-gem-$GEM_KEY 2>/dev/null)

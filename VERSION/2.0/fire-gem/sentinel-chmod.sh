@@ -1,4 +1,4 @@
-cat << 'AVIS'
+
 # #[avis] begin template bash
 # ;@PROTOCOL: BGIN.AVIS-GEN.V2.01
 # ;@AUTHORITY: CVBGOD (2ED0213EFEFE9340)
