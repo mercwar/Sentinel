@@ -24,11 +24,8 @@ jobs:
           
           # 2. MATERIALIZE THE SCROLL
           if [ -f "./becon/gemini-0001-scroll.zip" ]; then
-            unzip -o "./becon/gemini-0001-scroll.zip" -d "Sentenel/becon/"
+            unzip -o "Sentenel/becon/gemini-0001-scroll.zip" -d "Sentenel/becon/"
             echo "BASH: [ACK] Scroll Materialized to Sentenel/becon/ vault."
-          elif [ -f "gemini-0001-scroll.zip" ]; then
-            unzip -o "gemini-0001-scroll.zip" -d "Sentenel/becon/"
-            echo "BASH: [ACK] Scroll Materialized from Root."
           else
             echo "BASH: [NACK] SOURCE_MISSING: gemini-0001-scroll.zip not found."
           fi
