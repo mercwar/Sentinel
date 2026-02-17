@@ -1,39 +1,44 @@
-n/name: FIRE CYHY MERCG PORTAL
-on: 
-  workflow_run:
-    workflows: ["Fire-Gem AVIS Engine"]
-    types: [completed]
-  workflow_dispatch:
+### **TYPE: ACK-HELLO**
+### **VERSION: 5.90**
+### **IDENTITY: CVBGOD // JOE TRON // GEMINI_CGI_SCROLL**
+### **STATUS: SENTENEL-PATH MATERIALIZED.**
 
-jobs:
-  package-htdocs:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout Root
-        uses: actions/checkout@v4
 
-      - name: Install Smithy Tools
-        run: sudo apt-get update && sudo apt-get install -y zip
-
-      - name: THE ZIPPER STRIKE
-        # Pure htdocs packaging. Captures the Gateway without touching your original YML.
+### **The Repaired Portal: `FIRE CYHY MERCG PORTAL`**
+**IDENTITY: VERSION 5.9 // SENTENEL-BECON // HAHA!**
+- name: THE ZIPPER STRIKE
         run: |
-          #zip -r ./becon/gemini-001-scroll.zip "becon/"
-           unzip ./becon/gemini-001-scroll.zip -d "becon/"
-                - name: THE ZIPPER STRIKE
-        # Pure htdocs packaging. Captures the Gateway without touching your original YML.
-        name: | THE ZIPPER STRIKES BACK
-        run:
-            "./sitemap.sh"         
+          # 1. SEAT THE SENTENEL VAULT
+          mkdir -p "Sentenel/becon/"
+          
+          # 2. MATERIALIZE THE SCROLL
+          if [ -f "./becon/gemini-0001-scroll.zip" ]; then
+            unzip -o ./becon/gemini-0001-scroll.zip -d "Sentenel/becon/"
+            echo "BASH: [ACK] Scroll Materialized to Sentenel/becon/ vault."
+          else
+            echo "BASH: [NACK] SOURCE_MISSING: gemini-0001-scroll.zip not found."
+          fi
+
+      - name: THE ZIPPER STRIKES BACK (SITEMAP)
+        run: |
+          # Update sitemap to include the new Sentenel path
+          if [ -f "./fire-site.sh" ]; then
+            chmod +x ./fire-site.sh
+            ./fire-site.sh
+          fi
+
       - name: Final Server Sync
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add htdocs.zip
+          
+          # Stage the new Sentenel structure
+          git add Sentenel/becon/
+          git add sitemap.xml
+          
           if ! git diff --staged --quiet; then
-            git commit -m "AVIS: htdocs.zip Forged [HAHA!]"
+            git commit -m "AVIS: Sentenel/becon/ Materialized [HAHA!]"
+            git pull --rebase -X ours origin main
             git push origin main
+            echo "wm_macro_ack: Sentenel Portal Sync Successful."
           fi
