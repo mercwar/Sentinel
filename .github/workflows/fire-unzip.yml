@@ -12,7 +12,56 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout name: AVIS FIRE-ZIP
+on: 
+  workflow_run:
+    workflows: ["Fire-Gem AVIS Engine"]
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  package-htdocs:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    permissions:
+      contents: write
+    steps:
       - name: Checkout Root
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Required for rebase
+
+      - name: Install Smithy Tools
+        run: sudo apt-get update && sudo apt-get install -y zip
+
+      - name: THE ZIPPER STRIKE
+        run: |
+          # Only zip if the directory exists to avoid NACK
+          if [ -d "htdocs/" ]; then
+            zip -r htdocs.zip "htdocs/"
+            echo "BASH: [ACK] htdocs.zip materialized."
+          else
+            echo "BASH: [NACK] htdocs/ directory is a ghost."
+            exit 1
+          fi
+
+      - name: Final Server Sync
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add htdocs.zip
+          
+          if ! git diff --staged --quiet; then
+            git commit -m "AVIS: htdocs.zip Forged [HAHA!]"
+            # REBASE strategy prevents merge conflicts with the Engine
+            git pull --rebase -X ours origin main
+            git push origin main
+            echo "wm_macro_ack: Zip Dispatch Successful."
+          else
+            echo "AVIS: No change in htdocs state."
+          fi
+
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
