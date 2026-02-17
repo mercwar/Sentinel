@@ -1,0 +1,32 @@
+name: Install Linux Core Kernel
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  install_kernel:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show current kernel
+        run: uname -a
+
+      - name: Update apt repositories
+        run: sudo apt-get update
+
+      - name: Install Linux generic kernel and headers
+        run: |
+          sudo apt-get install -y linux-generic
+          sudo apt-get install -y linux-headers-$(uname -r)
+
+      - name: Verify installed kernel packages
+        run: dpkg -l | grep linux-image
+
+      - name: Verify headers
+        run: dpkg -l | grep linux-headers
