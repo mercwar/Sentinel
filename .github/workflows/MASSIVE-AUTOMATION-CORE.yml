@@ -1,4 +1,4 @@
-name: MASSIVE-AUTOMATION-CORE
+name: MASSIVE-AI-AUTOMATION-CORE
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 
 jobs:
-  automation-core:
+  massive-core:
     runs-on: ubuntu-latest
 
     steps:
@@ -114,12 +114,15 @@ jobs:
             helm
 
       # ==========================
-      # PYTHON AUTOMATION STACK
+      # PYTHON AUTOMATION & AI STACK
       # ==========================
       - name: Python Automation Libraries
         run: |
           python3 -m pip install --upgrade pip setuptools wheel
           pip install \
+            torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu \
+            tensorflow \
+            opencv-python-headless \
             fabric invoke \
             ansible \
             pyzmq paho-mqtt \
@@ -133,19 +136,30 @@ jobs:
             airflow celery redis
 
       # ==========================
-      # VERIFY INSTALL
+      # VERIFY FULL STACK
       # ==========================
-      - name: Verify Automation Core
+      - name: Verify AI + Automation Core
         run: |
+          echo "===== SYSTEM ====="
+          uname -a
           echo "===== GCC ====="
           gcc --version
+          echo "===== CLANG ====="
+          clang --version
           echo "===== PYTHON ====="
           python3 --version
-          echo "===== DOCKER ====="
-          docker --version || echo "Docker not installed"
+          echo "===== TORCH ====="
+          python3 -c "import torch; print(torch.__version__)"
+          echo "===== TENSORFLOW ====="
+          export TF_ENABLE_ONEDNN_OPTS=0
+          python3 -c "import tensorflow as tf; print(tf.__version__)"
+          echo "===== OPENCV ====="
+          python3 -c "import cv2; print(cv2.__version__)"
           echo "===== ANSIBLE ====="
           ansible --version
           echo "===== FABRIC ====="
           fab --version
-          echo "===== AIRFLOW ====="
-          airflow version
+          echo "===== DOCKER ====="
+          docker --version
+          echo "===== KUBECTL ====="
+          kubectl version --client
