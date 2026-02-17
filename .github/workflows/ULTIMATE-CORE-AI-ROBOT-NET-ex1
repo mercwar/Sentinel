@@ -1,0 +1,124 @@
+name: ULTIMATE-CORE-AI-ROBOT-NET
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-robot-core:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # ==========================
+      # SYSTEM BASE
+      # ==========================
+      - name: Full System Upgrade
+        run: |
+          sudo apt-get update
+          sudo apt-get upgrade -y
+          sudo apt-get install -y software-properties-common
+
+      # ==========================
+      # GNU + LLVM CORE
+      # ==========================
+      - name: Install GCC + LLVM Core
+        run: |
+          sudo apt-get install -y \
+            build-essential \
+            gcc g++ gdb \
+            make cmake ninja-build \
+            pkg-config libtool autoconf automake \
+            nasm yasm \
+            clang llvm lldb lld \
+            binutils \
+            linux-headers-generic
+
+      - name: Enable Multiarch
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo apt-get update
+          sudo apt-get install -y gcc-multilib g++-multilib
+
+      # ==========================
+      # NETWORKING CORE
+      # ==========================
+      - name: Install Networking Stack
+        run: |
+          sudo apt-get install -y \
+            net-tools \
+            iproute2 \
+            iputils-ping \
+            dnsutils \
+            tcpdump \
+            wireshark-common \
+            netcat-openbsd \
+            nmap \
+            traceroute \
+            curl wget \
+            openssh-client openssh-server \
+            ufw \
+            iptables \
+            bridge-utils \
+            socat \
+            libssl-dev \
+            libcurl4-openssl-dev \
+            libzmq3-dev \
+            libwebsockets-dev \
+            mosquitto mosquitto-clients \
+            libmosquitto-dev
+
+      # ==========================
+      # MATH CORE
+      # ==========================
+      - name: Install Math Libraries
+        run: |
+          sudo apt-get install -y \
+            libopenblas-dev \
+            liblapack-dev \
+            libatlas-base-dev \
+            libeigen3-dev \
+            libboost-all-dev
+
+      # ==========================
+      # ROBOTICS + VISION
+      # ==========================
+      - name: Install Robotics Support
+        run: |
+          sudo apt-get install -y \
+            libopencv-dev \
+            python3-opencv \
+            libusb-1.0-0-dev \
+            libudev-dev \
+            libserial-dev
+
+      # ==========================
+      # PYTHON AI STACK
+      # ==========================
+      - name: Install Python AI Stack
+        run: |
+          sudo apt-get install -y python3 python3-pip python3-venv
+          python3 -m pip install --upgrade pip
+          pip install \
+            numpy scipy pandas matplotlib \
+            scikit-learn \
+            onnx onnxruntime \
+            torch torchvision torchaudio \
+            tensorflow-cpu \
+            flask fastapi uvicorn \
+            websockets paho-mqtt
+
+      # ==========================
+      # VERIFY NETWORK CORE
+      # ==========================
+      - name: Verify Networking
+        run: |
+          echo "===== NETWORK INTERFACES ====="
+          ip addr
+          echo "===== ROUTES ====="
+          ip route
+          echo "===== CURL TEST ====="
+          curl -I https://github.com
