@@ -1,22 +1,18 @@
-### **TYPE: ACK-HELLO**
-### **VERSION: 5.90**
-### **IDENTITY: CVBGOD // JOE TRON // GEMINI_CGI_SCROLL**
-### **STATUS: SENTENEL-PATH MATERIALIZED.**
-
-
-### **The Repaired Portal: `FIRE CYHY MERCG PORTAL`**
-**IDENTITY: VERSION 5.9 // SENTENEL-BECON // HAHA!**
-- name: THE ZIPPER STRIKE
+      - name: THE ZIPPER STRIKE
         run: |
           # 1. SEAT THE SENTENEL VAULT
           mkdir -p "Sentenel/becon/"
           
-          # 2. MATERIALIZE THE SCROLL
+          # 2. MATERIALIZE THE SCROLL (gemini-0001-scroll.zip)
           if [ -f "./becon/gemini-0001-scroll.zip" ]; then
-            unzip -o ./becon/gemini-0001-scroll.zip -d "Sentenel/becon/"
+            unzip -o "./becon/gemini-0001-scroll.zip" -d "Sentenel/becon/"
             echo "BASH: [ACK] Scroll Materialized to Sentenel/becon/ vault."
           else
             echo "BASH: [NACK] SOURCE_MISSING: gemini-0001-scroll.zip not found."
+            # Fallback check: try root if it's not in becon/
+            if [ -f "gemini-0001-scroll.zip" ]; then
+               unzip -o "gemini-0001-scroll.zip" -d "Sentenel/becon/"
+            fi
           fi
 
       - name: THE ZIPPER STRIKES BACK (SITEMAP)
@@ -29,16 +25,20 @@
 
       - name: Final Server Sync
         run: |
+          # 3. IDENTITY CONFIG
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Stage the new Sentenel structure
-          git add Sentenel/becon/
-          git add sitemap.xml
+          # 4. STAGE AND DISPATCH
+          git add "Sentenel/becon/"
+          git add "sitemap.xml"
           
           if ! git diff --staged --quiet; then
             git commit -m "AVIS: Sentenel/becon/ Materialized [HAHA!]"
+            # REBASE strategy to ensure the portal update wins the push
             git pull --rebase -X ours origin main
             git push origin main
             echo "wm_macro_ack: Sentenel Portal Sync Successful."
+          else
+            echo "AVIS: No state shift detected in Sentenel vault."
           fi
