@@ -1,0 +1,151 @@
+name: MASSIVE-AUTOMATION-CORE
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  automation-core:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # ==========================
+      # SYSTEM UPGRADE
+      # ==========================
+      - name: Upgrade & Base Tools
+        run: |
+          sudo apt-get update
+          sudo apt-get upgrade -y
+          sudo apt-get install -y software-properties-common wget curl git unzip zip sudo
+
+      # ==========================
+      # DEV + COMPILER CORE
+      # ==========================
+      - name: Install Core Dev Toolchain
+        run: |
+          sudo apt-get install -y \
+            build-essential gcc g++ gdb make cmake ninja-build \
+            pkg-config autoconf automake \
+            clang llvm lldb lld \
+            nasm yasm binutils \
+            linux-headers-generic
+
+      # ==========================
+      # SCRIPTING LANGUAGES
+      # ==========================
+      - name: Install Scripting Interpreters
+        run: |
+          sudo apt-get install -y \
+            python3 python3-pip python3-venv \
+            bash dash zsh \
+            perl ruby \
+            nodejs npm \
+            php-cli
+
+      # ==========================
+      # AUTOMATION & CI/CD
+      # ==========================
+      - name: Install Automation Tools
+        run: |
+          sudo apt-get install -y \
+            ansible \
+            fabric \
+            make \
+            task-spooler \
+            at \
+            cron \
+            systemd \
+            tmux screen \
+            watch \
+            expect \
+            salt-master salt-minion \
+            openjdk-17-jdk \
+            maven gradle
+
+      # ==========================
+      # NETWORKING & REMOTE
+      # ==========================
+      - name: Networking & Remote Tools
+        run: |
+          sudo apt-get install -y \
+            curl wget \
+            net-tools iproute2 \
+            netcat-openbsd \
+            telnet \
+            ssh openssh-client openssh-server \
+            mosquitto mosquitto-clients \
+            libmosquitto-dev \
+            socat \
+            iptables ufw \
+            libssl-dev \
+            libcurl4-openssl-dev \
+            libzmq3-dev \
+            libwebsockets-dev
+
+      # ==========================
+      # CONTAINERS & VIRTUALIZATION
+      # ==========================
+      - name: Container & Virtualization Core
+        run: |
+          sudo apt-get install -y \
+            docker.io \
+            podman \
+            lxc \
+            lxd \
+            qemu qemu-kvm \
+            virt-manager \
+            bridge-utils
+
+      # ==========================
+      # CLOUD & API AUTOMATION
+      # ==========================
+      - name: Install Cloud CLIs
+        run: |
+          sudo apt-get install -y \
+            awscli \
+            azure-cli \
+            google-cloud-sdk \
+            terraform \
+            kubectl \
+            helm
+
+      # ==========================
+      # PYTHON AUTOMATION STACK
+      # ==========================
+      - name: Python Automation Libraries
+        run: |
+          python3 -m pip install --upgrade pip setuptools wheel
+          pip install \
+            fabric invoke \
+            ansible \
+            pyzmq paho-mqtt \
+            requests aiohttp \
+            paramiko \
+            boto3 google-api-python-client \
+            azure-cli-core \
+            docker \
+            kubernetes \
+            python-terraform \
+            airflow celery redis
+
+      # ==========================
+      # VERIFY INSTALL
+      # ==========================
+      - name: Verify Automation Core
+        run: |
+          echo "===== GCC ====="
+          gcc --version
+          echo "===== PYTHON ====="
+          python3 --version
+          echo "===== DOCKER ====="
+          docker --version || echo "Docker not installed"
+          echo "===== ANSIBLE ====="
+          ansible --version
+          echo "===== FABRIC ====="
+          fab --version
+          echo "===== AIRFLOW ====="
+          airflow version
