@@ -1,7 +1,5 @@
-BGIN
 # /* AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/1.1.CVBGOD */
 # /* ROLE: Automated Data Lake Indexer & Scroll Generator */
-# /* INDEX: primary_index */
 
 name: CVBGOD Sentinel Scroll Generator
 on:
@@ -15,28 +13,45 @@ on:
 
 permissions:
   contents: write
-  pages: write      # Required for v4 deployment
-  id-token: write   # Required for v4 deployment
-  actions: read     # Required to resolve artifact metadata errors
+  pages: write      
+  id-token: write   
+  actions: read     
 
 jobs:
   generate_scroll:
     runs-on: ubuntu-latest
-    if: github.actor != 'github-actions[bot]' # BGIN: Silence the bot's own voice
+    # BGIN: Silence the bot's own voice and prevent loop
+    if: github.actor != 'github-actions[bot]' 
     steps:
-      - name: Checkout
+      - name: Checkout Root
         uses: actions/checkout@v4
-      
+        with:
+          fetch-depth: 0 # Mandatory for rebase push
+
       - name: Execute AVIS-Ripper
         run: |
-          chmod +x ./scroll_generator.sh
-          ./scroll_generator.sh
+          if [ -f "./scroll_generator.sh" ]; then
+            chmod +x ./scroll_generator.sh
+            ./scroll_generator.sh
+            echo "wm_macro_ack: Ripper cycle complete."
+          else
+            echo "BASH: [NACK] scroll_generator.sh not found."
+          fi
 
       - name: Commit Human-Readable Scroll
         run: |
           git config --global user.name "Sentinel-Bot"
           git config --global user.email "bot@cvbgod.sentinel"
+          
+          # Stage only the human-readable index
           git add SENTINEL_SCROLL.md
-          # CRITICAL: [skip ci] kills the ghost artifact loop
-          git commit -m "AVIS: Human scroll updated [index] [skip ci]" || exit 0
-          git push
+          
+          if ! git diff --staged --quiet; then
+            # [skip ci] is the master kill-switch for the ghost loop
+            git commit -m "AVIS: Human scroll updated [index] [skip ci]"
+            git pull --rebase -X ours origin main
+            git push origin main
+            echo "wm_macro_ack: Scroll dispatched to Audit Surface."
+          else
+            echo "AVIS: No data lake shift detected."
+          fi
