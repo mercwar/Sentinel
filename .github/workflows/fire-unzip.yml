@@ -7,49 +7,46 @@ on:
   workflow_dispatch:
 
 jobs:
-  portal-sync:
+  unzip-beacon:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     permissions:
       contents: write
 
     steps:
-      # 1️⃣ Checkout Repository
-      - name: Checkout Root
+      # 1️⃣ Checkout Repo
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 2️⃣ Install Unzip Only
-      - name: Install Unzip
+      # 2️⃣ Install Unzip
+      - name: Install unzip
         run: sudo apt-get update && sudo apt-get install -y unzip
 
-      # 3️⃣ Materialize Sentinel Beacon
-      - name: Unzip Beacon Scroll
+      # 3️⃣ Unzip Beacon Scroll (from becon/)
+      - name: Materialize Beacon
         run: |
-          mkdir -p "Sentinel/beacon/"
+          mkdir -p Sentinel/beacon
 
-          if [ -f "./beacon/gemini-001.scroll.zip" ]; then
-            unzip -o "./beacon/gemini-001.scroll.zip" -d "Sentinel/beacon/"
-            echo "BASH: [ACK] gemini-001.scroll.zip deployed from ./beacon/"
-          elif [ -f "gemini-001.scroll.zip" ]; then
-            unzip -o "gemini-001.scroll.zip" -d "Sentinel/beacon/"
-            echo "BASH: [ACK] gemini-001.scroll.zip deployed from root."
+          if [ -f "becon/gemini-001.scroll.zip" ]; then
+            unzip -o becon/gemini-001.scroll.zip -d Sentinel/beacon
+            echo "BASH: [ACK] Scroll extracted from becon/"
           else
-            echo "BASH: [NACK] SOURCE_MISSING: gemini-001.scroll.zip not found."
+            echo "BASH: [NACK] becon/gemini-001.scroll.zip not found."
             exit 1
           fi
 
       # 4️⃣ Commit + Push
-      - name: Final Server Sync
+      - name: Commit Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add Sentinel/beacon/
+          git add Sentinel/beacon
 
           if ! git diff --staged --quiet; then
-            git commit -m "AVIS: Beacon Scroll Materialized (gemini-001.scroll.zip)"
+            git commit -m "AVIS: Beacon Scroll Materialized"
             git pull --rebase -X ours origin main
             git push origin main
             echo "wm_macro_ack: Portal Sync Successful."
