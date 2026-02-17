@@ -1,21 +1,5 @@
-name: FIRE CYHY MERCG PORTAL
-on: 
-  workflow_run:
-    workflows: ["Fire-Gem AVIS Engine"]
-    types: [completed]
-  workflow_dispatch:
-
-jobs:
-  package-htdocs:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout Root
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Install Smithy Tools
+        run: sudo apt-get update && sudo apt-get install -y unzip
 
       - name: THE ZIPPER STRIKE
         run: |
@@ -23,11 +7,14 @@ jobs:
           mkdir -p "Sentenel/becon/"
           
           # 2. MATERIALIZE THE SCROLL
+          # FIX: Point to the actual source file in ./becon/
           if [ -f "./becon/gemini-0001-scroll.zip" ]; then
-            unzip -o "Sentenel/becon/gemini-0001-scroll.zip" -d "Sentenel/becon/"
+            unzip -o "./becon/gemini-0001-scroll.zip" -d "Sentenel/becon/"
             echo "BASH: [ACK] Scroll Materialized to Sentenel/becon/ vault."
           else
-            echo "BASH: [NACK] SOURCE_MISSING: gemini-0001-scroll.zip not found."
+            echo "BASH: [NACK] SOURCE_MISSING: ./becon/gemini-0001-scroll.zip not found."
+            # Debug: List becon dir to see what the bot is actually seeing
+            ls -R becon/ || echo "BASH: becon directory is a ghost."
           fi
 
       - name: THE ZIPPER STRIKES BACK (SITEMAP)
@@ -42,6 +29,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
+          # Stage the new Sentenel structure
           git add "Sentenel/becon/"
           git add "sitemap.xml"
           
@@ -50,4 +38,6 @@ jobs:
             git pull --rebase -X ours origin main
             git push origin main
             echo "wm_macro_ack: Sentenel Portal Sync Successful."
+          else
+            echo "AVIS: No state shift detected. Dispatch idle."
           fi
