@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  package-portal:
+  portal-sync:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     permissions:
@@ -20,45 +20,36 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 2️⃣ Install Required Tools
-      - name: Install Zip Utilities
-        run: sudo apt-get update && sudo apt-get install -y zip unzip
+      # 2️⃣ Install Unzip Only
+      - name: Install Unzip
+        run: sudo apt-get update && sudo apt-get install -y unzip
 
-      # 4️⃣ Materialize Sentinel Vault
-      - name: Materialize Sentinel Beacon
+      # 3️⃣ Materialize Sentinel Beacon
+      - name: Unzip Beacon Scroll
         run: |
           mkdir -p "Sentinel/beacon/"
 
-          if [ -f "./beacon/gemini-0001-scroll.zip" ]; then
-            unzip -o "./beacon/gemini-0001-scroll.zip" -d "Sentinel/beacon/"
-            echo "BASH: [ACK] Scroll deployed to Sentinel/beacon/."
-          elif [ -f "gemini-0001-scroll.zip" ]; then
-            unzip -o "gemini-0001-scroll.zip" -d "Sentinel/beacon/"
-            echo "BASH: [ACK] Scroll deployed from root."
+          if [ -f "./beacon/gemini-001.scroll.zip" ]; then
+            unzip -o "./beacon/gemini-001.scroll.zip" -d "Sentinel/beacon/"
+            echo "BASH: [ACK] gemini-001.scroll.zip deployed from ./beacon/"
+          elif [ -f "gemini-001.scroll.zip" ]; then
+            unzip -o "gemini-001.scroll.zip" -d "Sentinel/beacon/"
+            echo "BASH: [ACK] gemini-001.scroll.zip deployed from root."
           else
-            echo "BASH: [INFO] gemini-0001-scroll.zip not found. Skipping."
+            echo "BASH: [NACK] SOURCE_MISSING: gemini-001.scroll.zip not found."
+            exit 1
           fi
 
-      # 5️⃣ Regenerate Sitemap (Optional)
-      - name: Fire Site Generator
-        run: |
-          if [ -f "./fire-site.sh" ]; then
-            chmod +x ./fire-site.sh
-            ./fire-site.sh
-            echo "BASH: Sitemap regenerated."
-          fi
-
-      # 6️⃣ Commit + Sync Changes
+      # 4️⃣ Commit + Push
       - name: Final Server Sync
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add Sentinel/beacon/ || true
-          git add sitemap.xml || true
+          git add Sentinel/beacon/
 
           if ! git diff --staged --quiet; then
-            git commit -m "AVIS: FIRE-CYHY-MERC-G Portal Update"
+            git commit -m "AVIS: Beacon Scroll Materialized (gemini-001.scroll.zip)"
             git pull --rebase -X ours origin main
             git push origin main
             echo "wm_macro_ack: Portal Sync Successful."
