@@ -1,7 +1,6 @@
-#BGIN
-/* AVIS_COORD: .github/workflows/sentinel_v1_03.yml */
-/* AVIS_ROLE: Cloud_Orchestrator_v1.03 */
-/* PULSE: 0xDEADBEEF */
+# /* AVIS_COORD: .github/workflows/sentinel_v1_03.yml */
+# /* AVIS_ROLE: Cloud_Orchestrator_v1.03 */
+# /* PULSE: 0xDEADBEEF */
 
 name: CVBGOD Sentinel v1.03 Alpha
 on:
@@ -13,12 +12,37 @@ on:
 jobs:
   pulse:
     runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]' # BGIN: Prevents recursive bot-loops
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Root
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Mandatory for rebase push
+
       - name: Fire v1.03 Kernel
         run: |
-          chmod +x ./VERSION/v1.03/sh/fire_navigator.sh
-          ./VERSION/v1.03/sh/fire_navigator.sh
-#!#
+          # BGIN: Ensure pathing integrity
+          if [ -f "./VERSION/v1.03/sh/fire_navigator.sh" ]; then
+            chmod +x ./VERSION/v1.03/sh/fire_navigator.sh
+            ./VERSION/v1.03/sh/fire_navigator.sh
+            echo "wm_macro_ack: v1.03 Kernel Pulse Successful."
+          else
+            echo "BASH: [NACK] KERNEL_HALT: fire_navigator.sh missing."
+            exit 1
+          fi
+
+      - name: AVIS 0xDEADBEEF Pulse Sync
+        run: |
+          git config --global user.name "Sentinel-Bot"
+          git config --global user.email "bot@cvbgod.sentinel"
+          
+          git add .
+          if ! git diff --staged --quiet; then
+            # [skip ci] prevents this commit from triggering a new run
+            git commit -m "AVIS: v1.03 Alpha Pulse [0xDEADBEEF] [skip ci]"
+            git pull --rebase -X ours origin main
+            git push origin main
+            echo "wm_macro_ack: Kernel State Dispatched."
+          fi
