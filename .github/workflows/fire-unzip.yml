@@ -1,4 +1,4 @@
-name: AVIS FIRE-ZIP
+n/name: AVIS FIRE-ZIP
 on: 
   workflow_run:
     workflows: ["Fire-Gem AVIS Engine"]
@@ -21,7 +21,7 @@ jobs:
       - name: THE ZIPPER STRIKE
         # Pure htdocs packaging. Captures the Gateway without touching your original YML.
         run: |
-          zip -r gemini-001-scroll.zip "becon/"
+          zip -r ./becon/gemini-001-scroll.zip "becon/"
 
       - name: Final Server Sync
         run: |
