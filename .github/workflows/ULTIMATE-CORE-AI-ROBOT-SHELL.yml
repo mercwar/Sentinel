@@ -1,0 +1,103 @@
+name: ULTIMATE-CORE-AI-ROBOT-SHELL
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-robot-core:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # ==========================
+      # SYSTEM BASE
+      # ==========================
+      - name: Full System Upgrade
+        run: |
+          sudo apt-get update
+          sudo apt-get upgrade -y
+          sudo apt-get install -y software-properties-common
+
+      # ==========================
+      # FULL GNU + LLVM CORE
+      # ==========================
+      - name: Install GCC + LLVM Core
+        run: |
+          sudo apt-get install -y \
+            build-essential \
+            gcc g++ gdb \
+            make cmake ninja-build \
+            pkg-config libtool autoconf automake \
+            nasm yasm \
+            clang llvm lldb lld \
+            binutils \
+            linux-headers-generic
+
+      # Multiarch (32-bit support)
+      - name: Enable Multiarch
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo apt-get update
+          sudo apt-get install -y gcc-multilib g++-multilib
+
+      # ==========================
+      # MATH ACCELERATION CORE
+      # ==========================
+      - name: Install Math Acceleration Libraries
+        run: |
+          sudo apt-get install -y \
+            libopenblas-dev \
+            liblapack-dev \
+            libatlas-base-dev \
+            libeigen3-dev \
+            libboost-all-dev
+
+      # ==========================
+      # ROBOTICS CORE LIBS
+      # ==========================
+      - name: Install Robotics Support
+        run: |
+          sudo apt-get install -y \
+            libopencv-dev \
+            python3-opencv \
+            libusb-1.0-0-dev \
+            libudev-dev \
+            libserial-dev
+
+      # ==========================
+      # PYTHON + AI CORE
+      # ==========================
+      - name: Install Python AI Stack
+        run: |
+          sudo apt-get install -y python3 python3-pip python3-venv
+          python3 -m pip install --upgrade pip
+          pip install \
+            numpy scipy pandas matplotlib \
+            scikit-learn \
+            onnx onnxruntime \
+            torch torchvision torchaudio \
+            tensorflow-cpu
+
+      # ==========================
+      # VERIFY EVERYTHING
+      # ==========================
+      - name: Verify Core Install
+        run: |
+          echo "===== SYSTEM ====="
+          uname -a
+          echo "===== GCC ====="
+          gcc --version
+          echo "===== CLANG ====="
+          clang --version
+          echo "===== PYTHON ====="
+          python3 --version
+          echo "===== TORCH ====="
+          python3 -c "import torch; print(torch.__version__)"
+          echo "===== TENSORFLOW ====="
+          python3 -c "import tensorflow as tf; print(tf.__version__)"
+          echo "===== OPENCV ====="
+          python3 -c "import cv2; print(cv2.__version__)"
