@@ -1,4 +1,4 @@
-n/name: AVIS FIRE-ZIP
+n/name: FIRE CYHY MERCG PORTAL
 on: 
   workflow_run:
     workflows: ["Fire-Gem AVIS Engine"]
@@ -23,6 +23,11 @@ jobs:
         run: |
           #zip -r ./becon/gemini-001-scroll.zip "becon/"
            unzip ./becon/gemini-001-scroll.zip -d "becon/"
+                - name: THE ZIPPER STRIKE
+        # Pure htdocs packaging. Captures the Gateway without touching your original YML.
+        name: | THE ZIPPER STRIKES BACK
+        run:
+            "./sitemap.sh"         
       - name: Final Server Sync
         run: |
           git config --global user.name "github-actions[bot]"
