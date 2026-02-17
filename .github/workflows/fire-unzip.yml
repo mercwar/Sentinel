@@ -1,3 +1,22 @@
+name: FIRE CYHY MERCG PORTAL
+on: 
+  workflow_run:
+    workflows: ["Fire-Gem AVIS Engine"]
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  package-htdocs:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Root
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Install Smithy Tools
         run: sudo apt-get update && sudo apt-get install -y unzip
 
@@ -7,14 +26,15 @@
           mkdir -p "Sentenel/becon/"
           
           # 2. MATERIALIZE THE SCROLL
-          # FIX: Point to the actual source file in ./becon/
           if [ -f "./becon/gemini-0001-scroll.zip" ]; then
             unzip -o "./becon/gemini-0001-scroll.zip" -d "Sentenel/becon/"
             echo "BASH: [ACK] Scroll Materialized to Sentenel/becon/ vault."
+          elif [ -f "gemini-0001-scroll.zip" ]; then
+            unzip -o "gemini-0001-scroll.zip" -d "Sentenel/becon/"
+            echo "BASH: [ACK] Scroll Materialized from Root."
           else
-            echo "BASH: [NACK] SOURCE_MISSING: ./becon/gemini-0001-scroll.zip not found."
-            # Debug: List becon dir to see what the bot is actually seeing
-            ls -R becon/ || echo "BASH: becon directory is a ghost."
+            echo "BASH: [NACK] SOURCE_MISSING: gemini-0001-scroll.zip not found."
+            ls -R || echo "BASH: Directory is a ghost."
           fi
 
       - name: THE ZIPPER STRIKES BACK (SITEMAP)
