@@ -21,8 +21,8 @@ jobs:
       - name: THE ZIPPER STRIKE
         # Pure htdocs packaging. Captures the Gateway without touching your original YML.
         run: |
-          zip -r ./becon/gemini-001-scroll.zip "becon/"
-
+          #zip -r ./becon/gemini-001-scroll.zip "becon/"
+           unzip ./becon/gemini-001-scroll.zip -d "becon/"
       - name: Final Server Sync
         run: |
           git config --global user.name "github-actions[bot]"
