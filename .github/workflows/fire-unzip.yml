@@ -27,11 +27,11 @@ jobs:
       # 3️⃣ Unzip directly inside existing Beacon folder
       - name: Materialize Beacon
         run: |
-          if [ -f "Beacon/gemini-001.scroll.zip" ]; then
-            unzip -o Beacon/gemini-001.scroll.zip -d Beacon/
+          if [ -f "Beacon/gemini-001-scroll.zip" ]; then
+            unzip -o Beacon/gemini-001-scroll.zip -d Beacon/
             echo "BASH: [ACK] Scroll extracted inside Beacon/."
           else
-            echo "BASH: [NACK] Beacon/gemini-001.scroll.zip not found."
+            echo "BASH: [NACK] Beacon/gemini-001-scroll.zip not found."
             exit 1
           fi
 
