@@ -20,20 +20,20 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 2️⃣ Install Unzip
+      # 2️⃣ Install unzip
       - name: Install unzip
         run: sudo apt-get update && sudo apt-get install -y unzip
 
-      # 3️⃣ Unzip Beacon Scroll (from becon/)
+      # 3️⃣ Unzip Beacon Scroll (from Beacon/)
       - name: Materialize Beacon
         run: |
-          mkdir -p Sentinel/beacon
+          mkdir -p Sentinel/Beacon
 
-          if [ -f "becon/gemini-001.scroll.zip" ]; then
-            unzip -o becon/gemini-001.scroll.zip -d Sentinel/beacon
-            echo "BASH: [ACK] Scroll extracted from becon/"
+          if [ -f "Beacon/gemini-001.scroll.zip" ]; then
+            unzip -o Beacon/gemini-001.scroll.zip -d Sentinel/Beacon
+            echo "BASH: [ACK] Scroll extracted from Beacon/"
           else
-            echo "BASH: [NACK] becon/gemini-001.scroll.zip not found."
+            echo "BASH: [NACK] Beacon/gemini-001.scroll.zip not found."
             exit 1
           fi
 
@@ -43,7 +43,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add Sentinel/beacon
+          git add Sentinel/Beacon
 
           if ! git diff --staged --quiet; then
             git commit -m "AVIS: Beacon Scroll Materialized"
