@@ -1,0 +1,63 @@
+name: Fire DIAGNOSTIC
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔍 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 📁 Show Working Directory
+        run: |
+          echo "PWD:"
+          pwd
+
+      - name: 📂 List Repository Root
+        run: |
+          echo "ROOT DIRECTORY TREE:"
+          ls -R .
+
+      - name: 🧭 Print GitHub Workspace Variables
+        run: |
+          echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+          echo "GITHUB_ACTION_PATH: $GITHUB_ACTION_PATH"
+          echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
+          echo "GITHUB_REF: $GITHUB_REF"
+          echo "GITHUB_SHA: $GITHUB_SHA"
+
+      - name: 🧪 Check for Common File Locations
+        run: |
+          echo "CHECKING FOR FILES:"
+          test -f ./README.md && echo "FOUND: README.md" || echo "MISSING: README.md"
+          test -f ./index.php && echo "FOUND: index.php" || echo "MISSING: index.php"
+          test -f ./GEMINI/VERSION\ 2/AVIS-SYNC-INIT.sh && echo "FOUND: AVIS-SYNC-INIT.sh" || echo "MISSING: AVIS-SYNC-INIT.sh"
+          test -f ./GEMINI/VERSION\ 2/AVIS-INGEST.sh && echo "FOUND: AVIS-INGEST.sh" || echo "MISSING: AVIS-INGEST.sh"
+
+      - name: 🧵 Print Environment Variables
+        run: |
+          echo "ENVIRONMENT VARIABLES:"
+          env
+
+      - name: 🛠️ Show Runner System Info
+        run: |
+          echo "SYSTEM INFO:"
+          uname -a
+          lsb_release -a || true
+
+      - name: 🧱 Show Disk Layout
+        run: |
+          echo "DISK LAYOUT:"
+          df -h
+
+      - name: 🔧 Show Permissions
+        run: |
+          echo "PERMISSIONS:"
+          ls -alR .
