@@ -1,0 +1,47 @@
+# AVIS-2026 FORGE: Automated Binary Constructor
+# OWNER: Joseph Michael Catalano (CVBGOD)
+
+  forge-binaries:
+    name: "Forge C-Source into EXEs"
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: "Access Sovereign Source"
+        uses: actions/checkout@v4
+
+      - name: "Initialize Environment"
+        run: |
+          mkdir -p bin
+          mkdir -p Beacon
+
+      - name: "Execute GCC Forge"
+        run: |
+          # Loop through every C file in src and output a binary
+          for source_file in src/*.c; do
+            if [ -f "$source_file" ]; then
+              filename=$(basename "$source_file" .c)
+              echo "[FORGE] Processing: $source_file"
+              gcc "$source_file" -o "bin/$filename.exe"
+              echo "[FORGE] Created: bin/$filename.exe"
+            fi
+          done
+
+      - name: "Verify Binary Signatures"
+        run: |
+          # Quick check to ensure the handshakes are present before committing
+          for exe in bin/*.exe; do
+            if grep -q "1.1.CVBGOD" "$exe"; then
+              echo "[VERIFIED] $exe contains the CVBGOD signature."
+            else
+              echo "[WARNING] $exe is missing the handshake."
+            fi
+          done
+
+      - name: "Push Forged Assets"
+        run: |
+          git config --global user.name "Sentinel-Bot"
+          git config --global user.email "sentinel@mercwar.systems"
+          git add bin/*.exe
+          # Only commit if there are changes to the binaries
+          git diff --staged --quiet || git commit -m "AVIS: Binaries forged by Sentinel [CVBGOD]"
+          git push
