@@ -1,0 +1,45 @@
+# AVIS_FILE_NAME: .github/workflows/sentinel-v1.yml
+# AVIS_ACTION: JOE-TRON-SENTINEL
+
+name: SENTINEL-V1-GCC-DROPPER
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-drop:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up GCC
+        run: sudo apt-get update && sudo apt-get install -y build-essential
+
+      # Compile using the AVIS-commented source
+      - name: Compile Sentinel V1
+        run: gcc -o sentinel_v1 sentinel_v1.c
+
+      - name: Execute Binary Drop
+        run: |
+          mkdir -p Beacon
+          ./sentinel_v1
+          echo "AVIS-DATALAKE: Node Scan Complete. Binary dropped for bots."
+
+      - name: Commit Binary Markers
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@://github.com"
+          git add Beacon/
+          if ! git diff --staged --quiet; then
+            git commit -m "AVIS: sentinel_v1.c execution successful - Discovery Drop"
+            git push
+            echo "wm_macro_ack: Portal Sync Successful for Nexus."
+          else
+            echo "AVIS: No changes detected in Beacon/."
+          fi
