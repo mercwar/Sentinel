@@ -1,0 +1,3 @@
+# AVIS_FILE_NAME: .gitattributes
+# Force Mercwar discovery markers to be treated as raw binary
+Beacon/mercwar_discovery.bin binary
