@@ -1,47 +1,79 @@
-/* BGIN */
-/* AVIS_COORD: AVIS://mercwar/Sentinel/sentinel_v1.c
-/* ROLE: Validates BGIN, Pulse Seed, and Versioning for the Data Lake */
-/* INDEX: primary_gatekeeper_index */
+/* * PROJECT: AVIS-2026 | SENTINEL PROBE v1.1
+ * ARCH: x86_64 | OWNER: Joseph Michael Catalano (CVBGOD)
+ * ROLE: XML Dispatcher & Handshake Validator
+ */
 
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 
-#define SEED_TOKEN "0xDEADBEEF"
-#define BGIN_TOKEN "BGIN"
-#define REQ_VERSION "1.1.CVBGOD"
+#define MAX_BUF 1024
+#define SIGNATURE "BGIN 0xDEADBEEF 1.1.CVBGOD"
+
+int verify_binary(const char *filepath) {
+    FILE *file = fopen(filepath, "r");
+    if (!file) {
+        printf("[BGIN ERROR] Object Access Denied: %s\n", filepath);
+        return 0;
+    }
+
+    char line[MAX_BUF];
+    int found = 0;
+    while (fgets(line, sizeof(line), file)) {
+        if (strstr(line, SIGNATURE)) {
+            found = 1;
+            break;
+        }
+    }
+    fclose(file);
+    return found;
+}
+
+void dispatch_from_xml(const char *xml_path, const char *node_id) {
+    // In a full build, use an XML library. For Tron-speed, we scan the text.
+    FILE *xml = fopen(xml_path, "r");
+    if (!xml) return;
+
+    char line[MAX_BUF];
+    char search_tag[64];
+    sprintf(search_tag, "id=\"%s\"", node_id);
+
+    while (fgets(line, sizeof(line), xml)) {
+        if (strstr(line, search_tag)) {
+            // Look for the binary path in the next lines
+            while (fgets(line, sizeof(line), xml)) {
+                if (strstr(line, "path=\"")) {
+                    char *start = strstr(line, "path=\"") + 6;
+                    char *end = strstr(start, "\"");
+                    *end = '\0';
+                    
+                    printf("[AVIS DISPATCH] Executing: %s\n", start);
+                    system(start); // Fires the EXE
+                    break;
+                }
+            }
+            break;
+        }
+    }
+    fclose(xml);
+}
 
 int main(int argc, char *argv[]) {
-    FILE *fp;
-    char buffer[1024];
-    int found_bgin = 0, found_seed = 0, found_ver = 0;
-
-    if (argc < 2) {
-        printf("[BGIN ERROR] Usage: bgin_probe <filename>\n");
+    if (argc < 3) {
+        printf("Usage: ./sentinel_v1 <target_bin> <beacon_xml> [node_id]\n");
         return 1;
     }
 
-    /* 1. BEGIN: Handshake with target object */
-    fp = fopen(argv[1], "r");
-    if (!fp) {
-        printf("[BGIN ERROR] Object Access Denied: %s\n", argv[1]);
-        return 1;
-    }
+    const char *target = argv[1];
+    const char *beacon = argv[2];
+    const char *node = (argc == 4) ? argv[3] : "DISCOVERY";
 
-    /* 2. SCAN: Search for the 1.1.CVBGOD Trinity (BGIN, SEED, VERSION) */
-    while (fgets(buffer, sizeof(buffer), fp)) {
-        if (strstr(buffer, BGIN_TOKEN)) found_bgin = 1;
-        if (strstr(buffer, SEED_TOKEN)) found_seed = 1;
-        if (strstr(buffer, REQ_VERSION)) found_ver = 1;
-    }
-    fclose(fp);
-
-    /* 3. ASSERT: Versioned Ingestion Law */
-    if (found_bgin && found_seed && found_ver) {
-        printf("[BGIN SUCCESS] Object Verified [v%s]: %s .return(1)\n", REQ_VERSION, argv[1]);
-        return 0; 
+    if (verify_binary(target)) {
+        printf("[BGIN SUCCESS] Object Verified: %s\n", target);
+        dispatch_from_xml(beacon, node);
+        return 0;
     } else {
-        printf("[BGIN FAIL] Object Unlawful. Missing BGIN, Pulse, or Version %s.\n", REQ_VERSION);
-        return 1; 
+        printf("[BGIN FAIL] Object Unlawful. System Lockdown.\n");
+        return 1;
     }
 }
