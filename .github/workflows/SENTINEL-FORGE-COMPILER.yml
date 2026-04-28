@@ -1,0 +1,31 @@
+name: SENTINEL-FORGE-COMPILER
+
+on:
+  push:
+    paths:
+      - 'src/*.c' # Triggers whenever you drop a new C file
+
+jobs:
+  forge-binary:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Compile Dropped C Files
+        run: |
+          mkdir -p bin
+          # Compiles every C file in the src folder into its own EXE
+          for file in src/*.c; do
+            filename=$(basename "$file" .c)
+            gcc "$file" -o "bin/$filename.exe"
+            echo "FORGE: $filename.exe created."
+          done
+
+      - name: Update Beacon Nexus
+        run: |
+          # This is where the robot realizes there is a new EXE to map
+          git config --global user.name "github-actions[bot]"
+          git add bin/
+          git commit -m "AVIS: New binaries forged for Beacon [1.1.CVBGOD]"
+          git push
