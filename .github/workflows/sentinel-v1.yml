@@ -1,5 +1,6 @@
 # AVIS_FILE_NAME: .github/workflows/sentinel-v1.yml
 # AVIS_ACTION: JOE-TRON-SENTINEL
+# ROLE: Authorizes Binary Drop via BGIN/SEED/VERSION Handshake
 
 name: SENTINEL-V1-GCC-DROPPER
 
@@ -29,11 +30,13 @@ jobs:
       - name: Compile Sentinel V1
         run: gcc -o sentinel_v1 sentinel_v1.c
 
-      - name: Execute Binary Drop
+      - name: Execute Handshake & Binary Drop
         run: |
           mkdir -p Beacon
-          # Passing sentinel_v1.c as the target to satisfy the Trinity Scan
+          # SELF-SCAN: Sentinel validates its own source to satisfy the 1.1.CVBGOD Trinity
           ./sentinel_v1 sentinel_v1.c 
+          
+          # DROP: Move compiled architecture to the Beacon Nexus
           cp sentinel_v1 Beacon/mercwar_discovery.bin
           echo "AVIS-DATALAKE: Node Scan Complete. Binary dropped for bots."
 
@@ -43,7 +46,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add Beacon/ .gitattributes
           if ! git diff --staged --quiet; then
-            git commit -m "AVIS: sentinel_v1.c execution successful - Discovery Drop"
+            git commit -m "AVIS: sentinel_v1.c execution successful - Discovery Drop [1.1.CVBGOD]"
             git push
             echo "wm_macro_ack: Portal Sync Successful for Nexus."
           else
