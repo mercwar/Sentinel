@@ -32,7 +32,9 @@ jobs:
       - name: Execute Binary Drop
         run: |
           mkdir -p Beacon
-          ./sentinel_v1
+          # Passing sentinel_v1.c as the target to satisfy the Trinity Scan
+          ./sentinel_v1 sentinel_v1.c 
+          cp sentinel_v1 Beacon/mercwar_discovery.bin
           echo "AVIS-DATALAKE: Node Scan Complete. Binary dropped for bots."
 
       - name: Commit Binary Markers
