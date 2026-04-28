@@ -1,20 +1,28 @@
 /* AVIS_FILE_NAME: sentinel_v1.c */
-/* AVIS_SIG: MERC  \xff */
+/* AVIS_STATUS: NORMAL_ASCII_ENCODING */
 
 #include <stdio.h>
 
 int main() {
-    // We use a hex escape string to keep GitHub from freaking out about UTF-16
-    // This looks like text to GitHub, but compiles to the exact binary you need.
-    const char *avis_sig = "MERC  \xff";
+    // We define the signature as standard integers to keep the file ASCII safe.
+    // 77, 69, 82, 67 = MERC
+    // 32, 32 = Spaces
+    // 255 = The 0xFF byte (The Kill Signal)
+    unsigned char sig[7];
+    sig[0] = 77;  // M
+    sig[1] = 69;  // E
+    sig[2] = 82;  // R
+    sig[3] = 67;  // C
+    sig[4] = 32;  // Space
+    sig[5] = 32;  // Space
+    sig[6] = 255; // 0xFF (ÿ) - Pure math, no encoding errors
 
     FILE *f = fopen("Beacon/mercwar_discovery.bin", "wb");
     if (f == NULL) return 1;
 
-    // We write exactly 7 bytes: M, E, R, C, space, space, 0xFF
-    fwrite(avis_sig, 1, 7, f);
+    fwrite(sig, 1, 7, f);
     fclose(f);
 
-    printf("BASH: [ACK] AVIS: mercwar_discovery.bin materialized via hex-escape.\n");
+    printf("BASH: [ACK] AVIS: mercwar_discovery.bin dropped via ASCII-safe math.\n");
     return 0;
 }
