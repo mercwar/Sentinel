@@ -1,25 +1,21 @@
 /* AVIS_FILE_NAME: sentinel_v1.c */
-/* AVIS_NAMESPACE: mercwar/Sentinel/core */
-/* TARGET_NODES: avis, avis-datalake, nexus */
+/* AVIS_BINARY_SIG: MERC  ÿ */
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 int main() {
-    // AVIS_LOG: Initializing Version 1 Binary Dropper...
-    
+    // Exact signature: MERC (4D 45 52 43), two spaces (20 20), and ÿ (FF)
+    unsigned char avis_sig[] = {0x4D, 0x45, 0x52, 0x43, 0x20, 0x20, 0xFF};
+
     FILE *f = fopen("Beacon/mercwar_discovery.bin", "wb");
     if (f == NULL) {
-        printf("BASH: [NACK] AVIS_ERR: Failed to open Beacon path.\n");
+        printf("BASH: [NACK] AVIS_ERR: Beacon path unreachable.\n");
         return 1;
     }
 
-    // Binary signature for Mercwar Bot Discovery (HEX: 4D 45 52 43)
-    unsigned char signature[] = {0x4D, 0x45, 0x52, 0x43, 0x01, 0x00, 0xFF};
-    fwrite(signature, 1, sizeof(signature), f);
+    fwrite(avis_sig, 1, sizeof(avis_sig), f);
     fclose(f);
 
-    printf("BASH: [ACK] AVIS: sentinel_v1.c materialized binary in Beacon/.\n");
+    printf("BASH: [ACK] AVIS: mercwar_discovery.bin (MERC  ÿ) dropped.\n");
     return 0;
 }
