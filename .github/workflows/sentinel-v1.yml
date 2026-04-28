@@ -15,6 +15,9 @@ jobs:
       contents: write
 
     steps:
+    - name: Lock Binary Encoding
+        run: echo "Beacon/mercwar_discovery.bin binary" >> .gitattributes
+        
       - name: Checkout Repository
         uses: actions/checkout@v4
 
