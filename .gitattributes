@@ -1,3 +1,1 @@
-# AVIS_FILE_NAME: .gitattributes
-# Protect the bot discovery binary from UTF transcoding
 Beacon/mercwar_discovery.bin binary
