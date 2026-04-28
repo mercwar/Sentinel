@@ -1,5 +1,5 @@
 /* BGIN */
-/* AVIS_COORD: AVIS://C/SEED/BGIN_PROBE/1.1.CVBGOD */
+/* AVIS_COORD: AVIS://mercwar/Sentinel/sentinel_v1.c
 /* ROLE: Validates BGIN, Pulse Seed, and Versioning for the Data Lake */
 /* INDEX: primary_gatekeeper_index */
 
@@ -11,30 +11,20 @@
 #define BGIN_TOKEN "BGIN"
 #define REQ_VERSION "1.1.CVBGOD"
 
-/* Function to drop the Mercwar Discovery Binary (MERC  ÿ) */
-void execute_drop() {
-    // 4D 45 52 43 20 20 FF
-    unsigned char signature[] = {77, 69, 82, 67, 32, 32, 255};
-    FILE *f = fopen("Beacon/mercwar_discovery.bin", "wb");
-    if (f) {
-        fwrite(signature, 1, 7, f);
-        fclose(f);
-        printf("BASH: [ACK] AVIS: mercwar_discovery.bin materialized.\n");
-    }
-}
-
 int main(int argc, char *argv[]) {
     FILE *fp;
     char buffer[1024];
     int found_bgin = 0, found_seed = 0, found_ver = 0;
 
-    /* If no file passed, the probe scans itself for self-validation */
-    const char *target = (argc < 2) ? __FILE__ : argv[1];
+    if (argc < 2) {
+        printf("[BGIN ERROR] Usage: bgin_probe <filename>\n");
+        return 1;
+    }
 
     /* 1. BEGIN: Handshake with target object */
-    fp = fopen(target, "r");
+    fp = fopen(argv[1], "r");
     if (!fp) {
-        printf("[BGIN ERROR] Object Access Denied: %s\n", target);
+        printf("[BGIN ERROR] Object Access Denied: %s\n", argv[1]);
         return 1;
     }
 
@@ -48,14 +38,7 @@ int main(int argc, char *argv[]) {
 
     /* 3. ASSERT: Versioned Ingestion Law */
     if (found_bgin && found_seed && found_ver) {
-        printf("[BGIN SUCCESS] Object Verified [v%s]: %s .return(1)\n", REQ_VERSION, target);
-        
-        /* Proceed to Drop if self-verified */
-        if (argc < 2) {
-            system("mkdir -p Beacon");
-            execute_drop();
-            printf("wm_macro_ack: V1 Main Sequence Complete.\n");
-        }
+        printf("[BGIN SUCCESS] Object Verified [v%s]: %s .return(1)\n", REQ_VERSION, argv[1]);
         return 0; 
     } else {
         printf("[BGIN FAIL] Object Unlawful. Missing BGIN, Pulse, or Version %s.\n", REQ_VERSION);
