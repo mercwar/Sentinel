@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AVIS_BEACON owner="CVBGOD" version="1.1">
+    <NET_MAP>
+        <NODE id="DISCOVERY">
+            <BINARY path="Beacon/mercwar_discovery.bin" />
+            <HANDSHAKE>BGIN 0xDEADBEEF 1.1.CVBGOD</HANDSHAKE>
+            <ACTION>RUN_MAIN_LOOP</ACTION>
+        </NODE>
+        
+        <NODE id="MEMORY_SCAN">
+            <BINARY path="bin/matrix_drive.exe" />
+            <HANDSHAKE>BGIN 0xFEEDFACE 1.1.CVBGOD</HANDSHAKE>
+            <ACTION>MAP_ADDRESSES</ACTION>
+        </NODE>
+    </NET_MAP>
+</AVIS_BEACON>
