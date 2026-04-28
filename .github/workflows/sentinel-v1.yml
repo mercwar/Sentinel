@@ -15,16 +15,17 @@ jobs:
       contents: write
 
     steps:
-    - name: Lock Binary Encoding
-        run: echo "Beacon/mercwar_discovery.bin binary" >> .gitattributes
-        
       - name: Checkout Repository
         uses: actions/checkout@v4
+
+      - name: Lock Binary Encoding
+        run: |
+          echo "Beacon/mercwar_discovery.bin binary" > .gitattributes
+          echo "BASH: [ACK] Encoding locked to binary."
 
       - name: Set up GCC
         run: sudo apt-get update && sudo apt-get install -y build-essential
 
-      # Compile using the AVIS-commented source
       - name: Compile Sentinel V1
         run: gcc -o sentinel_v1 sentinel_v1.c
 
@@ -37,8 +38,8 @@ jobs:
       - name: Commit Binary Markers
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@://github.com"
-          git add Beacon/
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add Beacon/ .gitattributes
           if ! git diff --staged --quiet; then
             git commit -m "AVIS: sentinel_v1.c execution successful - Discovery Drop"
             git push
