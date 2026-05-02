@@ -1,0 +1,124 @@
+# FILE: SENTINEL.CONSTELLATION.MAP
+# ================================================================
+# SENTINEL CONSTELLATION MAP (PUBLIC VERSION)
+#
+# PURPOSE:
+#   This map teaches robots how to navigate the mercwar repository
+#   constellation in deterministic order. Sentinel uses this map
+#   to:
+#       - locate all public repos
+#       - classify them by role
+#       - define traversal order
+#       - define search order
+#       - define return-home logic
+#       - define language roots
+#
+# ROOT:
+#   ./   (Sentinel root)
+# ================================================================
+
+
+begin.constellation
+
+    begin.repo.AVIS-DATALAKE
+        type.CORE
+        path."AVIS-DATALAKE/"
+        priority.001
+        description."Primary datalake for AVIS learning resources."
+    end.repo
+
+    begin.repo.CYBORG
+        type.LANGUAGE
+        path."Cyborg/"
+        priority.002
+        description."Cyborg language engine and evolution branches."
+    end.repo
+
+    begin.repo.NEXUS
+        type.CORE
+        path."NEXUS/"
+        priority.003
+        description."NEXUS interpreter, SDK, and compiled-library metadata."
+    end.repo
+
+    begin.repo.TOOLS
+        type.TOOLING
+        path."TOOLS/"
+        priority.004
+        description."Utility tools, helpers, generators, and support modules."
+    end.repo
+
+    begin.repo.EXPERIMENTS
+        type.EXPERIMENT
+        path."EXPERIMENTS/"
+        priority.005
+        description."Experimental modules, prototypes, and research branches."
+    end.repo
+
+end.constellation
+
+
+# ------------------------------------------------
+# TRAVERSAL ORDER
+# ------------------------------------------------
+begin.traversal.order
+    step.001."AVIS-DATALAKE"
+    step.002."Cyborg"
+    step.003."NEXUS"
+    step.004."TOOLS"
+    step.005."EXPERIMENTS"
+end.traversal.order
+
+
+# ------------------------------------------------
+# SEARCH ORDER
+# ------------------------------------------------
+begin.search.order
+    search.001."AVIS-DATALAKE/**/*.h"
+    search.002."AVIS-DATALAKE/**/*.c"
+    search.003."Cyborg/**/*.h"
+    search.004."Cyborg/**/*.c"
+    search.005."NEXUS/**/*.meta"
+    search.006."NEXUS/**/*.map"
+    search.007."TOOLS/**/*"
+    search.008."EXPERIMENTS/**/*"
+end.search.order
+
+
+# ------------------------------------------------
+# LANGUAGE ROOTS
+# ------------------------------------------------
+begin.language.roots
+    lang.AVIS."AVIS-DATALAKE/"
+    lang.CYBORG."Cyborg/"
+    lang.NEXUS."NEXUS/"
+end.language.roots
+
+
+# ------------------------------------------------
+# RETURN-HOME LOGIC
+# ------------------------------------------------
+begin.return.home
+    home."./"          # Sentinel root
+    fallback."./SENTINEL/"
+    fallback."./"      # Always return to root if lost
+end.return.home
+
+
+# ------------------------------------------------
+# ROBOT ORIENTATION RULES
+# ------------------------------------------------
+begin.robot.orientation
+    rule.001."Always load SENTINEL.CONSTELLATION.MAP first."
+    rule.002."Always resolve repo roots before scanning."
+    rule.003."Always follow traversal.order for learning."
+    rule.004."Always follow search.order for file discovery."
+    rule.005."If path resolution fails, return.home."
+    rule.006."If language root missing, return.home then retry."
+    rule.007."Never assume directory structure; always map it."
+end.robot.orientation
+
+
+# ================================================================
+# END OF SENTINEL CONSTELLATION MAP
+# ================================================================
