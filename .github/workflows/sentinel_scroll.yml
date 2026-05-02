@@ -1,11 +1,10 @@
 # AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/2.0.CVBGOD
 
-name: CVBGOD Sentinel Scroll Generator
+name: CVBGOD Scroll Generator
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch: {}
 
 permissions:
@@ -16,31 +15,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: SENTINEL :: Checkout
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: SENTINEL :: Generate Scroll Logic
+      - name: Generate Scroll
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
           {
-            echo "# 📜 SENTINEL SCROLL: MERCWAR DATA LAKE"
+            echo "# 📜 MERCWAR DATA LAKE"
             echo ""
             echo "Generated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             echo ""
           } > SENTINEL_SCROLL.md
 
-          # Pull repo intel
           gh repo list mercwar \
             --limit 100 \
             --json name,url,description \
             --template '{{range .}}### {{.name}}
-           - **Link:** {{.url}}
-           - **Intel:** {{if .description}}{{.description}}{{else}}No description available{{end}}
-           {{end}}' >> SENTINEL_SCROLL.md
+- **Link:** {{.url}}
+- **Intel:** {{if .description}}{{.description}}{{else}}No description available{{end}}
 
-      - name: SENTINEL :: Commit & Pulse
+{{end}}' >> SENTINEL_SCROLL.md
+
+      - name: Commit Update
         shell: bash
         run: |
           git config --global user.name "github-actions[bot]"
@@ -52,5 +51,5 @@ jobs:
             git commit -m "AVIS: Human scroll updated [skip ci]"
             git push
           else
-            echo "No scroll changes detected."
+            echo "No changes detected."
           fi
