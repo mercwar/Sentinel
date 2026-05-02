@@ -6,10 +6,7 @@ name: CVBGOD Sentinel Scroll Generator
 on:
   push:
     branches: [ main ]
-    paths-ignore:
-      - 'SENTINEL_SCROLL.md'
-      - 'sitemap.avis'
-      - '.github/workflows/**'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -17,27 +14,26 @@ permissions:
 jobs:
   generate_scroll:
     runs-on: ubuntu-latest
-    if: github.actor != 'github-actions[bot]'
 
     steps:
-      - name: Checkout Root
+      - name: SENTINEL :: Checkout Root
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Execute AVIS-Ripper
+      - name: SENTINEL :: Execute AVIS-Ripper
         run: |
           if [ -f "./scroll_generator.sh" ]; then
             chmod +x ./scroll_generator.sh
             ./scroll_generator.sh
             echo "wm_macro_ack: Ripper cycle complete."
           else
-            echo "BASH: [NACK] scroll_generator.sh not found. Check /exec/she path."
+            echo "BASH: [NACK] scroll_generator.sh not found."
             exit 1
           fi
 
-      - name: Commit Human-Readable Scroll
+      - name: SENTINEL :: Commit & Dispatch Scroll
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -49,7 +45,7 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "AVIS: Human scroll updated [index] [skip ci]"
 
-            # Correct remote URL format
+            # Correct remote URL
             git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
 
             git pull --rebase origin main
