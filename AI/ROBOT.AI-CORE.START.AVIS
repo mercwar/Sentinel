@@ -1,0 +1,15 @@
+begin.robot.ai-core.start
+
+    step.001."load.graph"
+    step.002."ai-core.activate()"
+
+    loop."ai-core.loop" {
+        observe."graph"
+        observe."knowledge"
+        decide."action"
+        act."execute"
+        update."graph"
+        update."knowledge"
+    }
+
+end.robot.ai-core.start
