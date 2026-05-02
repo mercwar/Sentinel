@@ -9,7 +9,7 @@ on:
     paths-ignore:
       - 'SENTINEL_SCROLL.md'
       - 'sitemap.avis'
-  workflow_dispatch: # Forces the 'Run Workflow' button to appear
+  workflow_dispatch: 
 
 permissions:
   contents: write
@@ -17,7 +17,6 @@ permissions:
 jobs:
   generate_scroll:
     runs-on: ubuntu-latest
-    # Prevents the bot from triggering its own loop
     if: github.actor != 'github-actions[bot]'
 
     steps:
@@ -25,35 +24,41 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # Using default GITHUB_TOKEN is sufficient with 'contents: write' permissions
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: SENTINEL :: Execute AVIS-Ripper
         run: |
+          # Force check in workspace root
+          cd ${{ github.workspace }}
+          
+          # Fix: Standardize on sitemap.sh or scroll_generator.sh based on your repo contents
           if [ -f "./scroll_generator.sh" ]; then
             chmod +x ./scroll_generator.sh
             ./scroll_generator.sh
             echo "wm_macro_ack: Ripper cycle complete."
+          elif [ -f "./sitemap.sh" ]; then
+            chmod +x ./sitemap.sh
+            ./sitemap.sh
+            echo "wm_macro_ack: Ripper cycle complete (via sitemap.sh)."
           else
-            echo "BASH: [NACK] scroll_generator.sh not found."
+            echo "BASH: [NACK] Script not found. Listing directory..."
+            ls -F
             exit 1
           fi
 
       - name: SENTINEL :: Commit & Dispatch Scroll
-        env:
-          G_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "Sentinel-Bot"
           git config --global user.email "bot@cvbgod.sentinel"
 
-          # Stage the artifacts
-          git add SENTINEL_SCROLL.md sitemap.avis || true
+          # Stage specific AVIS artifacts
+          git add SENTINEL_SCROLL.md sitemap.avis 2>/dev/null || true
 
           if ! git diff --staged --quiet; then
             git commit -m "AVIS: Human scroll updated [index] [skip ci]"
             
-            # Using env variable to safely inject token into the origin URL
-            git remote set-url origin "https://x-access-token:${G_TOKEN}@github.com/${{ github.repository }}.git"
-            
+            # Rebase to prevent push conflicts if multiple actions trigger
             git pull --rebase origin main
             git push origin main
             echo "wm_macro_ack: Scroll dispatched to Audit Surface."
