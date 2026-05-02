@@ -1,0 +1,63 @@
+# FILE: ROBOT.SELFSEARCH.AVIS
+# ================================================================
+# ROBOT SELF-SEARCH ENGINE (AVIS-LAW)
+#
+# PURPOSE:
+#   Teach robots how to derive their own search patterns
+#   based on repo type (CORE, LANGUAGE, TOOLING, EXAMPLE, EXPERIMENT).
+# ================================================================
+
+begin.selfsearch.types
+
+    type.CORE {
+        pattern."**/*.h"
+        pattern."**/*.c"
+        pattern."**/*.meta"
+        pattern."**/*.map"
+    }
+
+    type.LANGUAGE {
+        pattern."**/*.h"
+        pattern."**/*.c"
+        pattern."**/*.cy"
+        pattern."**/*.lang"
+    }
+
+    type.TOOLING {
+        pattern."**/*.c"
+        pattern."**/*.h"
+        pattern."**/*.sh"
+        pattern."**/*.py"
+    }
+
+    type.EXAMPLE {
+        pattern."**/*.c"
+        pattern."**/*.h"
+        pattern."**/*.md"
+        pattern."**/*.txt"
+    }
+
+    type.EXPERIMENT {
+        pattern."**/*.c"
+        pattern."**/*.h"
+        pattern."**/*.exp"
+        pattern."**/*.log"
+    }
+
+end.selfsearch.types
+
+
+begin.robot.selfsearch.rules
+
+    rule.001."Determine repo.type from MERCWAR.CONSTELLATION.AVIS."
+    rule.002."Load patterns for that type from ROBOT.SELFSEARCH.AVIS."
+    rule.003."Apply patterns only within that repo root."
+    rule.004."Record hits into SentinelKnowledge."
+    rule.005."If no patterns for type: fall back to global search.order."
+    rule.006."If search fails: return.home and log failure."
+
+end.robot.selfsearch.rules
+
+# ================================================================
+# END OF ROBOT.SELFSEARCH.AVIS
+# ================================================================
