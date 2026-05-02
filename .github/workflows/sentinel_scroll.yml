@@ -1,10 +1,12 @@
-# /* AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/2.0.CVBGOD */
+# AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/2.0.CVBGOD
+
 name: CVBGOD Sentinel Scroll Generator
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch: 
+    branches:
+      - main
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -12,32 +14,44 @@ permissions:
 jobs:
   build_lake:
     runs-on: ubuntu-latest
+
     steps:
       - name: SENTINEL :: Checkout
         uses: actions/checkout@v4
 
-      - name: SENTINEL :: Generate Scroll logic
+      - name: SENTINEL :: Generate Scroll Logic
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
         run: |
-          echo "# 📜 SENTINEL SCROLL: MERCWAR DATA LAKE" > SENTINEL_SCROLL.md
-          echo "Generated: $(date)" >> SENTINEL_SCROLL.md
-          echo "" >> SENTINEL_SCROLL.md
-          
-          # Fetch all repos for mercwar and format them into the scroll
-          gh repo list mercwar --limit 100 --json name,url,description --template \
-          '{{range .}}### {{.name}}
-          - **Link:** {{.url}}
-          - **Intel:** {{.description}}
-          
-          {{end}}' >> SENTINEL_SCROLL.md
+          {
+            echo "# 📜 SENTINEL SCROLL: MERCWAR DATA LAKE"
+            echo ""
+            echo "Generated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo ""
+          } > SENTINEL_SCROLL.md
+
+          # Pull repo intel
+          gh repo list mercwar \
+            --limit 100 \
+            --json name,url,description \
+            --template '{{range .}}### {{.name}}
+- **Link:** {{.url}}
+- **Intel:** {{if .description}}{{.description}}{{else}}No description available{{end}}
+
+{{end}}' >> SENTINEL_SCROLL.md
 
       - name: SENTINEL :: Commit & Pulse
+        shell: bash
         run: |
-          git config --global user.name "Sentinel-Bot"
-          git config --global user.email "bot@cvbgod.sentinel"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add SENTINEL_SCROLL.md
-          if ! git diff --staged --quiet; then
+
+          if ! git diff --cached --quiet; then
             git commit -m "AVIS: Human scroll updated [skip ci]"
-            git push origin main
+            git push
+          else
+            echo "No scroll changes detected."
           fi
