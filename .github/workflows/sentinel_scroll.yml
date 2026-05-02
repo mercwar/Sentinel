@@ -34,10 +34,10 @@ jobs:
             --limit 100 \
             --json name,url,description \
             --template '{{range .}}### {{.name}}
-- **Link:** {{.url}}
-- **Intel:** {{if .description}}{{.description}}{{else}}No description available{{end}}
+          - **Link:** {{.url}}
+          - **Intel:** {{if .description}}{{.description}}{{else}}No description available{{end}}
 
-{{end}}' >> SENTINEL_SCROLL.md
+          {{end}}' >> SENTINEL_SCROLL.md
 
       - name: Commit Update
         shell: bash
