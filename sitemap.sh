@@ -13,7 +13,6 @@ BASE_URL="${REPO_URL}/blob/${BRANCH}"
 OUTPUT_FILE="sitemap.xml"
 LOG="VERSION 1/fire-gem.log"
 
-echo "[AVIS-BOT] Generating sitemap for: ${BASE_URL}" >> "$LOG"
 
 # 2. Start the XML structure
 echo '<?xml version="1.0" encoding="UTF-8"?>' > $OUTPUT_FILE
