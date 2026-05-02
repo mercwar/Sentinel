@@ -1,24 +1,24 @@
 # FILE: SENTINEL.BOOT.AVIS
 # ================================================================
-# SENTINEL BOOT SCRIPT (AVIS-LAW)
+# SENTINEL BOOT SEQUENCE (AVIS-LAW)
 #
 # PURPOSE:
-#   Robots run this script at startup to:
+#   Robots execute this script at startup to:
 #       - initialize Sentinel
 #       - load the constellation map
 #       - load repo bindings
-#       - establish traversal + search order
-#       - orient themselves in the mercwar constellation
+#       - apply traversal + search order
+#       - activate robot navigation protocol
 # ================================================================
 
 begin.sentinel.boot
 
-    step.001."sentinel.init(\"./\")"
-    step.002."sentinel.load.map(\"SENTINEL/MAPS/SENTINEL.CONSTELLATION.MAP\")"
+    step.001."sentinel.boot(\"./\")"
+    step.002."sentinel.map.load(\"SENTINEL/MAPS/SENTINEL.CONSTELLATION.MAP\")"
     step.003."sentinel.bind.all()"
     step.004."sentinel.traversal.apply()"
     step.005."sentinel.search.apply()"
-    step.006."sentinel.orientation.apply()"
+    step.006."sentinel.robot.protocol.activate()"
     step.007."sentinel.ready()"
 
 end.sentinel.boot
