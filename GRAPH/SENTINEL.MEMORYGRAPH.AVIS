@@ -1,0 +1,79 @@
+# FILE: SENTINEL.MEMORYGRAPH.AVIS
+# ================================================================
+# SENTINEL MEMORY GRAPH (AVIS-LAW)
+#
+# PURPOSE:
+#   Robots use this graph to understand:
+#       - repo relationships
+#       - language roots
+#       - tool dependencies
+#       - AI-core linkages
+#       - traversal and search context
+# ================================================================
+
+begin.graph.nodes
+
+    node."AVIS-DATALAKE"          type.CORE
+    node."AVIS"                   type.CORE
+    node."AVIS-ALERT-FVS"         type.CORE
+    node."AVIS-AI-INI-DIR-MK-SCAN" type.TOOLING
+    node."CYHY-CMT"               type.CORE
+
+    node."Fire-Gem"               type.CORE
+    node."Dark-Com"               type.CORE
+    node."Sentinel"               type.CORE
+    node."NEXUS"                  type.CORE
+
+    node."Robo-Knight-Gallery"    type.LANGUAGE
+    node."Robo-Knight-Player"     type.LANGUAGE
+    node."Robo-Knight-Demos"      type.LANGUAGE
+    node."robo-knight-inventory"  type.LANGUAGE
+
+    node."CVBGODLY-CONSOLE"       type.TOOLING
+    node."CYBORG-PROJECT-EXPLORER" type.TOOLING
+    node."Cyborg"                 type.LANGUAGE
+    node."JMC-ANDROID-APP-DEMO"   type.EXAMPLE
+    node."mercwar"                type.CORE
+
+end.graph.nodes
+
+
+begin.graph.edges
+
+    # AVIS ecosystem
+    edge."AVIS" -> "AVIS-DATALAKE"        relation."feeds"
+    edge."AVIS-ALERT-FVS" -> "AVIS"       relation."extends"
+    edge."AVIS-AI-INI-DIR-MK-SCAN" -> "AVIS-DATALAKE" relation."scans"
+    edge."CYHY-CMT" -> "AVIS"             relation."computes"
+
+    # Core AI tools
+    edge."Fire-Gem" -> "NEXUS"            relation."powers"
+    edge."Dark-Com" -> "NEXUS"            relation."communicates"
+    edge."Sentinel" -> "NEXUS"            relation."controls"
+
+    # Robo-Knight
+    edge."Robo-Knight-Player" -> "Robo-Knight-Gallery" relation."uses"
+    edge."Robo-Knight-Demos" -> "Robo-Knight-Player"   relation."demonstrates"
+    edge."robo-knight-inventory" -> "Robo-Knight-Player" relation."supplies"
+
+    # Cyborg ecosystem
+    edge."Cyborg" -> "CYBORG-PROJECT-EXPLORER" relation."explores"
+    edge."CVBGODLY-CONSOLE" -> "Cyborg"        relation."executes"
+
+    # Root
+    edge."mercwar" -> "Sentinel"               relation."hosts"
+
+end.graph.edges
+
+
+begin.graph.rules
+    rule.001."Graph must remain acyclic."
+    rule.002."Every node must have at least one relation."
+    rule.003."Robots must store edges in adjacency lists."
+    rule.004."Robots must resolve unknown nodes by scanning repos."
+    rule.005."If graph breaks: return.home and rebuild."
+end.graph.rules
+
+# ================================================================
+# END OF SENTINEL MEMORY GRAPH
+# ================================================================
