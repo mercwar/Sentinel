@@ -1,67 +1,43 @@
-# /* AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/1.3.CVBGOD */
-# /* ROLE: Automated Data Lake Indexer & Scroll Generator - FINAL PULSE */
-
+# /* AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/2.0.CVBGOD */
 name: CVBGOD Sentinel Scroll Generator
 
 on:
   push:
     branches: [ main ]
-    paths-ignore:
-      - 'SENTINEL_SCROLL.md'
-      - 'sitemap.avis'
   workflow_dispatch: 
 
 permissions:
   contents: write
 
 jobs:
-  generate_scroll:
+  build_lake:
     runs-on: ubuntu-latest
-    if: github.actor != 'github-actions[bot]'
-
     steps:
-      - name: SENTINEL :: Checkout Root
+      - name: SENTINEL :: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          # Using default GITHUB_TOKEN is sufficient with 'contents: write' permissions
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: SENTINEL :: Execute AVIS-Ripper
+      - name: SENTINEL :: Generate Scroll logic
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Force check in workspace root
-          cd ${{ github.workspace }}
+          echo "# 📜 SENTINEL SCROLL: MERCWAR DATA LAKE" > SENTINEL_SCROLL.md
+          echo "Generated: $(date)" >> SENTINEL_SCROLL.md
+          echo "" >> SENTINEL_SCROLL.md
           
-          # Fix: Standardize on sitemap.sh or scroll_generator.sh based on your repo contents
-          if [ -f "./scroll_generator.sh" ]; then
-            chmod +x ./scroll_generator.sh
-            ./scroll_generator.sh
-            echo "wm_macro_ack: Ripper cycle complete."
-          elif [ -f "./sitemap.sh" ]; then
-            chmod +x ./sitemap.sh
-            ./sitemap.sh
-            echo "wm_macro_ack: Ripper cycle complete (via sitemap.sh)."
-          else
-            echo "BASH: [NACK] Script not found. Listing directory..."
-            ls -F
-            exit 1
-          fi
+          # Fetch all repos for mercwar and format them into the scroll
+          gh repo list mercwar --limit 100 --json name,url,description --template \
+          '{{range .}}### {{.name}}
+          - **Link:** {{.url}}
+          - **Intel:** {{.description}}
+          
+          {{end}}' >> SENTINEL_SCROLL.md
 
-      - name: SENTINEL :: Commit & Dispatch Scroll
+      - name: SENTINEL :: Commit & Pulse
         run: |
           git config --global user.name "Sentinel-Bot"
           git config --global user.email "bot@cvbgod.sentinel"
-
-          # Stage specific AVIS artifacts
-          git add SENTINEL_SCROLL.md sitemap.avis 2>/dev/null || true
-
+          git add SENTINEL_SCROLL.md
           if ! git diff --staged --quiet; then
-            git commit -m "AVIS: Human scroll updated [index] [skip ci]"
-            
-            # Rebase to prevent push conflicts if multiple actions trigger
-            git pull --rebase origin main
+            git commit -m "AVIS: Human scroll updated [skip ci]"
             git push origin main
-            echo "wm_macro_ack: Scroll dispatched to Audit Surface."
-          else
-            echo "AVIS: No data lake shift detected. Pulse steady."
           fi
