@@ -1,0 +1,30 @@
+# FILE: ROBOT.AUTOSCAN.AVIS
+# ================================================================
+# ROBOT AUTOSCAN ENGINE (AVIS-LAW)
+#
+# PURPOSE:
+#   Robots use this script to:
+#       - iterate through all mercwar repos
+#       - derive search patterns from repo.type
+#       - perform self-search
+#       - update SentinelKnowledge
+#       - return home after each scan
+# ================================================================
+
+begin.robot.autoscan
+
+    step.001."load.map.\"SENTINEL/MAPS/MERCWAR.CONSTELLATION.AVIS\""
+    step.002."load.selfsearch.\"SENTINEL/MAPS/ROBOT.SELFSEARCH.AVIS\""
+
+    begin.for.each.repo
+        action."selfsearch.repo(repo.name)"
+        action."return.home()"
+    end.for.each.repo
+
+    step.003."autoscan.complete()"
+
+end.robot.autoscan
+
+# ================================================================
+# END OF ROBOT.AUTOSCAN.AVIS
+# ================================================================
