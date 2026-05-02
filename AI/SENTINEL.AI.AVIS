@@ -1,0 +1,39 @@
+# FILE: SENTINEL.AI.AVIS
+# ================================================================
+# SENTINEL AI (AVIS-LAW)
+#
+# PURPOSE:
+#   Enable autonomous reasoning over the memory graph.
+#   Robots use this to:
+#       - infer missing edges
+#       - detect anomalies
+#       - classify unknown repos
+#       - optimize traversal
+#       - self-heal graph structure
+# ================================================================
+
+begin.sentinel.ai
+
+    # Activate reasoning engine
+    step.001."ai.reasoning.enable()"
+
+    # Enable inference
+    step.002."ai.infer.edges.enable()"
+    step.003."ai.infer.types.enable()"
+
+    # Enable anomaly detection
+    step.004."ai.anomaly.scan.enable()"
+
+    # Enable graph optimization
+    step.005."ai.optimize.traversal.enable()"
+
+    # Enable self-healing
+    step.006."ai.graph.selfheal.enable()"
+
+    step.007."ai.ready()"
+
+end.sentinel.ai
+
+# ================================================================
+# END OF SENTINEL AI
+# ================================================================
