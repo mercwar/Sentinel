@@ -36,10 +36,9 @@ jobs:
             --limit 100 \
             --json name,url,description \
             --template '{{range .}}### {{.name}}
-- **Link:** {{.url}}
-- **Intel:** {{if .description}}{{.description}}{{else}}No description available{{end}}
-
-{{end}}' >> SENTINEL_SCROLL.md
+           - **Link:** {{.url}}
+           - **Intel:** {{if .description}}{{.description}}{{else}}No description available{{end}}
+           {{end}}' >> SENTINEL_SCROLL.md
 
       - name: SENTINEL :: Commit & Pulse
         shell: bash
