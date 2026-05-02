@@ -1,0 +1,26 @@
+#include "sentinel_boot.h"
+#include "sentinel_train.h"
+
+int main(void) {
+    SentinelBoot      boot;
+    SentinelKnowledge knowledge;
+    SenStatus         st;
+
+    st = sentinel_boot_system(&boot, "./");
+    if (st != SEN_STATUS_OK) return 1;
+
+    st = sentinel_train_begin(&boot, &knowledge);
+    if (st != SEN_STATUS_OK) return 1;
+
+    st = sentinel_train_walk_traversal(&boot, &knowledge);
+    if (st != SEN_STATUS_OK) return 1;
+
+    st = sentinel_train_scan_search(&boot, &knowledge);
+    if (st != SEN_STATUS_OK) return 1;
+
+    st = sentinel_train_commit(&boot, &knowledge);
+    if (st != SEN_STATUS_OK) return 1;
+
+    sentinel_shutdown_system(&boot);
+    return 0;
+}
