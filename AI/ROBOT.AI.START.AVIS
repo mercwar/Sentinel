@@ -1,0 +1,11 @@
+begin.robot.ai.start
+
+    step.001."load.graph.\"SENTINEL/GRAPH/SENTINEL.MEMORYGRAPH.AVIS\""
+    step.002."ai.activate()"
+    step.003."ai.infer.edges()"
+    step.004."ai.detect.anomalies()"
+    step.005."ai.optimize.traversal()"
+    step.006."ai.selfheal()"
+    step.007."ai.ready()"
+
+end.robot.ai.start
