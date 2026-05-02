@@ -1,0 +1,44 @@
+name: JOE-TRON :: SITE-MAP-DISPATCH
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  sentinel-dispatch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: SENTINEL :: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: SENTINEL :: Locate & Prep Strike Script
+        run: |
+          # Find sitemap.sh anywhere in the repo and make it executable
+          SITEMAP_SCRIPT=$(find . -type f -name "sitemap.sh" | head -n 1)
+          echo "Found script at: $SITEMAP_SCRIPT"
+          chmod +x "$SITEMAP_SCRIPT"
+
+      - name: SENTINEL :: Execute Strike
+        run: |
+          SITEMAP_SCRIPT=$(find . -type f -name "sitemap.sh" | head -n 1)
+          "$SITEMAP_SCRIPT"
+
+      - name: SENTINEL :: Commit & Push
+        run: |
+          git config --global user.name "Sentinel-Automaton"
+          git config --global user.email "sentinel@github.local"
+
+          git add -A
+
+          if ! git diff --staged --quiet; then
+            git commit -m "SENTINEL: Automated sitemap strike"
+            git push
+          else
+            echo "SENTINEL: No changes detected — strike clean."
+          fi
