@@ -2,10 +2,17 @@
     sentinel_bindings_all.c
 
     PURPOSE:
-        Implementation of the binding table for all mercwar
-        public repositories. You populate the list below
-        directly from:
+        Implementation of the universal binding table for all
+        mercwar public repositories.
+
+        YOU populate the arrays below with the repo names from:
             https://github.com/mercwar?tab=repositories
+
+        Sentinel will then:
+            - classify them
+            - index them
+            - navigate them
+            - teach robots how to find them
 */
 
 #include "sentinel_bindings_all.h"
@@ -15,49 +22,51 @@
 
 static SenString sen_all_make_string(const char* s) {
     SenString str;
-    if (!s) {
-        str.data   = NULL;
-        str.length = 0;
-    } else {
-        str.data   = s;
-        str.length = (int)strlen(s);
-    }
+    str.data   = s;
+    str.length = s ? (int)strlen(s) : 0;
     return str;
 }
 
-/* STEP 1:
-   Fill this array with the actual repo names from GitHub.
-   Example entries shown; replace/add with real ones.
-*/
+/* -------------------------------------------------------------
+   STEP 1 — LIST ALL MERCWAR PUBLIC REPOS HERE
+   ------------------------------------------------------------- */
+
 static const char* REPO_NAMES[] = {
+    /* Fill these with your actual repo names */
     "Cyborg",
     "AVIS-DATALAKE",
     "NEXUS",
-    "SomeToolRepo",
-    "SomeExampleRepo"
+    "TOOLS",
+    "EXPERIMENTS"
 };
 
-/* STEP 2:
-   Map each repo to its local path (usually same as name).
-*/
+/* -------------------------------------------------------------
+   STEP 2 — MAP EACH REPO TO ITS LOCAL PATH
+   ------------------------------------------------------------- */
+
 static const char* REPO_PATHS[] = {
     "Cyborg",
     "AVIS-DATALAKE",
     "NEXUS",
-    "SomeToolRepo",
-    "SomeExampleRepo"
+    "TOOLS",
+    "EXPERIMENTS"
 };
 
-/* STEP 3:
-   Classify each repo by type.
-*/
+/* -------------------------------------------------------------
+   STEP 3 — CLASSIFY EACH REPO
+   ------------------------------------------------------------- */
+
 static const SenRepoType REPO_TYPES[] = {
-    SEN_REPO_TYPE_LANGUAGE,  /* Cyborg */
-    SEN_REPO_TYPE_CORE,      /* AVIS-DATALAKE */
-    SEN_REPO_TYPE_CORE,      /* NEXUS */
-    SEN_REPO_TYPE_TOOLING,   /* SomeToolRepo */
-    SEN_REPO_TYPE_EXAMPLE    /* SomeExampleRepo */
+    SEN_REPO_TYPE_LANGUAGE,   /* Cyborg */
+    SEN_REPO_TYPE_CORE,       /* AVIS-DATALAKE */
+    SEN_REPO_TYPE_CORE,       /* NEXUS */
+    SEN_REPO_TYPE_TOOLING,    /* TOOLS */
+    SEN_REPO_TYPE_EXPERIMENT  /* EXPERIMENTS */
 };
+
+/* -------------------------------------------------------------
+   INITIALIZATION
+   ------------------------------------------------------------- */
 
 SenStatus sentinel_bindings_all_init(SenRepoBindingTable* table) {
     if (!table) return SEN_STATUS_ERROR_INVALID_ARGUMENT;
@@ -78,19 +87,19 @@ SenStatus sentinel_bindings_all_init(SenRepoBindingTable* table) {
 
 void sentinel_bindings_all_free(SenRepoBindingTable* table) {
     if (!table) return;
-    if (table->items) {
-        free(table->items);
-        table->items = NULL;
-    }
+    if (table->items) free(table->items);
+    table->items = NULL;
     table->count = 0;
 }
+
+/* -------------------------------------------------------------
+   LOOKUP BY NAME
+   ------------------------------------------------------------- */
 
 SenStatus sentinel_bindings_all_find_by_name(const SenRepoBindingTable* table,
                                              const char* name,
                                              SenRepoBinding* out_binding) {
-    if (!table || !name || !out_binding) {
-        return SEN_STATUS_ERROR_INVALID_ARGUMENT;
-    }
+    if (!table || !name || !out_binding) return SEN_STATUS_ERROR_INVALID_ARGUMENT;
 
     size_t nlen = strlen(name);
     for (int i = 0; i < table->count; ++i) {
@@ -105,12 +114,14 @@ SenStatus sentinel_bindings_all_find_by_name(const SenRepoBindingTable* table,
     return SEN_STATUS_ERROR_NOT_FOUND;
 }
 
+/* -------------------------------------------------------------
+   LOOKUP BY TYPE
+   ------------------------------------------------------------- */
+
 SenStatus sentinel_bindings_all_find_by_type(const SenRepoBindingTable* table,
                                              SenRepoType type,
                                              SenRepoBindingTable* out_subset) {
-    if (!table || !out_subset) {
-        return SEN_STATUS_ERROR_INVALID_ARGUMENT;
-    }
+    if (!table || !out_subset) return SEN_STATUS_ERROR_INVALID_ARGUMENT;
 
     int count = 0;
     for (int i = 0; i < table->count; ++i) {
@@ -123,8 +134,7 @@ SenStatus sentinel_bindings_all_find_by_type(const SenRepoBindingTable* table,
         return SEN_STATUS_OK;
     }
 
-    SenRepoBinding* items = (SenRepoBinding*)malloc(
-        sizeof(SenRepoBinding) * count);
+    SenRepoBinding* items = (SenRepoBinding*)malloc(sizeof(SenRepoBinding) * count);
     if (!items) return SEN_STATUS_ERROR_INTERNAL;
 
     int idx = 0;
