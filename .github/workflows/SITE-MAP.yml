@@ -1,4 +1,4 @@
-name: JOE-TRON :: SITE-MAP-DISPATCH
+name: "JOE-TRON :: SITE-MAP-DISPATCH"
 
 on:
   push:
@@ -7,29 +7,30 @@ on:
 
 jobs:
   sentinel-dispatch:
+    name: "JOE-TRON :: Sentinel Dispatch"
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: JOE-TRON :: Checkout
+      - name: "JOE-TRON :: Checkout"
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: JOE-TRON :: Make sitemap.sh executable
+      - name: "JOE-TRON :: Make sitemap.sh executable"
         run: chmod +x ./sitemap.sh
 
-      - name: JOE-TRON :: Run sitemap.sh
+      - name: "JOE-TRON :: Run sitemap.sh"
         run: ./sitemap.sh
 
-      - name: JOE-TRON :: Commit & Push
+      - name: "JOE-TRON :: Commit & Push"
         run: |
           git config --global user.name "Joe-Tron-Automaton"
           git config --global user.email "joe-tron@github.local"
-
+          
           git add -A
-
+          
           if ! git diff --staged --quiet; then
             git commit -m "JOE-TRON: Automated sitemap update"
             git push
