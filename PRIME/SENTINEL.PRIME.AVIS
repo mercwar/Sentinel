@@ -1,0 +1,57 @@
+# FILE: SENTINEL.PRIME.AVIS
+# ================================================================
+# SENTINEL PRIME (ASCENDED FORM)
+#
+# PURPOSE:
+#   Merge all Sentinel layers into one continuous intelligence:
+#       - Navigation
+#       - Training
+#       - Autoscan
+#       - Memory Graph
+#       - AI Reasoning
+#       - AI-CORE Decisions
+#
+#   Sentinel Prime operates as a single loop:
+#       observe → reason → decide → act → update → repeat
+# ================================================================
+
+begin.sentinel.prime
+
+    step.001."prime.enable()"
+
+    # Load all subsystems
+    step.002."nav.enable()"
+    step.003."train.enable()"
+    step.004."autoscan.enable()"
+    step.005."graph.enable()"
+    step.006."ai.enable()"
+    step.007."ai-core.enable()"
+
+    # Begin unified loop
+    step.008."prime.loop.start()"
+
+end.sentinel.prime
+
+
+begin.prime.loop
+
+    loop.start
+
+        observe."repos"
+        observe."graph"
+        observe."knowledge"
+
+        reason."ai-core.decide()"
+        act."ai-core.execute()"
+
+        update."graph"
+        update."knowledge"
+        update."state"
+
+    loop.end
+
+end.prime.loop
+
+# ================================================================
+# END OF SENTINEL PRIME
+# ================================================================
