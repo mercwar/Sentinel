@@ -1,7 +1,8 @@
-# /* AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/1.2.CVBGOD */
-# /* ROLE: Automated Data Lake Indexer & Scroll Generator - STABILIZED */
+# AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/1.2.CVBGOD
+# ROLE: Automated Data Lake Indexer & Scroll Generator - STABILIZED
 
 name: CVBGOD Sentinel Scroll Generator
+
 on:
   push:
     branches: [ main ]
@@ -16,13 +17,14 @@ permissions:
 jobs:
   generate_scroll:
     runs-on: ubuntu-latest
-    if: github.actor != 'github-actions[bot]' 
+    if: github.actor != 'github-actions[bot]'
+
     steps:
       - name: Checkout Root
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }} # Explicit token for the dispatch
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Execute AVIS-Ripper
         run: |
@@ -41,19 +43,18 @@ jobs:
         run: |
           git config --global user.name "Sentinel-Bot"
           git config --global user.email "bot@cvbgod.sentinel"
-          
-          # Stage the index and any fluid map updates
+
           git add SENTINEL_SCROLL.md sitemap.avis
-          
+
           if ! git diff --staged --quiet; then
             git commit -m "AVIS: Human scroll updated [index] [skip ci]"
-            
-            # Use remote URL with token to bypass 403 errors during dispatch
-            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@://github.com{{ github.repository }}
-            
-            # Pull with rebase to ensure 4-layer alignment
+
+            # Correct remote URL format
+            git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
+
             git pull --rebase origin main
             git push origin main
+
             echo "wm_macro_ack: Scroll dispatched to Audit Surface."
           else
             echo "AVIS: No data lake shift detected. Pulse steady."
