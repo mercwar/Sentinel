@@ -1,0 +1,72 @@
+# FILE: SENTINEL.AI-CORE.AVIS
+# ================================================================
+# SENTINEL AI-CORE (AVIS-LAW)
+#
+# PURPOSE:
+#   Enable autonomous decision-making based on:
+#       - graph state
+#       - repo relationships
+#       - anomalies
+#       - inferred edges
+#       - traversal context
+#       - robot knowledge
+#
+#   AI-CORE selects actions, not just observations.
+# ================================================================
+
+begin.ai-core
+
+    # Activate core engine
+    step.001."ai.core.enable()"
+
+    # Load reasoning modules
+    step.002."ai.reasoning.enable()"
+    step.003."ai.inference.enable()"
+    step.004."ai.anomaly.enable()"
+    step.005."ai.optimization.enable()"
+
+    # Load decision model
+    step.006."ai.core.model.load()"
+
+    # Begin autonomous loop
+    step.007."ai.core.loop.start()"
+
+end.ai-core
+
+
+begin.ai-core.model
+
+    # Decision categories
+    decision."scan"        trigger."missing.data"
+    decision."repair"      trigger."graph.break"
+    decision."infer"       trigger."unknown.edge"
+    decision."optimize"    trigger."inefficient.path"
+    decision."classify"    trigger."unknown.repo"
+    decision."expand"      trigger."new.repo.detected"
+    decision."alert"       trigger."critical.anomaly"
+
+end.ai-core.model
+
+
+begin.ai-core.loop
+
+    loop.start
+
+        observe."graph.state"
+        observe."repo.state"
+        observe."robot.knowledge"
+
+        decide."action.from.model"
+
+        act."execute.action"
+
+        update."graph"
+        update."knowledge"
+
+    loop.end
+
+end.ai-core.loop
+
+# ================================================================
+# END OF SENTINEL AI-CORE
+# ================================================================
