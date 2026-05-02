@@ -1,0 +1,23 @@
+Now Sentinel uses this for all mercwar repos
+In your Sentinel bootstrap (pseudo‑C):
+
+c
+SenRepoGraph graph;
+SenRepoBindingTable all;
+
+sentinel_init("./", &graph);
+sentinel_bindings_all_init(&all);
+
+/* Robot can now: */
+SenRepoBinding cyborg;
+sentinel_bindings_all_find_by_name(&all, "Cyborg", &cyborg);
+/* then sentinel_binding_resolve_directory(graph, cyborg, …) if you wire that in */
+If you want, next step I can give you a tiny AVIS script like:
+
+txt
+begin.sentinel.boot
+    sentinel.init."./"
+    sentinel.bind."ALL"
+    sentinel.learn.order."CORE,LANGUAGE,TOOLING,EXAMPLE,EXPERIMENT"
+end.sentinel.boot
+so the robot knows in which order to walk those mercwar repos.
