@@ -18,11 +18,19 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: "JOE-TRON :: Make sitemap.sh executable"
-        run: chmod +x ./sitemap.sh
-
-      - name: "JOE-TRON :: Run sitemap.sh"
-        run: ./sitemap.sh
+      - name: "JOE-TRON :: Execute Sitemap Script"
+        run: |
+          # Use ${GITHUB_WORKSPACE} to ensure we are in the repository root
+          cd ${GITHUB_WORKSPACE}
+          
+          if [ -f "./sitemap.sh" ]; then
+            chmod +x ./sitemap.sh
+            ./sitemap.sh
+          else
+            echo "::error::JOE-TRON FATAL: sitemap.sh NOT FOUND at $(pwd)"
+            ls -R # List files to debug if it fails again
+            exit 1
+          fi
 
       - name: "JOE-TRON :: Commit & Push"
         run: |
