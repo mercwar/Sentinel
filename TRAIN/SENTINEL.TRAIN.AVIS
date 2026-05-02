@@ -1,0 +1,24 @@
+# FILE: SENTINEL.TRAIN.AVIS
+# ================================================================
+# SENTINEL TRAINING SEQUENCE (AVIS-LAW)
+#
+# PURPOSE:
+#   Robots execute this after boot to:
+#       - walk repos in traversal order
+#       - scan files in search order
+#       - build an internal knowledge map
+# ================================================================
+
+begin.sentinel.train
+
+    step.001."sentinel.train.begin()"
+    step.002."sentinel.train.walk.traversal()"
+    step.003."sentinel.train.scan.search()"
+    step.004."sentinel.train.commit()"
+    step.005."sentinel.train.ready()"
+
+end.sentinel.train
+
+# ================================================================
+# END OF SENTINEL.TRAIN.AVIS
+# ================================================================
