@@ -35,4 +35,3 @@ done
 # 4. Close the tag
 echo '</urlset>' >> $OUTPUT_FILE
 
-echo "[AVIS-BOT] Sitemap Strike Complete: $OUTPUT_FILE saved. HAHA!" >> "$LOG"
