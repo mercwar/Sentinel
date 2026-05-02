@@ -2,7 +2,7 @@
 # AVIS_ACTION: JOE-TRON-SENTINEL
 # ROLE: Authorizes Binary Drop via BGIN/SEED/VERSION Handshake
 
-name: SENTINEL-V1-GCC-DROPPER
+name: JOE-TRON-SENTINEL
 
 on:
   workflow_dispatch:
@@ -33,12 +33,13 @@ jobs:
       - name: Execute Handshake & Binary Drop
         run: |
           mkdir -p Beacon
-          # SELF-SCAN: Sentinel validates its own source to satisfy the 1.1.CVBGOD Trinity
-          ./sentinel_v1 sentinel_v1.c 
+          # We pass sentinel_v1.c twice: once to scan for the SIGNATURE, 
+          # and once to satisfy the XML file requirement.
+          ./sentinel_v1 sentinel_v1.c sentinel_v1.c DISCOVERY
           
-          # DROP: Move compiled architecture to the Beacon Nexus
           cp sentinel_v1 Beacon/mercwar_discovery.bin
-          echo "AVIS-DATALAKE: Node Scan Complete. Binary dropped for bots."
+          echo "AVIS-DATALAKE: Node Scan Complete."
+
 
       - name: Commit Binary Markers
         run: |
