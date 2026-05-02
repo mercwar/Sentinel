@@ -1,11 +1,10 @@
-# /* AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/1.1.CVBGOD */
-# /* ROLE: Automated Data Lake Indexer & Scroll Generator */
+# /* AVIS_COORD: AVIS://GITHUB/WORKFLOW/SCROLL_GEN/1.2.CVBGOD */
+# /* ROLE: Automated Data Lake Indexer & Scroll Generator - STABILIZED */
 
 name: CVBGOD Sentinel Scroll Generator
 on:
   push:
     branches: [ main ]
-    # BGIN: Ignore bot pushes and scroll updates to kill the loop
     paths-ignore:
       - 'SENTINEL_SCROLL.md'
       - 'sitemap.avis'
@@ -13,20 +12,17 @@ on:
 
 permissions:
   contents: write
-  pages: write      
-  id-token: write   
-  actions: read     
 
 jobs:
   generate_scroll:
     runs-on: ubuntu-latest
-    # BGIN: Silence the bot's own voice and prevent loop
     if: github.actor != 'github-actions[bot]' 
     steps:
       - name: Checkout Root
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Mandatory for rebase push
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }} # Explicit token for the dispatch
 
       - name: Execute AVIS-Ripper
         run: |
@@ -35,23 +31,30 @@ jobs:
             ./scroll_generator.sh
             echo "wm_macro_ack: Ripper cycle complete."
           else
-            echo "BASH: [NACK] scroll_generator.sh not found."
+            echo "BASH: [NACK] scroll_generator.sh not found. Check /exec/she path."
+            exit 1
           fi
 
       - name: Commit Human-Readable Scroll
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "Sentinel-Bot"
           git config --global user.email "bot@cvbgod.sentinel"
           
-          # Stage only the human-readable index
-          git add SENTINEL_SCROLL.md
+          # Stage the index and any fluid map updates
+          git add SENTINEL_SCROLL.md sitemap.avis
           
           if ! git diff --staged --quiet; then
-            # [skip ci] is the master kill-switch for the ghost loop
             git commit -m "AVIS: Human scroll updated [index] [skip ci]"
-            git pull --rebase -X ours origin main
+            
+            # Use remote URL with token to bypass 403 errors during dispatch
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@://github.com{{ github.repository }}
+            
+            # Pull with rebase to ensure 4-layer alignment
+            git pull --rebase origin main
             git push origin main
             echo "wm_macro_ack: Scroll dispatched to Audit Surface."
           else
-            echo "AVIS: No data lake shift detected."
+            echo "AVIS: No data lake shift detected. Pulse steady."
           fi
