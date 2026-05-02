@@ -2,9 +2,13 @@
     sentinel_bindings_all.h
 
     PURPOSE:
-        Binding table for ALL public mercwar repositories.
-        This is the single source of truth Sentinel uses to
-        teach robots how to navigate the full constellation.
+        Universal binding table for ALL public mercwar repositories.
+        Sentinel uses this to:
+            - enumerate repos
+            - classify repos
+            - resolve repo roots
+            - teach robots how to navigate the constellation
+            - teach robots how to return to Sentinel
 */
 
 #ifndef SENTINEL_BINDINGS_ALL_H
@@ -18,16 +22,16 @@ extern "C" {
 
 typedef enum SenRepoType {
     SEN_REPO_TYPE_UNKNOWN = 0,
-    SEN_REPO_TYPE_CORE,      /* core engines (AVIS, NEXUS, etc.) */
-    SEN_REPO_TYPE_LANGUAGE,  /* CYBORG, AVIS-eV, etc. */
-    SEN_REPO_TYPE_TOOLING,   /* tools, utilities */
-    SEN_REPO_TYPE_EXAMPLE,   /* demos, samples */
-    SEN_REPO_TYPE_EXPERIMENT /* experimental / lab */
+    SEN_REPO_TYPE_CORE,       /* AVIS, NEXUS, etc. */
+    SEN_REPO_TYPE_LANGUAGE,   /* CYBORG, AVIS-eV, etc. */
+    SEN_REPO_TYPE_TOOLING,    /* tools, utilities */
+    SEN_REPO_TYPE_EXAMPLE,    /* demos, samples */
+    SEN_REPO_TYPE_EXPERIMENT  /* experimental */
 } SenRepoType;
 
 typedef struct SenRepoBinding {
-    SenString   name;       /* GitHub repo name, e.g. "Cyborg" */
-    SenString   root_path;  /* local checkout path, e.g. "Cyborg/" */
+    SenString   name;       /* GitHub repo name */
+    SenString   root_path;  /* local checkout path */
     SenRepoType type;
 } SenRepoBinding;
 
