@@ -1,28 +1,22 @@
 /*
     sentinel_api.h
 
-    UNIFIED PUBLIC API FOR:
-        - Boot
-        - Training
-        - Robot protocol
-        - Self-search
-        - Autoscan
-        - Memory graph
-        - AI reasoning
-        - AI-CORE decisions
-        - Sentinel Prime
-        - Sentinel Overmind
+    Unified public API for all Sentinel systems.
+    Matches sentinel_api.c exactly.
 */
 
+#ifndef SENTINEL_API_H
+#define SENTINEL_API_H
+
 /* -------------------------------------------------------------
-   Core Sentinel types (from existing headers)
+   Core Types
    ------------------------------------------------------------- */
 
-typedef int           SenBool;
-typedef int           SenStatus;
+typedef int SenBool;
+typedef int SenStatus;
 
-#define SEN_TRUE      1
-#define SEN_FALSE     0
+#define SEN_TRUE   1
+#define SEN_FALSE  0
 
 #define SEN_STATUS_OK                        0
 #define SEN_STATUS_ERROR_INVALID_ARGUMENT   -1
@@ -34,7 +28,9 @@ typedef struct SenString {
 } SenString;
 
 typedef struct SenDirectory SenDirectory;
+typedef struct SentinelContext SentinelContext;
 
+/* Repo types */
 typedef enum SenRepoType {
     SEN_REPO_TYPE_UNKNOWN = 0,
     SEN_REPO_TYPE_CORE,
@@ -44,11 +40,8 @@ typedef enum SenRepoType {
     SEN_REPO_TYPE_EXPERIMENT
 } SenRepoType;
 
-/* Forward declarations for context types */
-typedef struct SentinelContext SentinelContext;
-
 /* -------------------------------------------------------------
-   Boot + Robot Protocol
+   Boot
    ------------------------------------------------------------- */
 
 typedef struct SentinelBoot {
@@ -59,7 +52,9 @@ typedef struct SentinelBoot {
 SenStatus sentinel_boot_system(SentinelBoot* boot, const char* repo_root);
 void      sentinel_shutdown_system(SentinelBoot* boot);
 
-/* Robot protocol */
+/* -------------------------------------------------------------
+   Robot Protocol
+   ------------------------------------------------------------- */
 
 typedef struct SentinelRobotProtocol {
     const char** traversal;
@@ -81,8 +76,6 @@ SenStatus sentinel_robot_locate(SentinelContext* ctx,
 SenStatus sentinel_robot_return_home(SentinelContext* ctx,
                                      SenDirectory** out_dir);
 
-/* Navigation helpers (assumed from nav engine) */
-
 SenStatus sentinel_get_traversal_order(SentinelContext* ctx,
                                        const char*** out_names,
                                        int* out_count);
@@ -96,7 +89,7 @@ SenStatus sentinel_resolve_repo(SentinelContext* ctx,
                                 SenDirectory** out_dir);
 
 /* -------------------------------------------------------------
-   Training / Knowledge
+   Training
    ------------------------------------------------------------- */
 
 typedef struct SentinelKnowledgeRepo {
@@ -124,7 +117,7 @@ SenStatus sentinel_train_commit(SentinelBoot* boot,
                                 SentinelKnowledge* knowledge);
 
 /* -------------------------------------------------------------
-   Self-search
+   Self-Search
    ------------------------------------------------------------- */
 
 typedef struct SentinelSelfSearchPattern {
@@ -188,8 +181,6 @@ SenStatus sentinel_graph_add_edge(SenGraph* graph,
 
 void      sentinel_graph_free(SenGraph* graph);
 
-/* Graph builder for mercwar constellation */
-
 SenStatus sentinel_graph_build(SenGraph* graph);
 
 /* -------------------------------------------------------------
@@ -208,7 +199,7 @@ SenStatus sentinel_ai_optimize_traversal(SentinelAI* ai, SenGraph* graph);
 SenStatus sentinel_ai_selfheal(SentinelAI* ai, SenGraph* graph);
 
 /* -------------------------------------------------------------
-   AI-CORE Decision Engine
+   AI-CORE
    ------------------------------------------------------------- */
 
 typedef enum SenAIAction {
@@ -239,7 +230,7 @@ SenStatus  sentinel_aicore_execute(SentinelAICore* core,
                                    SentinelKnowledge* knowledge);
 
 /* -------------------------------------------------------------
-   Sentinel Prime (Unified Engine)
+   Sentinel Prime
    ------------------------------------------------------------- */
 
 typedef struct SentinelPrime {
@@ -257,7 +248,7 @@ SenStatus sentinel_prime_activate(SentinelPrime* prime,
 SenStatus sentinel_prime_loop(SentinelPrime* prime);
 
 /* -------------------------------------------------------------
-   Sentinel Overmind (Multi-agent)
+   Sentinel Overmind
    ------------------------------------------------------------- */
 
 typedef struct SentinelMicro {
@@ -283,3 +274,5 @@ SenStatus sentinel_overmind_collective_decide(SentinelOvermind* om,
 
 SenStatus sentinel_overmind_collective_execute(SentinelOvermind* om,
                                                SenAIAction action);
+
+#endif /* SENTINEL_API_H */
