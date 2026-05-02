@@ -1,0 +1,3 @@
+SentinelContext ctx;
+sentinel_boot(&ctx, "./");
+/* walk traversal order, learn each repo, then idle at Sentinel */
