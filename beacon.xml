@@ -1,0 +1,3 @@
+<AVIS>
+  <node id="DISCOVERY" path="echo 'HANDSHAKE_COMPLETE_CYBORG_ACTIVE'" />
+</AVIS>
