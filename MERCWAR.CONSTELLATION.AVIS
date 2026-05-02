@@ -1,0 +1,122 @@
+# FILE: MERCWAR.CONSTELLATION.AVIS
+# ================================================================
+# MERCWAR CONSTELLATION MAP (AVIS-LAW)
+#
+# PURPOSE:
+#   Sentinel uses this map to teach robots:
+#       - the full mercwar repo list
+#       - repo classification
+#       - traversal order
+#       - search order
+#       - navigation rules
+#       - return-home logic
+#
+# ================================================================
+
+
+begin.repos
+
+    # -------------------------
+    # AVIS & SYSTEM INTERFACES
+    # -------------------------
+    repo."AVIS-DATALAKE"          type.CORE        priority.001
+    repo."AVIS"                   type.CORE        priority.002
+    repo."AVIS-ALERT-FVS"         type.CORE        priority.003
+    repo."AVIS-AI-INI-DIR-MK-SCAN" type.TOOLING    priority.004
+    repo."CYHY-CMT"               type.CORE        priority.005
+
+    # -------------------------
+    # FIRE-GEM & CORE AI TOOLS
+    # -------------------------
+    repo."Fire-Gem"               type.CORE        priority.006
+    repo."Dark-Com"               type.CORE        priority.007
+    repo."Sentinel"               type.CORE        priority.008
+    repo."NEXUS"                  type.CORE        priority.009
+
+    # -------------------------
+    # ROBO-KNIGHT TECHNOLOGY
+    # -------------------------
+    repo."Robo-Knight-Gallery"    type.LANGUAGE    priority.010
+    repo."Robo-Knight-Player"     type.LANGUAGE    priority.011
+    repo."Robo-Knight-Demos"      type.LANGUAGE    priority.012
+    repo."robo-knight-inventory"  type.LANGUAGE    priority.013
+
+    # -------------------------
+    # SHELLS, CONSOLES & EXPLORATION
+    # -------------------------
+    repo."CVBGODLY-CONSOLE"       type.TOOLING     priority.014
+    repo."CYBORG-PROJECT-EXPLORER" type.TOOLING    priority.015
+    repo."Cyborg"                 type.LANGUAGE    priority.016
+    repo."JMC-ANDROID-APP-DEMO"   type.EXAMPLE     priority.017
+    repo."mercwar"                type.CORE        priority.018
+
+end.repos
+
+
+# ------------------------------------------------
+# TRAVERSAL ORDER (robots walk repos in this order)
+# ------------------------------------------------
+begin.traversal.order
+    step.001."AVIS-DATALAKE"
+    step.002."AVIS"
+    step.003."AVIS-ALERT-FVS"
+    step.004."AVIS-AI-INI-DIR-MK-SCAN"
+    step.005."CYHY-CMT"
+    step.006."Fire-Gem"
+    step.007."Dark-Com"
+    step.008."Sentinel"
+    step.009."NEXUS"
+    step.010."Robo-Knight-Gallery"
+    step.011."Robo-Knight-Player"
+    step.012."Robo-Knight-Demos"
+    step.013."robo-knight-inventory"
+    step.014."CVBGODLY-CONSOLE"
+    step.015."CYBORG-PROJECT-EXPLORER"
+    step.016."Cyborg"
+    step.017."JMC-ANDROID-APP-DEMO"
+    step.018."mercwar"
+end.traversal.order
+
+
+# ------------------------------------------------
+# SEARCH ORDER (robots search each repo with these patterns)
+# ------------------------------------------------
+begin.search.order
+    search."**/*.h"
+    search."**/*.c"
+    search."**/*.meta"
+    search."**/*.map"
+    search."**/*.ini"
+    search."**/*.json"
+    search."**/*.txt"
+end.search.order
+
+
+# ------------------------------------------------
+# ROBOT NAVIGATION RULES
+# ------------------------------------------------
+begin.robot.navigation
+
+    rule.001."Always load MERCWAR.CONSTELLATION.AVIS before scanning."
+    rule.002."Follow traversal.order strictly."
+    rule.003."For each repo: apply search.order patterns."
+    rule.004."Record file hits into SentinelKnowledge."
+    rule.005."If path resolution fails: return.home."
+    rule.006."If repo missing: skip and continue traversal."
+    rule.007."If robot becomes lost: return.home then retry."
+
+end.robot.navigation
+
+
+# ------------------------------------------------
+# RETURN-HOME LOGIC
+# ------------------------------------------------
+begin.return.home
+    home."./"                # Sentinel root
+    fallback."./Sentinel/"   # Secondary root
+end.return.home
+
+
+# ================================================================
+# END OF MERCWAR CONSTELLATION MAP
+# ================================================================
