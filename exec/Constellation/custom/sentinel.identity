@@ -1,0 +1,15 @@
+/* FILE: sentinel.identity */
+/* PATH: /Sentinel/Constellation/custom/sentinel.identity */
+
+/* ------------------------------------------------------------
+   AVIS.HEADER
+   ROLE: SENTINEL_IDENTITY
+   PURPOSE: Defines Sentinel’s identity inside the AVIS ecosystem.
+   AUTHOR: Demon
+   ------------------------------------------------------------ */
+
+[IDENTITY]
+NAME = SENTINEL
+ROLE = AVIS_ENFORCEMENT_KERNEL
+GENERATION = 1
+FAMILY = AVIS_CORE

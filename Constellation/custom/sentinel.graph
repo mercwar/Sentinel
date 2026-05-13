@@ -1,0 +1,25 @@
+/* FILE: sentinel.graph */
+/* PATH: /Sentinel/Constellation/custom/sentinel.graph */
+
+/* ------------------------------------------------------------
+   AVIS.HEADER
+   ROLE: SENTINEL_GRAPH_MAP
+   PURPOSE: Defines Sentinel’s internal navigation graph for
+            Constellation robots.
+   AUTHOR: Demon
+   NOTES: This graph is unique to Sentinel.
+   ------------------------------------------------------------ */
+
+[GRAPH]
+NODE:ROOT = /Sentinel/
+NODE:KERNEL = /Sentinel/kernel/
+NODE:BOOT = /Sentinel/boot/
+NODE:MEMORY = /Sentinel/memory/
+NODE:GRAPH = /Sentinel/graph/
+
+[LINKS]
+ROOT -> KERNEL
+KERNEL -> BOOT
+BOOT -> MEMORY
+MEMORY -> GRAPH
+GRAPH -> ROOT

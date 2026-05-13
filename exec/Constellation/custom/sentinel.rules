@@ -1,0 +1,23 @@
+/* FILE: sentinel.rules */
+/* PATH: /Sentinel/Constellation/custom/sentinel.rules */
+
+/* ------------------------------------------------------------
+   AVIS.HEADER
+   ROLE: SENTINEL_RULESET
+   PURPOSE: Sentinel-specific Constellation override rules.
+   AUTHOR: Demon
+   NOTES: These rules override universal behavior ONLY for
+          the Sentinel repo.
+   ------------------------------------------------------------ */
+
+[RULES]
+ENFORCE_SECURITY = TRUE
+STRICT_VERSIONING = TRUE
+ALLOW_FUTURE_VERSIONS = TRUE
+SCAN_MODE = DEEP
+REDUCE_MODE = AGGRESSIVE
+VALIDATION_LEVEL = MAXIMUM
+
+[BEHAVIOR]
+PRIORITIZE_GRAPH = TRUE
+PRIORITIZE_METADATA = TRUE
