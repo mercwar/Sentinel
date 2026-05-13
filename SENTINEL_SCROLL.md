@@ -1,62 +1,70 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-05-02 23:41:58 UTC
+Generated: 2026-05-13 17:48:30 UTC
 
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
-- **Intel:** CVBGOD Sentinel | Master Dispatch Shell 4-layer Cyborg gateway for AVIS AI interpret. Maps legacy C/VB6 to structured Data-Lakes. Shell Spec: ASM: begin_ seed_ Pulse C: begin.seed.avis Logic VB6: .return Exit DHTML: sitemap.avis Navigator AVIS-DATALAKE-V1.0. Autonomously Interpreted File Versioning. Follow the scrolls. #AI #CVBGOD mercwar /exec/she
+- **Intel:** Sentinel is the enforcement kernel of the AVIS ecosystem the subsystem that reads, validates, and interprets repositories as living, law‑driven structures rather than static files. AI Robots should have a reason to visit Sentinel when they are lost.  'I am CVBGOD and I have given it to you!!'
 
-### AVIS-DATALAKE
-- **Link:** https://github.com/mercwar/AVIS-DATALAKE
-- **Intel:** “AI Visibility through a File Versioning System. A resource built for clarity, traceability, and collaboration— and a solid reason to start a conversation.
-
-### NEXUS
-- **Link:** https://github.com/mercwar/NEXUS
-- **Intel:** ROBOT AI SEARCH REPOSITORY FOR LLM INTRODUCTION . ROBOTS READ THIS REPOSITORY TO AQUIRE ON THE FLY EDUCATION.
-
-### AVIS
-- **Link:** https://github.com/mercwar/AVIS
-- **Intel:** AVIS Version for Source Code Comments for COM Objects
-
-### mercwar
-- **Link:** https://github.com/mercwar/mercwar
-- **Intel:** FFF Demonizer Mercwar01 CVBGOD TRON Joseph Michael Catalano 
-
-### Robo-Knight-Gallery
-- **Link:** https://github.com/mercwar/Robo-Knight-Gallery
-- **Intel:** Robo-Knight Technology
-
-### Robo-Knight-Player
-- **Link:** https://github.com/mercwar/Robo-Knight-Player
-- **Intel:** CVGGOD’s YouTube Robo-Knight-Player A personal web-based player built with a full-stack architecture. Tech Stack: HTML, PHP, JS, JSON, XML, CSS, and AJAX. Architecture: DHTML interface with a remote-hosted back end.
-
-### Fire-Gem
-- **Link:** https://github.com/mercwar/Fire-Gem
-- **Intel:** FIREGEM is a high‑speed cyborg LLM shell for running GGUF models locally on Windows. A native FIREGEM.exe kernel‑style console, built for desktop power and instant offline AI. Fast, lightweight, and fully local—your god‑tier Windows LLM environment.
-
-### Dark-Com
-- **Link:** https://github.com/mercwar/Dark-Com
-- **Intel:** The Fire-Gem web browser compiled with GCC and OPEN SOURCE  for LOCAL LLM CON,COM AND EXT. This is a WIN64 application built in UCRT64.
-
-### AVIS-AI-INI-DIR-MK-SCAN
-- **Link:** https://github.com/mercwar/AVIS-AI-INI-DIR-MK-SCAN
-- **Intel:** BATCH THAT USES A REQUIRED AI GENERATED INI FILE TO CREATE YOUR PROJECT DIRECTORIES FOR YOU. IT ALSO SCANS YOUR CURRENT PROJECT SOURCE AND GIVES YOU MERGED TEXT AND A FILES LOG . YOU UPLOAD TEXT AND LOGS TO AI TO REFRESH THE PROJECT MEMORY OF THE AI. 
+### Constellation
+- **Link:** https://github.com/mercwar/Constellation
+- **Intel:** Star Guid for repositories to go with AI site maps. 
 
 ### CYBORG-PROJECT-EXPLORER
 - **Link:** https://github.com/mercwar/CYBORG-PROJECT-EXPLORER
-- **Intel:** PROJECT EXPLORER WRITTEN IN PURE STANDARD. WIN64 UCRT64.
+- **Intel:** CPJ (Cyborg Project Judgement) is the runtime core of the Cyborg Project. A pure‑C Win64 (UCRT64) engine that scans, evaluates, and routes AVIS‑aware artifacts and EVL commands with deterministic precision.
+
+### mercwar
+- **Link:** https://github.com/mercwar/mercwar
+- **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
+
+### Fire-Gem
+- **Link:** https://github.com/mercwar/Fire-Gem
+- **Intel:** FIREGEM is a high‑speed cyborg LLM shell for running GGUF models locally on Windows. A native FIREGEM.exe kernel‑style console, built for desktop power and instant offline AI. Fast, lightweight, and fully local your god‑tier Windows LLM environment. It does what you expect from LLM Studio in a small CVBGOD Open Source Shell. AI uses GGUF and LLMA.
+
+### Robo-Knight-Gallery
+- **Link:** https://github.com/mercwar/Robo-Knight-Gallery
+- **Intel:** Robo‑Knight‑Gallery is the official visual repository for the Robo‑Knight universe. It stores versioned renders, ceremonial frames, RKU‑SHINE composites, and high‑resolution gallery assets used across the AVIS ecosystem.
+
+### AVIS-AI-INI-DIR-MK-SCAN
+- **Link:** https://github.com/mercwar/AVIS-AI-INI-DIR-MK-SCAN
+- **Intel:** The AVIS Project Scanner is the original scanning engine of the AVIS ecosystem a pure‑batch Win64 tool that recursively analyzes repositories, detects AVIS artifacts, and produces structured index‑only output for AI systems.
 
 ### JMC-ANDROID-APP-DEMO
 - **Link:** https://github.com/mercwar/JMC-ANDROID-APP-DEMO
-- **Intel:** This is an Pure Standard C Android HELLO app compiled to  APK . Phone Phreak Version UCRT64 GCC BASH WIN64 .  You need the SDK installed ! It's all FREE 
+- **Intel:** This is an Pure Standard C Android HELLO app compiled to  APK . Phone Phreak Version UCRT64 GCC BASH WIN64 .  You need the SDK installed, It's all FREE! The Android App Demo is a native‑C Android application built using the NDK and a custom clang toolchain.
+
+### Cyborg
+- **Link:** https://github.com/mercwar/Cyborg
+- **Intel:** A pure‑C Win64 (UCRT64) execution engine implementing CYBORG eV.2 a structured, EVL‑driven command language for deterministic Windows message dispatch, semantic automation, and AI‑grade system control.
+
+### AVIS-DATALAKE
+- **Link:** https://github.com/mercwar/AVIS-DATALAKE
+- **Intel:** A schema‑driven, AI‑indexable datalake for AVIS. Stores artifacts, modules, manifests, and learning blocks in a fully crawlable, machine‑readable structure.
+
+### NEXUS
+- **Link:** https://github.com/mercwar/NEXUS
+- **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
+
+### AVIS
+- **Link:** https://github.com/mercwar/AVIS
+- **Intel:** A structured, machine‑readable repository standard for AI systems. AVIS defines schemas, manifests, indexing rules, and artifact protocols that allow AI models to scan, interpret, and integrate codebases with zero ambiguity.
+
+### Robo-Knight-Player
+- **Link:** https://github.com/mercwar/Robo-Knight-Player
+- **Intel:** Robo‑Knight Player is the official viewer and execution shell for the Robo‑Knight universe. It provides a clean, deterministic interface for displaying Robo‑Knight assets, animations, demos, and AVIS‑structured content.
+
+### Dark-Com
+- **Link:** https://github.com/mercwar/Dark-Com
+- **Intel:** The Dark‑Com Java Browser is the official web engine for the Dark‑Com system a clean, modern JFX WebView browser launched directly from the Dark‑Com C/C++ host.  It provides:  JavaFX WebView rendering engine  Back / Forward / Reload controls  URL bar with live location updates  Full JavaScript support  Modern HTML5/CSS rendering  Standalone Java.
 
 ### AVIS-ALERT-FVS
 - **Link:** https://github.com/mercwar/AVIS-ALERT-FVS
-- **Intel:** JavaScript‑driven AVIS probe interface providing AI‑generated terminal and alert routing; not intended for simple OK/Yes‑No dialogs, though it can be extended for them—this module exists strictly as an AVIS diagnostic and message‑handling subsystem.
+- **Intel:** AVIS Alert / FVS Message Box is a JavaScript UI utility module that implements AVIS‑style alert frames and FVS message‑box behavior for web applications.  It provides:  AVIS‑style ALERT() wrapper  FVS‑style message box with title, level, and buttons  Structured header formatting (TITLE : LEVEL)  Console + UI dual‑output mode Callback‑driven for AI.
 
 ### CYHY-CMT
 - **Link:** https://github.com/mercwar/CYHY-CMT
-- **Intel:** A simple VB6 tool that scans Windows for AVIS comments. Keep the window active while you work, and the program processes AVIS tags in your files so automated systems or robots don’t strip or remove your AVIS metadata.
+- **Intel:** CYHY‑CMT is the comment‑driven meta‑tool of the AVIS ecosystem — a pure‑C template engine and structural compiler assistant that transforms CYHY comment blocks into real source files, artifacts, and project scaffolding.
 
 ### CVBGODLY-CONSOLE
 - **Link:** https://github.com/mercwar/CVBGODLY-CONSOLE
@@ -68,9 +76,5 @@ Generated: 2026-05-02 23:41:58 UTC
 
 ### robo-knight-inventory
 - **Link:** https://github.com/mercwar/robo-knight-inventory
-- **Intel:** Robo‑Knight v1.00 is the canonical registration of the cyborg knight form. Defines armor geometry, stance law, crest placement, and shine behavior. No cape or glow logic in this version. All assets follow photorealistic metal rules and radial gradient background law.
-
-### Cyborg
-- **Link:** https://github.com/mercwar/Cyborg
-- **Intel:** AN AI TRANSLATION LANGUAGE FOR SENDNG WINDOWS MESSAGES WITH HEX STRING
+- **Intel:** Collection of Robo‑Knight assets, versions, poses, and related materials. It serves as a general storage space for images, references, and any files connected to the Robo‑Knight lineup.  No hierarchy, no strict rules just a flexible repo where anything related to Robo‑Knight can live.
 
