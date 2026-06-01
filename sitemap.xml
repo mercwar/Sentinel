@@ -1,400 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CVBGOD.YML.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.avis_raw_buffer</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/REG_MSGBOX.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/MSGBOX.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/MASTER_CONVERT.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/MASTER.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/REG_SEED.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/RETURN.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/WIN_MAIN.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/BEGIN.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/SEED_EXE.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/BEGIN_INI.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/MASTER_COMBINE.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/AVIS_LEGACY.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/SEED_EXEC.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/BEGIN_ADO.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/SEED.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/SEED/SEED_EXEC.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/SEED/SEED_EXE.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/SEED/SEED.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/SEED/KB/REG_SEED.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/BEGIN.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/BEGIN_ADO.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/BEGIN_EXE.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/MASTER/MASTER_COMBINE.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/MASTER/MASTER_CONVERT.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/MASTER/MASTER.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/END.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/KB.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/REG_MSGBOX.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/DISPATCH.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/MSGBOX.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/ERR.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/REG_MSGBOX_EXE.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/BEGIN_INI.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/AVIS_LEGACY.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/RETURN.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/RETURN_EXE.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/WIN_MAIN.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/CY_ENGINE.log</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AI_AVIS_FVS.ppx</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/AVIS_LEGACY.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/INT_ENUM.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/SEED/SEED.H</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/SEED/KB/REG_SEED.H</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/SEED/SEED_EXEC.H</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/BEGIN_INI.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/BEGIN_INI.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/BEGIN_ADO.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/BEGIN.H</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/MASTER/MASTER.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/MASTER/MASTER_CONVERT.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/MASTER/MASTER.H</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/MASTER/MASTER_COMBINE.H</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/KB/ERR.H</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/KB/REG_MSGBOX.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/KB/MSGBOX.H</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/WIN_MAIN.H</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/RETURN.H</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AI_AVIS_FVS.exe</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AI_AVIS_FVS.ppj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AI_AVIS_FVS.tag</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AVIS_LOG.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/DEV_RES/AVIS_PRJ_SCAN.INI</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_shadow_net.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/NULL</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_shadow_map.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_payload_manifest.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_auto_purge.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/hygiene_lock.log</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_swarm_dispatch.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/GLOBAL.COMMAND</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_graph_builder.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/src/matrix_drive.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_COORD:</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/Readme.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/fire-unzip.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/MASSIVE-AUTOMATION-CORE.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/Sentinal-Linux.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/Sentinal-Constructor.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/fire-dir.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/Sentinel-Linux-Shell.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/SENTINEL-FORGE-COMPILER.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/SITE-MAP.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel-v1.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/ULTIMATE-CORE-AI-ROBOT-SHELL.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel_scroll.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel_handshake.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/fire-gem-portal-info.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/ULTIMATE-CORE-AI-ROBOT-NET-ex1</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/MASSIVE-AI-CORE-NET-STACK.YML</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinal-GCC-AI-Core.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel_v1_03.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel.h</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_bindings_all.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_robot_protocol.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/repair_log.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/google77a4b19e8f99751c.html</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/REPOS.SCROLL</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/OVERMIND/SENTINEL.OVERMIND.AVIS</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/commit_msg.tmp</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/index.js</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/SENTINEL_SCROLL.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AIFVS_COSOLE_VB6GOD.zip</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/robots.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel-commit.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/global_vector_init.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSTELLATION.SEAL</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/.avis_gateway_buffer</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_graph.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_v1.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/workspaces/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/index.dhtml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/ack_xor_sitemap.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/TRAIN/SENTINEL.TRAIN.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_aicore.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_ai.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.fire-gem</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS.zip</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/REPOS.SCROLL</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CVBGOD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel-deb/DEBIAN/control</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/MAPS/SENTINEL.CONSTELLATION.MAP</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/_config.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_boot.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_train.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_v2_kern</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/LICENSE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_graph.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_prime.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/MERCWAR.CONSTELLATION.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/build-sentinel.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/avis_test_output.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sh/sentinel_sync_bots.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sh/README.MD</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sh/CVBGOD/sweep_probe.sh</loc>
@@ -403,151 +28,43 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/sh/CVBGOD/GIT_PULL_FIX.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/scroll_generator.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sh/sentinel_sync_bots.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_boot.SCROLL</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_train.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.gitattributes</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_graph_builder.c</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sh/README.MD</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/BOOT.TRAIN.SCROLL</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/avis/Global_Sitemap.avis</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.avis</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_selfsearch.h</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.xml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/CONFIG_ROOT.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_fluid.pl</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/LOG/ACK_AI_OP.LOG</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CVBGOD.YML.AVIS</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/SCAN_DIR.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION-1/CVBGOD.CVBGOD</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN_EXEC.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/avis_reader.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI.tmp</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MAPS/SENTINEL.CONSTELLATION.MAP</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/CONFIG_PATH.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/LICENSE</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/midi/JP-YGATC.mid</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_REM_DRV.BAT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI.bak</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/LOG_CONFIG.BAT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/CREATE_STRUCT.BAT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/LOAD_CONFIG.BAT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/SAVE_LOG.BAT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/BAK_CONFIG.BAT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/SCAN_FILE.BAT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/BGIN_VERIFICATION_v1.1.log</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_nav.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_bindings_all.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/sentinel_xml_parser.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/rkd_shell_ripper.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/cyborg_scroll_gen.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/bgin_probe.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/kernel_entry.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/sentinel_sitemap_ingest.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/repair_sentinel.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_robot_protocol.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Prime.SCROLL</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel-pkg/DEBIAN/control</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VB6/sentinel_mirror.bas</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_autoscan.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Readme.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_autobuild.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_linker.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_reduce.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/ROBOT.boot</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/PUBLISH.index</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_reduce.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/CONSTELLATION.index</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/AVIS.publish.schema</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_publisher.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation.c</loc>
@@ -556,592 +73,166 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/AVIS.datalake</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_linker.c</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/new%202constellation_autobuild.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_publisher.c</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_linker.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/AVIS.schema</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/ROBOT.boot</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/sentinel.zip</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/PUBLISH.index</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/sentinel.rules</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/sentinel.identity</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/sentinel.version</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/sentinel.graph</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/CVBGOD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_publisher.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_validator.h</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_autobuild.h</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/new%201constellation_validator.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/new%202constellation_autobuild.h</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_validator.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CMakeLists.txt</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/AVIS.schema</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/index.js</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_reduce.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/becon.xml</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/sentinel.rules</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/BGIN_SWEEP.log</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/sentinel.graph</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_pulse_emitter.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/sentinel.zip</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-push-exec.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/CVBGOD</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bin/bgin_mem_scan.o</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/sentinel.version</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bin/bgin_gate</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/custom/sentinel.identity</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_monitor.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/CONSTELLATION.index</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/commit_msg.tmp</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_publisher.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_net_pulse.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/AVIS.publish.schema</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_random.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/README.md</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-commit.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_reduce.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_jump_gate.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Constellation/constellation_linker.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_signal.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_selfsearch.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_mem_scan.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.avis_raw_buffer</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-object.bgin</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/scroll_generator.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-sitemap.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/ack_xor_sitemap.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-nav.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/beacon.xml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/scroll_generator.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_train.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/avis-gen.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.fire-gem-target</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-end.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/TRAIN/SENTINEL.TRAIN.AVIS</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_probe.c</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/Readme.md</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/asm_install.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/ULTIMATE-CORE-AI-ROBOT-NET-ex1</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-root.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/fire-unzip.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/SOURCE/bgin_mem_scan.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel-v1.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/SOURCE/bgin_command_hub.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/Sentinel-Linux-Shell.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/avis-print.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/ULTIMATE-CORE-AI-ROBOT-SHELL.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_gate.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/fire-gem-portal-info.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-object-gen.bgin</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/Sentinal-Constructor.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_auth_gate.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/Sentinal-Linux.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-mod.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel_scroll.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_event_log.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinal-GCC-AI-Core.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_obfuscate.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/fire-dir.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-source-exec.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/MASSIVE-AUTOMATION-CORE.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_mailbox.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/SITE-MAP.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_verify.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/MASSIVE-AI-CORE-NET-STACK.YML</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_pulse_clock.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel_v1_03.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/asm_install.bk</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/sentinel_handshake.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_proc_scan.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.github/workflows/SENTINEL-FORGE-COMPILER.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_file_watch.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/robots.txt</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/avis-gen.json</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_ai.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_remote_log.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/PRIME/SENTINEL.PRIME.AVIS</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis-gen.JSON</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/processor.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/loader.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/parse_replace.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis_capture.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/clipboard.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/.raw_buffer</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis-gen.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis_history.log</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis_escape_map.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/fire_navigator.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/TEST_FILE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/.clean.tmp</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/avis-gen.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/bgin_audit.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-ubuntu-install.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-mz_reflector.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-ipcmk.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-build.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-gem.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-binutils.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/sentinel-chmod.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-mz_reflector-key1.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-bash.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-full_peek.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-mz_reflector-key.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/mz_boreland_loader.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-debug_gem.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-ipcs.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-sentinel_v2.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-clear-mon.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-new-file.raw</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fine-bgin-pulse-auth.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/startup_pulse.php</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/test_pulse.php</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-jobs.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_portal.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/pulse.raw</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_portal.php</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel-dashboard.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-clip.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_app.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_dashboard.php</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-mon.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-display.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-gem-v2.1.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel-app.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/debug_gem.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-new-file.raw</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/bash-kernel-gcc.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.02/SPEC/sentinel_template.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/.avis_raw_buffer</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_core.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_pulse.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_v2.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen-v2.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-push-exec.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-gem</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/commit_msg.tmp</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-commit.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-object-html.bgin</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen-v3.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/pulse.raw</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-gem.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-object.bgin</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-sitemap.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/setup_env.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-nav.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-end.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-gem-v2.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-root.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-chmod.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/fire-gem/massive_deploy.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/sentinel_v2.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/reflector.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/sentinel_v2.asm_bk</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/sentinel_univ.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/current_sentinel</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/mz_reflector</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-print.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-end.bak</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-source.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-mod.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/mz_reflector.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_monitor.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-source-exec.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/debug_gem.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen-v4.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/commit_msg.tmp</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/repo/conf/distributions</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/Readme.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/readme.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.scroll.bk</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/avis.bgin</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/commit_msg.tmp</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/pulse.raw</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.o</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/template.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/avis-html.bgin</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/avis-asm.bgin</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.scroll</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/php.bgin</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-template.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-push-exec.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/commit_msg.tmp</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-commit.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-object-html.bgin</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-object.bgin</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-sitemap.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-nav.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/avis-gen.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-end.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-root.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/avis-print.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-mod.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-source-exec.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/avis-gen.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.0/SOURCE/begin_probe.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/AVIS/sitemap.avis</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/AVIS/bgin.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/.TMP</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/sitemap.sh%20VERSION/v1.01/sh/fire_navigator.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/scroll_generator.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/sitemap.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/fire_navigator.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/sentinel_commit.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/SOURCE/bgin_probe.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/SPEC/sentinel_template.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v2.0/AI/UI/TABS/PHASE2/EDU/TAB_EDU_SEED_MERGER.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v2.0/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/AVIS/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/AVIS/avis_escape_map.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/AVIS/sitemap.avis</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/tools/avis_gen.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/sh/scroll_generator.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_graph_builder.h</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/sh/sitemap.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/sh/scroll_generator.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/sh/fire_navigator.sh</loc>
@@ -1156,52 +247,124 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/SPEC/sentinel_template.json</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/AVIS/sitemap.avis</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/AVIS/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/AVIS/avis_escape_map.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.03/tools/avis_gen.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fine-bgin-pulse-auth.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-clip.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/startup_pulse.php</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel-app.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_portal.php</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_portal.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/test_pulse.php</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-gem-v2.1.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-new-file.raw</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-mon.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel-dashboard.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-jobs.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/fire-bash-display.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/debug_gem.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_dashboard.php</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/pulse.raw</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/fire-gem/sentinel_app.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.1/bash-kernel-gcc.sh</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.04/asm_install.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/AVIS/phantom_lock.log</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.0/SOURCE/begin_probe.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/AVIS/os_shard_map.avis</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/v105_archipelago_sync.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_os_fuser.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_kernel_fuser.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_cmd_listen.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_phantom_exec.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_scheduler.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_boot.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_fuser.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_os_finalize.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_kernel_entry.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_syscall.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_relay.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_page_guard.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_phantom_exec.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_os_finalize.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_pulse_eraser.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_secure_outbox.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_boot.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_swarm_sync.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_os_rebuild.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_pulse_eraser.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_scheduler.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_kernel_entry.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_fuser.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_cmd_listen.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_syscall.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_cloak.asm</loc>
@@ -1210,112 +373,886 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_parser.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_os_fuser.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_os_rebuild.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_bot_relay.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/AVIS/phantom_lock.log</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/SOURCE/bgin_secure_outbox.asm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/AVIS/os_shard_map.avis</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/1.05/v105_archipelago_sync.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis_capture.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis_history.log</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_aicore.h</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis-gen.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/processor.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/parse_replace.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/.raw_buffer</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis-gen.JSON</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/loader.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/clipboard.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/fire_navigator.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/avis_escape_map.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v0.01/TEST_FILE</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_monitor.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_pulse_clock.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_probe.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/asm_install.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/avis-print.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/asm_install.bk</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_gate.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_jump_gate.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/scroll_generator.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_obfuscate.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_mailbox.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/avis-gen.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_mem_scan.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/avis-gen.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-end.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/SOURCE/bgin_command_hub.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/SOURCE/bgin_mem_scan.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_auth_gate.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/commit_msg.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_proc_scan.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-push-exec.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-object-gen.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_verify.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-commit.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-nav.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-object.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-source-exec.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-mod.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_event_log.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_remote_log.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/fire-root.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/sentinel-sitemap.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_signal.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bin/bgin_mem_scan.o</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bin/bgin_gate</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_pulse_emitter.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_net_pulse.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_file_watch.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.04/bgin_random.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-ubuntu-install.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-full_peek.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-clear-mon.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-binutils.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-mz_reflector.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-build.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-mz_reflector-key1.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-new-file.raw</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-debug_gem.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-ipcmk.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-sentinel_v2.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-ipcs.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-gem.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/bash-mz_reflector-key.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/mz_boreland_loader.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/sentinel-chmod.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0.1/fire-bash.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/.clean.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v2.0/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v2.0/AI/UI/TABS/PHASE2/EDU/TAB_EDU_SEED_MERGER.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/sitemap.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/scroll_generator.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/sitemap.sh%20VERSION/v1.01/sh/fire_navigator.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/sentinel_commit.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/.TMP</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/sh/fire_navigator.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/SOURCE/bgin_probe.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/SPEC/sentinel_template.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/AVIS/sitemap.avis</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/AVIS/bgin.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/avis-gen.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.05/bgin_audit.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.02/SPEC/sentinel_template.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/repo/conf/distributions</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen-v2.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_v2.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen-v4.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-gem-v2.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-print.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen-v3.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/.avis_raw_buffer</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-gem</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/current_sentinel</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/fire-gem/massive_deploy.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/sentinel_v2.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/sentinel_v2.asm_bk</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/reflector.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/VERSION/2.0/AI/bgin-avis/sentinel_univ.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/mz_reflector</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_core.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/avis-gen.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-end.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/commit_msg.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-source.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/mz_reflector.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-push-exec.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/setup_env.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-commit.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-nav.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-object.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-source-exec.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-mod.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_pulse.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/debug_gem.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-root.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-sitemap.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-gem.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/fire-end.bak</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-chmod.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/pulse.raw</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel_monitor.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem/sentinel-object-html.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/commit_msg.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/Readme.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/avis-print.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/avis-gen.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/avis-gen.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-end.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/commit_msg.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-push-exec.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-commit.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-nav.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-object.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-source-exec.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-mod.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/fire-root.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-sitemap.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-bk/sentinel-object-html.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/fire-gem-template.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/avis-asm.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/php.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.scroll.bk</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/commit_msg.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/avis.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/avis-html.bgin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/template.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.scroll</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/pulse.raw</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/bgin-avis/sentinel_v2.o</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/2.0/AI/readme.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/ROBOT.SELFSEARCH.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_COORD:</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_api.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_overmind.c</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/full_peek.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/google77a4b19e8f99751c.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/index.dhtml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/SENTINEL_SCROLL.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/GLOBAL.COMMAND</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/public.asc</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_autoscan.c</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CVBGOD.AVIS</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/REG_MSGBOX.obj</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_nav.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/MSGBOX.obj</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_overmind.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/RETURN_EXE.obj</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/PRIME.DIRECTIVE</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/BEGIN.obj</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/avis_test_output.txt</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/CONFIG_ROOT.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/hygiene_lock.log</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/LOG/ACK_AI_OP.LOG</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_shadow_map.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/SCAN_DIR.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_swarm_dispatch.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN_EXEC.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_auto_purge.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_shadow_net.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI.tmp</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/NULL</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/CONFIG_PATH.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MEMORY_VOID/bgin_payload_manifest.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/AVIS_REM_DRV.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_graph_builder.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI.bak</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel-pkg/DEBIAN/control</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/LOG_CONFIG.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_autoscan.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/CREATE_STRUCT.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/src/matrix_drive.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/LOAD_CONFIG.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AI_AVIS_FVS.ppj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/SAVE_LOG.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/CY_ENGINE.log</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/BAK_CONFIG.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AI_AVIS_FVS.exe</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/SCAN_FILE.BAT</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/DEV_RES/AVIS_PRJ_SCAN.INI</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/BEGIN_ADO.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/MSGBOX.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/BEGIN_INI.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/MASTER_CONVERT.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/WIN_MAIN.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/AVIS_LEGACY.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/MASTER_COMBINE.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/SEED_EXE.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/SEED_EXEC.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/MASTER.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/REG_MSGBOX.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/RETURN.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/REG_SEED.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/BEGIN.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/output/SEED.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/SEED/KB/REG_SEED.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/SEED/SEED_EXE.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/SEED/SEED.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/SEED/SEED_EXEC.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/BEGIN.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/AVIS_LEGACY.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/DISPATCH.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/END.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/REG_MSGBOX_EXE.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/MSGBOX.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/ERR.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/REG_MSGBOX.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/KB/KB.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/BEGIN_ADO.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/MASTER/MASTER_CONVERT.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/MASTER/MASTER_COMBINE.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/MASTER/MASTER.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/BEGIN_INI.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/BEGIN/BEGIN_EXE.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/RETURN_EXE.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/WIN_MAIN.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/SOURCE/RETURN.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AVIS_LOG.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AI_AVIS_FVS.tag</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/AI_AVIS_FVS.ppx</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/INT_ENUM.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/SEED/KB/REG_SEED.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/SEED/SEED.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/SEED/SEED_EXEC.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/BEGIN.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/KB/REG_MSGBOX.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/KB/MSGBOX.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/KB/ERR.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/BEGIN_INI.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/MASTER/MASTER_COMBINE.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/MASTER/MASTER.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/MASTER/MASTER.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/MASTER/MASTER_CONVERT.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/BEGIN_INI.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/BEGIN/BEGIN_ADO.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/AVIS_LEGACY.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/WIN_MAIN.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04/INCLUDE/RETURN.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_graph.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_overmind.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Sentinel.zip</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/repair_log.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/ROBOT/ROBOT.AUTOSCAN.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/repair_sentinel.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/bgin_probe.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/sentinel_sitemap_ingest.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/sentinel_xml_parser.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/rkd_shell_ripper.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/kernel_entry.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/SOURCE/cyborg_scroll_gen.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/commit_msg.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04.zip</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/LOAD_CONFIG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/LOG/ACK_AI_OP.LOG</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/CREATE_STRUCT.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/midi/JP-YGATC.mid</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_REM_DRV.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/SCAN_DIR.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/LOG_CONFIG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/SAVE_LOG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/CONFIG_PATH.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI.bak</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/CONFIG_ROOT.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN_EXEC.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/BAK_CONFIG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_PRJ_SCAN/SCAN_FILE.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/avis/Global_Sitemap.avis</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.fvs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_boot.SCROLL</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Beacon/mercwar_discovery.bin</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_api.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel-commit.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_boot.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/VB6/sentinel_mirror.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/becon.xml</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN.BAT</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AI_AVIS_FVS.ppj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/CY_ENGINE.log</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/RETURN_EXE.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/MSGBOX.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/REG_MSGBOX.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/output/BEGIN.obj</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/BEGIN.C</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/BEGIN_EXE.C</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/DISPATCH.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/END.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/KB.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/REG_MSGBOX.C</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/DISPATCH.c</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/REG_MSGBOX_EXE.C</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/MSGBOX.C</loc>
@@ -1324,10 +1261,13 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/ERR.C</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/REG_MSGBOX_EXE.C</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/REG_MSGBOX.C</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/RETURN.C</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/KB/KB.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/BEGIN/BEGIN_EXE.C</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/RETURN_EXE.C</loc>
@@ -1336,7 +1276,61 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/WIN_MAIN.C</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/CY_ENGINE.log</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/SOURCE/RETURN.C</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/LOAD_CONFIG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/LOG/ACK_AI_OP.LOG</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/CREATE_STRUCT.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/AVIS_REM_DRV.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI.tmp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/SCAN_DIR.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/LOG_CONFIG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/SAVE_LOG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/CONFIG_PATH.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN.INI.bak</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/CONFIG_ROOT.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/AVIS_PRJ_SCAN_EXEC.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/BAK_CONFIG.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN/SCAN_FILE.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN_v1-06.zip</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_LOG.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AI_AVIS_FVS.tag</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AI_AVIS_FVS.ppx</loc>
@@ -1345,13 +1339,13 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/INCLUDE/BEGIN/BEGIN.H</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/INCLUDE/BEGIN/KB/ERR.H</loc>
-  </url>
-  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/INCLUDE/BEGIN/KB/REG_MSGBOX.h</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/INCLUDE/BEGIN/KB/MSGBOX.H</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/INCLUDE/BEGIN/KB/ERR.H</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/INCLUDE/WIN_MAIN.H</loc>
@@ -1360,70 +1354,40 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/INCLUDE/RETURN.H</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AI_AVIS_FVS.ppj</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/fire-mod.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AI_AVIS_FVS.tag</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_LOG.txt</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/frmAIFVSConsole.frm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS/AVIS_PRJ_SCAN_v1-06.zip</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/frmEmbeddedConsole.frm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/full_peek.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_bindings_all.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSTELLATION.SEAL</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION-1/CVBGOD.CVBGOD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS_v1.04.zip</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Sentinel.zip</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.avis</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/ROBOT.SELFSEARCH.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_nav.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_prime.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_fluid.pl</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/index.css</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/ROBOT/ROBOT.AUTOSCAN.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_CONSOLE.vbp</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AVIS_DRIVE</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/modEmbeddedConsole.bas</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/ModPopupMenu.bas</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/FRMNavigator.frm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_CONSOLE_VB6GOD.vbp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/frmAIFVSConsole.frx</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/filelist_G_PROGRAMS.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_CONSOLE.vbw</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AVIS_DRIVE</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/VB6-COPY.bat</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/FRMNavigator.frx</loc>
@@ -1444,76 +1408,31 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/VB6COPY/avis_vb6_export.bat</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/frmAIFVSConsole.frm</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_DOSShell.cls</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/modEmbeddedConsole.bas</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/console_monitor.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/filelist_G_PROGRAMS.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/ModNAVPOPUP.bas</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/frmEmbeddedConsole.frm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_CONSOLE.vbw</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_CONSOLE.vbp</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_CONSOLE_VB6GOD.vbw</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/modConCleaner.bas</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/frmAIFVSConsole.frx</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/VB6-COPY.bat</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_CONSOLE_VB6GOD.vbp</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/filelist_G_PROGRAMS.BAT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/clsClipControls.cls</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_DOSShell.cls</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/App</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/modEmbeddedConsole.text</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/ModNAVPOPUP.text</loc>
-  </url>
-  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/AIFVS_CONSOLE_NEW.text</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/AIFVS_CONSOLE.text</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/frmEmbeddedConsole.text</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/FRMNavigator.text</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/AIFVS_DOSShell.text</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/AIFVS_CONSOLE.text</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/frmAIFVSConsole.text</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/modConCleaner.text</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/FRMNavigator.text</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/ModPopupMenu.text</loc>
@@ -1522,127 +1441,49 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/clsClipControls.text</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/modConCleaner.text</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/frmEmbeddedConsole.text</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.fvs</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/ModNAVPOPUP.text</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/README.md</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/TEXT/modEmbeddedConsole.text</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/README.md</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/ModNAVPOPUP.bas</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/README.md</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/filelist_G_PROGRAMS.txt</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/asm-mz-train.TAB</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/console_monitor.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/TAB1.TAB</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/modConCleaner.bas</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/Kernel-train.TAB</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/clsClipControls.cls</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/JSON%20AVIS%20GEN.TAB</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/App</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/install-train.TAB</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/FRMNavigator.frm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/AI.OBJECT.TOPIC.EDU</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_graph.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE4.EDU</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_boot.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE2.EDU</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/_config.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/AI.OBJECT.AVIS.BGIN.EDU</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Readme.md</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE1.EDU</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE3.EDU</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_NEURAL_BOTTLENECK_ANALYZER.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_MEMORY_CONTENTION_SYNC_DISCIPLINE.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_PULSE_SYNC_TRAINER.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_FIRE_GEM_OFFSET_TUTOR.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_GRAPH_NORMALIZER.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_AI_COMMENT_TRAINING.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_GPG_SEAL_INTEGRITY_SCHOOL.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_AI_SELF_AWARENESS.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_FINAL_INTEGRATION_PROTOCOL.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/ROBOT.AI-CORE.START.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/ROBOT.AI.START.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/SENTINEL.AI-CORE.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/SENTINEL.AI.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/BOOT/SENTINEL.BOOT.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Readme.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_autobuild.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_linker.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_reduce.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/ROBOT.boot</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/PUBLISH.index</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_reduce.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/CONSTELLATION.index</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/AVIS.publish.schema</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_publisher.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation.c</loc>
@@ -1651,87 +1492,246 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/AVIS.datalake</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_linker.c</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/new%202constellation_autobuild.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_publisher.c</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_linker.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/AVIS.schema</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/ROBOT.boot</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/sentinel.zip</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/PUBLISH.index</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/sentinel.rules</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/sentinel.identity</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/sentinel.version</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/sentinel.graph</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/CVBGOD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_publisher.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_validator.h</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_autobuild.h</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/new%201constellation_validator.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/new%202constellation_autobuild.h</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_validator.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/AVIS.schema</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_reduce.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/sentinel.rules</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/sentinel.graph</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/sentinel.zip</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/CVBGOD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/sentinel.version</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/custom/sentinel.identity</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/CONSTELLATION.index</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_publisher.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/AVIS.publish.schema</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_reduce.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Constellation/constellation_linker.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/exec/Readme.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/build-sentinel.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.fire-gem</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/MERCWAR.CONSTELLATION.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_robot_protocol.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AIFVS_COSOLE_VB6GOD.zip</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_ai.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/PRIME.DIRECTIVE</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/GRAPH/SENTINEL.MEMORYGRAPH.AVIS</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/fire-mod.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Prime.SCROLL</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/avis_reader.sh</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS.zip</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/.fire-gem-target</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/global_vector_init.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/PRIME/SENTINEL.PRIME.AVIS</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_prime.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/beacon.xml</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.gitattributes</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_boot.h</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/workspaces/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_api.c</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_train.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_prime.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_aicore.h</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_selfsearch.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/Beacon/mercwar_discovery.bin</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_v1.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_overmind.h</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/BGIN_SWEEP.log</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/GRAPH/SENTINEL.MEMORYGRAPH.AVIS</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_aicore.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/sitemap.xml</loc>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/BOOT/SENTINEL.BOOT.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_nav.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/BGIN_VERIFICATION_v1.1.log</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_autoscan.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel-deb/DEBIAN/control</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_bindings_all.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/index.css</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/ROBOT.AI-CORE.START.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/SENTINEL.AI.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/SENTINEL.AI-CORE.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/ROBOT.AI.START.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE2.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/AI.OBJECT.TOPIC.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_GPG_SEAL_INTEGRITY_SCHOOL.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_AI_SELF_AWARENESS.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_GRAPH_NORMALIZER.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_SEED_MERGER.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_AI_COMMENT_TRAINING.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_FINAL_INTEGRATION_PROTOCOL.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_PULSE_SYNC_TRAINER.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_FIRE_GEM_OFFSET_TUTOR.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_NEURAL_BOTTLENECK_ANALYZER.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/EDU/TAB_EDU_MEMORY_CONTENTION_SYNC_DISCIPLINE.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE4.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE1.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/AI.OBJECT.AVIS.BGIN.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_2/CORE.PAGE3.EDU</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/install-train.TAB</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/asm-mz-train.TAB</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/Kernel-train.TAB</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/TAB1.TAB</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/PHASE_1/JSON%20AVIS%20GEN.TAB</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/TABS/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/UI/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/AI/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/CMakeLists.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_v2_kern</loc>
   </url>
 </urlset>
