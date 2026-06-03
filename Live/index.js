@@ -1,7 +1,7 @@
 // --- CONFIG: point this at your repo ---
 const CONFIG = {
   owner: "mercwar",
-  repo: "Sentinel",
+  repo: "Nexus",
   branch: "main"
 };
 
