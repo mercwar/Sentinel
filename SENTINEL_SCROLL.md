@@ -1,6 +1,6 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-06-03 03:35:13 UTC
+Generated: 2026-06-03 03:43:45 UTC
 
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
@@ -9,6 +9,14 @@ Generated: 2026-06-03 03:35:13 UTC
 ### NEXUS
 - **Link:** https://github.com/mercwar/NEXUS
 - **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
+
+### Robo-Knight-Demos
+- **Link:** https://github.com/mercwar/Robo-Knight-Demos
+- **Intel:** ai Robo-Knight-Demos : Browse Artwork & DX Demos
+
+### Robo-Knight-Player
+- **Link:** https://github.com/mercwar/Robo-Knight-Player
+- **Intel:** Robo‑Knight Player is the official viewer and execution shell for the Robo‑Knight universe. It provides a clean, deterministic interface for displaying Robo‑Knight assets, animations, demos, and AVIS‑structured content.
 
 ### Cyborg
 - **Link:** https://github.com/mercwar/Cyborg
@@ -49,14 +57,6 @@ Generated: 2026-06-03 03:35:13 UTC
 ### AVIS
 - **Link:** https://github.com/mercwar/AVIS
 - **Intel:** A structured, machine‑readable repository standard for AI systems. AVIS defines schemas, manifests, indexing rules, and artifact protocols that allow AI models to scan, interpret, and integrate codebases with zero ambiguity.
-
-### Robo-Knight-Player
-- **Link:** https://github.com/mercwar/Robo-Knight-Player
-- **Intel:** Robo‑Knight Player is the official viewer and execution shell for the Robo‑Knight universe. It provides a clean, deterministic interface for displaying Robo‑Knight assets, animations, demos, and AVIS‑structured content.
-
-### Robo-Knight-Demos
-- **Link:** https://github.com/mercwar/Robo-Knight-Demos
-- **Intel:** ai Robo-Knight-Demos : Browse Artwork & DX Demos
 
 ### CVBGODLY-CONSOLE
 - **Link:** https://github.com/mercwar/CVBGODLY-CONSOLE
