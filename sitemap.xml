@@ -4,6 +4,18 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_bindings_all.c</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Live/index.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Live/banner.png</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Live/CVBGOD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/Live/index.css</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_robot_protocol.c</loc>
   </url>
   <url>
@@ -859,9 +871,6 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/index.dhtml</loc>
-  </url>
-  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/SENTINEL_SCROLL.md</loc>
   </url>
   <url>
@@ -878,6 +887,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_overmind.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/cvbgod</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/PRIME.DIRECTIVE</loc>
@@ -1586,6 +1598,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI_AVIS_FVS.zip</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/index.html</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/global_vector_init.sh</loc>
