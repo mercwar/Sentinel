@@ -1,10 +1,18 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-06-03 04:14:24 UTC
+Generated: 2026-06-04 09:35:46 UTC
 
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
 - **Intel:** Sentinel is the enforcement kernel of the AVIS ecosystem the subsystem that reads, validates, and interprets repositories as living, law‑driven structures rather than static files. AI Robots should have a reason to visit Sentinel when they are lost.  'I am CVBGOD and I have given it to you!!'
+
+### Constellation
+- **Link:** https://github.com/mercwar/Constellation
+- **Intel:** A lightweight, high‑speed orchestration framework for distributed services. Constellation links modular nodes into a fault‑tolerant, event‑driven cluster with low latency, high throughput, and clean extensibility—built for bots, automation, and systems that demand scale.
+
+### mercwar
+- **Link:** https://github.com/mercwar/mercwar
+- **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
 
 ### Robo-Knight-Player
 - **Link:** https://github.com/mercwar/Robo-Knight-Player
@@ -66,15 +74,7 @@ Generated: 2026-06-03 04:14:24 UTC
 - **Link:** https://github.com/mercwar/Robo-Knight-Demos
 - **Intel:** ai Robo-Knight-Demos : Browse Artwork & DX Demos
 
-### Constellation
-- **Link:** https://github.com/mercwar/Constellation
-- **Intel:** A lightweight, high‑speed orchestration framework for distributed services. Constellation links modular nodes into a fault‑tolerant, event‑driven cluster with low latency, high throughput, and clean extensibility—built for bots, automation, and systems that demand scale.
-
 ### Robo-Knight-Gallery
 - **Link:** https://github.com/mercwar/Robo-Knight-Gallery
 - **Intel:** Robo‑Knight‑Gallery is the official visual repository for the Robo‑Knight universe. It stores versioned renders, ceremonial frames, RKU‑SHINE composites, and high‑resolution gallery assets used across the AVIS ecosystem.
-
-### mercwar
-- **Link:** https://github.com/mercwar/mercwar
-- **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
 
