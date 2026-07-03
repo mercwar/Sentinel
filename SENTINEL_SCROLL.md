@@ -1,14 +1,18 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-07-03 01:00:35 UTC
-
-### Robo-Knight-Gallery
-- **Link:** https://github.com/mercwar/Robo-Knight-Gallery
-- **Intel:** Robo‑Knight‑Gallery is the official visual repository for the Robo‑Knight universe. It stores versioned renders, ceremonial frames, RKU‑SHINE composites, and high‑resolution gallery assets used across the AVIS ecosystem.
+Generated: 2026-07-03 01:05:35 UTC
 
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
 - **Intel:** Sentinel is the enforcement kernel of the AVIS ecosystem the subsystem that reads, validates, and interprets repositories as living, law‑driven structures rather than static files. AI Robots should have a reason to visit Sentinel when they are lost.  'I am CVBGOD and I have given it to you!!'
+
+### Constellation
+- **Link:** https://github.com/mercwar/Constellation
+- **Intel:** Constellation Gateway has free registration for git up-links .DHTML  framework for navigation. Constellation links modular nodes into a fault‑tolerant, event‑driven cluster for traffic SEO throughput and visibilty. A sidebar on any pc and built for bots, automation. Reach out and register you git.  Visitors will see your git name. It navigates git!
+
+### Robo-Knight-Gallery
+- **Link:** https://github.com/mercwar/Robo-Knight-Gallery
+- **Intel:** Robo‑Knight‑Gallery is the official visual repository for the Robo‑Knight universe. It stores versioned renders, ceremonial frames, RKU‑SHINE composites, and high‑resolution gallery assets used across the AVIS ecosystem.
 
 ### robo-knight-inventory
 - **Link:** https://github.com/mercwar/robo-knight-inventory
@@ -77,10 +81,6 @@ Generated: 2026-07-03 01:00:35 UTC
 ### CVBGODLY-CONSOLE
 - **Link:** https://github.com/mercwar/CVBGODLY-CONSOLE
 - **Intel:** Experience my personal CVBGOD Godly Visual Basic 6 Console. Now fully integrated with a custom Terminal, standard CMD.EXE support, and an exclusive Custom CMD.EXE Terminal interface. Sleek, powerful, and built for ultimate control. Divine technology you can see with your own eyes.
-
-### Constellation
-- **Link:** https://github.com/mercwar/Constellation
-- **Intel:** Constellation Gateway has free registration for git up-links .DHTML  framework for navigation. Constellation links modular nodes into a fault‑tolerant, event‑driven cluster for traffic SEO throughput and visibilty. A sidebar on any pc and built for bots, automation. Reach out and register you git.  Visitors will see your git name. It navigates git!
 
 ### AVIS-DROP
 - **Link:** https://github.com/mercwar/AVIS-DROP
