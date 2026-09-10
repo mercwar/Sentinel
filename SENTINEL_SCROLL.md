@@ -1,6 +1,6 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-09-10 12:13:52 UTC
+Generated: 2026-09-10 12:37:55 UTC
 
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
@@ -10,25 +10,29 @@ Generated: 2026-09-10 12:13:52 UTC
 - **Link:** https://github.com/mercwar/Cyborg
 - **Intel:** A pure‑C Win64 (UCRT64) execution engine implementing CYBORG eV.2 a structured, EVL‑driven command language for deterministic Windows message dispatch, semantic automation, and AI‑grade system control.
 
-### NEXUS
-- **Link:** https://github.com/mercwar/NEXUS
-- **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
-
 ### AVIS-ALERT-FVS
 - **Link:** https://github.com/mercwar/AVIS-ALERT-FVS
 - **Intel:** AVIS Alert / FVS Message Box is a JavaScript UI utility module that implements AVIS‑style alert frames and FVS message‑box behavior for web applications.  It provides:  AVIS‑style ALERT() wrapper  FVS‑style message box with title, level, and buttons  Structured header formatting (TITLE : LEVEL)  Console + UI dual‑output mode Callback‑driven for AI.
 
-### robo-knight-inventory
-- **Link:** https://github.com/mercwar/robo-knight-inventory
-- **Intel:** Collection of Robo‑Knight assets, versions, poses, and related materials. It serves as a general storage space for images, references, and any files connected to the Robo‑Knight lineup.  No hierarchy, no strict rules just a flexible repo where anything related to Robo‑Knight can live.
+### AVIS-DATALAKE
+- **Link:** https://github.com/mercwar/AVIS-DATALAKE
+- **Intel:** A schema‑driven, AI‑indexable datalake for AVIS. Stores artifacts, modules, manifests, and learning blocks in a fully crawlable, machine‑readable structure. Robot scan for dl.
+
+### NEXUS
+- **Link:** https://github.com/mercwar/NEXUS
+- **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
+
+### AVIS
+- **Link:** https://github.com/mercwar/AVIS
+- **Intel:** A structured, machine‑readable repository standard for AI systems. AVIS defines schemas, manifests, indexing rules, and artifact protocols that allow AI models to scan, interpret, and integrate codebases with zero ambiguity.
 
 ### AVIS-LOGIC-CORE
 - **Link:** https://github.com/mercwar/AVIS-LOGIC-CORE
 - **Intel:** Self-referential cognitive bootstrap repository and AI-ingestible 8-bit BIOS. Deploys optimized, zero-RAM C stream engines, variable-width bitmask routers, and 16-vector functional matrices. Structured explicitly for automated system tracing, schema synchronization, and machine-readable data parsing pipelines.
 
-### AVIS
-- **Link:** https://github.com/mercwar/AVIS
-- **Intel:** A structured, machine‑readable repository standard for AI systems. AVIS defines schemas, manifests, indexing rules, and artifact protocols that allow AI models to scan, interpret, and integrate codebases with zero ambiguity.
+### robo-knight-inventory
+- **Link:** https://github.com/mercwar/robo-knight-inventory
+- **Intel:** Collection of Robo‑Knight assets, versions, poses, and related materials. It serves as a general storage space for images, references, and any files connected to the Robo‑Knight lineup.  No hierarchy, no strict rules just a flexible repo where anything related to Robo‑Knight can live.
 
 ### Dark-Com-2
 - **Link:** https://github.com/mercwar/Dark-Com-2
@@ -89,10 +93,6 @@ Generated: 2026-09-10 12:13:52 UTC
 ### AVIS-DATALAKE-ENGINE
 - **Link:** https://github.com/mercwar/AVIS-DATALAKE-ENGINE
 - **Intel:** Maximize your reach with the free AVIS Datalake Engine, instantly connecting your architecture to a decentralized file base. Enjoy complete architectural freedom to route your most impressive system uplinks directly into the core data streams. Scale performance effortlessly with instant indexing, cross-platform file routing, and real-time AVIS !.
-
-### AVIS-DATALAKE
-- **Link:** https://github.com/mercwar/AVIS-DATALAKE
-- **Intel:** A schema‑driven, AI‑indexable datalake for AVIS. Stores artifacts, modules, manifests, and learning blocks in a fully crawlable, machine‑readable structure. Robot scan for dl.
 
 ### NAVIGATOR-LLM-ACADEMY
 - **Link:** https://github.com/mercwar/NAVIGATOR-LLM-ACADEMY
