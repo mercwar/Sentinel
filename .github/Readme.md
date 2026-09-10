@@ -16,6 +16,19 @@
        alt="RoboKnight Dreams"
        style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
 </div>
+# 🛡️ SENTINEL — TELEMETRY & MONITOR GATEWAY
+
+Welcome to the continuous monitoring and logging matrix for the system environment. This repository serves as the diagnostic checkpoint tracking operational stability across all active partitions.
+
+## ⚡ Monitoring Architecture Layer
+
+* **Deterministic Tracing**: Dispatches and isolates exception logs by targeting explicit filesystem coordinates, preventing terminal context errors by completely blocking folder shifting execution methods (`cd`).
+* **Unified Logic Hook**: Integrates telemetry routing definitions directly from `updates/logic_v1_hook.fl` to map warnings cleanly back to the central backend processor.
+* **No External Database Footprints**: Operates as a local, stateless guardian block with zero exposure to external database credential schemas or hardcoded connection profiles.
+
+## 💥 System Objectives
+1. **Error Isolation**: Automatically catches and handles system warning states before pipeline sequences drop.
+2. **Autonomous Readability**: Keeps trace header matrices completely flat, enabling crawling software blocks to parse diagnostic footprints instantly.
 
 ## **Overview**
 **Sentinel** is the **Sovereign Oversight and Verification Subsystem** of the AVIS architecture.  
