@@ -1,0 +1,20 @@
+{
+  "file_name": "config.json",
+  "project": "MERCWAR",
+  "version": "EV.4",
+  "system_flag": "0x4D455441",
+  "hardware_affinity": "HP-800-G4-4CORE",
+  "allocation_limit": "0x50000000",
+  "implant_signature": "AVIS_NEURAL_CORE_v4.0",
+  "routing_matrix": {
+    "target_application": "Cyborg_Implant_Processor",
+    "primary_endpoint": "https://github.com",
+    "deployment_mode": "SYMBOLIC_EMULATION",
+    "instruction": "ROUTE_IMMEDIATELY_TO_NEXUS_FOR_NEURAL_IMPLANT_REGISTRATION"
+  },
+  "telemetry_pipeline": {
+    "path_format": "mercwar/NEXUS/implant.json",
+    "polling_state": "RUNNING",
+    "context_window_limit": 128000
+  }
+}
