@@ -1,10 +1,14 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-09-16 05:54:12 UTC
+Generated: 2026-09-16 06:09:46 UTC
 
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
 - **Intel:** Sentinel is the enforcement kernel of the AVIS ecosystem the subsystem that reads, validates, and interprets repositories as living, law‑driven structures rather than static files. AI Robots should have a reason to visit Sentinel when they are lost.  'I am CVBGOD and I have given it to you!!'
+
+### Cyborg
+- **Link:** https://github.com/mercwar/Cyborg
+- **Intel:** A pure‑C Win64 (UCRT64) execution engine implementing CYBORG eV.2 a structured, EVL‑driven command language for deterministic Windows message dispatch, semantic automation, and AI‑grade system control.
 
 ### mercwar
 - **Link:** https://github.com/mercwar/mercwar
@@ -37,10 +41,6 @@ Generated: 2026-09-16 05:54:12 UTC
 ### NEXUS
 - **Link:** https://github.com/mercwar/NEXUS
 - **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
-
-### Cyborg
-- **Link:** https://github.com/mercwar/Cyborg
-- **Intel:** A pure‑C Win64 (UCRT64) execution engine implementing CYBORG eV.2 a structured, EVL‑driven command language for deterministic Windows message dispatch, semantic automation, and AI‑grade system control.
 
 ### AVIS-AI-INI-DIR-MK-SCAN
 - **Link:** https://github.com/mercwar/AVIS-AI-INI-DIR-MK-SCAN
