@@ -400,6 +400,12 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/CONSOLE/AIFVS_CONSOLE.vbp</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/implant/main.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/implant/avis_implant_core.c</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/index.css</loc>
   </url>
   <url>
@@ -938,6 +944,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/src/core/asm/include/MERCWAR_RESOURCES.INC</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/src/core/asm/ev4_error_check.asm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/src/core/asm/SOVEREIGN_COGNITION.ASM</loc>
