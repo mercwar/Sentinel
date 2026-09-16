@@ -934,7 +934,19 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/MERCWAR.CONSTELLATION.AVIS</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/src/core/asm/include/MERCWAR_RESOURCES.INC</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/src/core/asm/SOVEREIGN_COGNITION.ASM</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/src/system_guard.c</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/src/matrix_drive.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/src/telemetry_dumper.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/AI/ROBOT.AI-CORE.START.AVIS</loc>
@@ -1076,6 +1088,12 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/favi-con.ico</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/bin/telemetry_dumper.exe</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/bin/matrix_drive.exe</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/VERSION/v1.01/SPEC/sentinel_template.json</loc>
