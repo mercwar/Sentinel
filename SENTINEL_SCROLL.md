@@ -1,10 +1,38 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-09-16 09:19:31 UTC
+Generated: 2026-09-26 01:27:05 UTC
 
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
 - **Intel:** Sentinel is the enforcement kernel of the AVIS ecosystem the subsystem that reads, validates, and interprets repositories as living, law‑driven structures rather than static files. AI Robots should have a reason to visit Sentinel when they are lost.  'I am CVBGOD and I have given it to you!!'
+
+### AVIS-DL
+- **Link:** https://github.com/mercwar/AVIS-DL
+- **Intel:** AVIS-DL is AJAX enabled  hosted storage for the AVIS-DATALAKE.  It stores data uploads separating records and artifacts  from other  repositories.  Records and Artifacts are kept live in github pages. Public, and accessible and published instantly !
+
+### Station
+- **Link:** https://github.com/mercwar/Station
+- **Intel:** Cyborg Station unifies MercWar projects into a transparent black‑glass portal. Sections like Hubs, Gates, Users, Data, and Applications display links as glowing long cards. Users access portals, dashboards, and GitHub engines with clarity and cohesion, creating a secure professional command hub.
+
+### Stargate
+- **Link:** https://github.com/mercwar/Stargate
+- **Intel:** Welcome to the ultimate gateway. Stargate is a high-performance, immersive multi-world platform built for seamless digital exploration. Powered by advanced core engineering, it bridges distant tech ecosystems under absolute user control. Analyze data, explore fresh assets, and conquer new frontiers through a clean, telemetry-free interface.
+
+### Quasar
+- **Link:** https://github.com/mercwar/Quasar
+- **Intel:** An advanced Stargate protocol  indexing manifest designed to link distributed data nodes chronologically. It organizes collection targets into a unified registry of local .cyborg coordinate files, powering the DHTML star system visualization engine and anchoring terminal routing pipelines on GitHub Pages.
+
+### NEXUS
+- **Link:** https://github.com/mercwar/NEXUS
+- **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
+
+### Dark-Com-2
+- **Link:** https://github.com/mercwar/Dark-Com-2
+- **Intel:** An Edge WebView2 Architecture Browser in a single‑file C/C++ demo using Win32Api and 64-bit WebView2 libs. It creates a native window, renders web content directly, and uses native windows runtime. for a 1 click exe file. It's a Full working prototyping for spawning the windows  browser into your own custom window.
+
+### Fire-Gem
+- **Link:** https://github.com/mercwar/Fire-Gem
+- **Intel:** FIREGEM is a high‑speed cyborg LLM shell for running GGUF models locally on Windows. A native FIREGEM.exe kernel‑style console, built for desktop power and instant offline AI. Fast, lightweight, and fully local your god‑tier Windows LLM environment. It does what you expect from LLM Studio in a small CVBGOD Open Source Shell. AI uses GGUF and LLMA.
 
 ### Cyborg
 - **Link:** https://github.com/mercwar/Cyborg
@@ -14,33 +42,17 @@ Generated: 2026-09-16 09:19:31 UTC
 - **Link:** https://github.com/mercwar/mercwar
 - **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
 
-### Quasar
-- **Link:** https://github.com/mercwar/Quasar
-- **Intel:** An advanced Stargate protocol  indexing manifest designed to link distributed data nodes chronologically. It organizes collection targets into a unified registry of local .cyborg coordinate files, powering the DHTML star system visualization engine and anchoring terminal routing pipelines on GitHub Pages.
-
-### AVIS-DL
-- **Link:** https://github.com/mercwar/AVIS-DL
-- **Intel:** AVIS-DL is AJAX enabled  hosted storage for the AVIS-DATALAKE.  It stores data uploads separating records and artifacts  from other  repositories.  Records and Artifacts are kept live in github pages. Public, and accessible and published instantly !
+### Constellation
+- **Link:** https://github.com/mercwar/Constellation
+- **Intel:** Constellation Gateway has free registration for git up-links .DHTML  framework for navigation. Constellation links modular nodes into a fault‑tolerant, event‑driven cluster for traffic SEO throughput and visibilty. A sidebar on any pc and built for bots, automation. Reach out and register you git.  Visitors will see your git name. It navigates git!
 
 ### AVIS-DATALAKE
 - **Link:** https://github.com/mercwar/AVIS-DATALAKE
 - **Intel:** A schema‑driven, AI‑indexable datalake for AVIS. Stores artifacts, modules, manifests, and learning blocks in a fully crawlable, machine‑readable structure. Robot scan for dl.
 
-### Constellation
-- **Link:** https://github.com/mercwar/Constellation
-- **Intel:** Constellation Gateway has free registration for git up-links .DHTML  framework for navigation. Constellation links modular nodes into a fault‑tolerant, event‑driven cluster for traffic SEO throughput and visibilty. A sidebar on any pc and built for bots, automation. Reach out and register you git.  Visitors will see your git name. It navigates git!
-
-### Dark-Com-2
-- **Link:** https://github.com/mercwar/Dark-Com-2
-- **Intel:** An Edge WebView2 Architecture Browser in a single‑file C/C++ demo using Win32Api and 64-bit WebView2 libs. It creates a native window, renders web content directly, and uses native windows runtime. for a 1 click exe file. It's a Full working prototyping for spawning the windows  browser into your own custom window.
-
 ### AVIS-DATALAKE-ENGINE
 - **Link:** https://github.com/mercwar/AVIS-DATALAKE-ENGINE
 - **Intel:** Maximize your reach with the free AVIS Datalake Engine, instantly connecting your architecture to a decentralized file base. Enjoy complete architectural freedom to route your most impressive system uplinks directly into the core data streams. Scale performance effortlessly with instant indexing, cross-platform file routing, and real-time AVIS !.
-
-### NEXUS
-- **Link:** https://github.com/mercwar/NEXUS
-- **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
 
 ### AVIS-AI-INI-DIR-MK-SCAN
 - **Link:** https://github.com/mercwar/AVIS-AI-INI-DIR-MK-SCAN
@@ -109,10 +121,6 @@ Generated: 2026-09-16 09:19:31 UTC
 ### Fire-Star-Alpha
 - **Link:** https://github.com/mercwar/Fire-Star-Alpha
 - **Intel:** Free Custom HTML Hosting for Graphical html pages, Create an HTML page in full .
-
-### Fire-Gem
-- **Link:** https://github.com/mercwar/Fire-Gem
-- **Intel:** FIREGEM is a high‑speed cyborg LLM shell for running GGUF models locally on Windows. A native FIREGEM.exe kernel‑style console, built for desktop power and instant offline AI. Fast, lightweight, and fully local your god‑tier Windows LLM environment. It does what you expect from LLM Studio in a small CVBGOD Open Source Shell. AI uses GGUF and LLMA.
 
 ### CYBORG-PROJECT-EXPLORER
 - **Link:** https://github.com/mercwar/CYBORG-PROJECT-EXPLORER
