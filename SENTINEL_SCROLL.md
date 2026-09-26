@@ -1,10 +1,18 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-09-26 01:27:05 UTC
+Generated: 2026-09-26 04:52:26 UTC
 
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
 - **Intel:** Sentinel is the enforcement kernel of the AVIS ecosystem the subsystem that reads, validates, and interprets repositories as living, law‑driven structures rather than static files. AI Robots should have a reason to visit Sentinel when they are lost.  'I am CVBGOD and I have given it to you!!'
+
+### mercwar
+- **Link:** https://github.com/mercwar/mercwar
+- **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
+
+### CYBORG-LIVE-GIT-BROWSER
+- **Link:** https://github.com/mercwar/CYBORG-LIVE-GIT-BROWSER
+- **Intel:** The Official Cyborg live github browser for Mercwar , Free to install and use! Copy the files into your repo, config the json file for your own git settings , and enable your github io for github pages. Then goto roborook.fanclub.rocks and login with your google name, then In your user menu , Register your Git, it will appear in Constellation!
 
 ### AVIS-DL
 - **Link:** https://github.com/mercwar/AVIS-DL
@@ -37,10 +45,6 @@ Generated: 2026-09-26 01:27:05 UTC
 ### Cyborg
 - **Link:** https://github.com/mercwar/Cyborg
 - **Intel:** A pure‑C Win64 (UCRT64) execution engine implementing CYBORG eV.2 a structured, EVL‑driven command language for deterministic Windows message dispatch, semantic automation, and AI‑grade system control.
-
-### mercwar
-- **Link:** https://github.com/mercwar/mercwar
-- **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
 
 ### Constellation
 - **Link:** https://github.com/mercwar/Constellation
@@ -133,10 +137,6 @@ Generated: 2026-09-26 01:27:05 UTC
 ### Dark-Com
 - **Link:** https://github.com/mercwar/Dark-Com
 - **Intel:** The Dark‑Com Java Browser is the official web engine for the Dark‑Com system a clean, modern JFX WebView browser launched directly from the Dark‑Com C/C++ host.  It provides:  JavaFX WebView rendering engine  Back / Forward / Reload controls  URL bar with live location updates  Full JavaScript support  Modern HTML5/CSS rendering  Standalone Java.
-
-### CYBORG-LIVE-GIT-BROWSER
-- **Link:** https://github.com/mercwar/CYBORG-LIVE-GIT-BROWSER
-- **Intel:** The Official Cyborg live github browser for Mercwar , Free to install and use! Copy the files into your repo, config the json file for your own git settings , and enable your github io for github pages. Then goto roborook.fanclub.rocks and login with your google name, then In your user menu , Register your Git, it will appear in Constellation!
 
 ### CRON
 - **Link:** https://github.com/mercwar/CRON
