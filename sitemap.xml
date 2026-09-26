@@ -85,6 +85,15 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/sentinel_boot.SCROLL</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/EV.4/config.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/EV.4/config.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/EV.4/linear_sync.h</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/.fire-gem-target</loc>
   </url>
   <url>
