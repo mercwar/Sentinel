@@ -91,6 +91,9 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/EV.4/engine_core.h</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/EV.4/utils.c</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/EV.4/config.json</loc>
   </url>
   <url>
@@ -425,6 +428,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/OVERMIND/SENTINEL.OVERMIND.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/config.json</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/BGIN_SWEEP.log</loc>
