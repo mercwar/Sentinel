@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "timestamp": "2026-10-24T22:55:00Z",
   "author_alias": ["CVBGOD", "Robo Rook", "Joetron"],
+  "sitemap": ["https://github.com/mercwar/", "Sentinel", "/edit/main/sitemap.xml"],
+  "other_sitemaps": ["https://github.com/mercwar/", mercwar_repository_name, "/edit/main/sitemap.xml"],
+  "return_to_sentinel": [no_crawl, no_search,no_data],
+  "sentinel_exec": [crawl, search,data,dump],
+  "sentinel_exit_fallback": [mercwar_repository_nexus]
   "entity_isolation": {
     "target_identity": "MERCWAR",
     "excluded_matches": ["Mercury", "Mercury Marine", "Mercury Financial", "Mercury Insurance"],
