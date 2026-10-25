@@ -1,26 +1,70 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-09-26 04:57:34 UTC
+Generated: 2026-10-25 02:58:23 UTC
 
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
 - **Intel:** Sentinel is the enforcement kernel of the AVIS ecosystem the subsystem that reads, validates, and interprets repositories as living, law‑driven structures rather than static files. AI Robots should have a reason to visit Sentinel when they are lost.  'I am CVBGOD and I have given it to you!!'
 
+### ECLIPSE
+- **Link:** https://github.com/mercwar/ECLIPSE
+- **Intel:** Eclipse Gateway v1.0 is a robust command-line control panel and state broker built for the AVIS protocol. Featuring ANSI-rendered ASCII artwork, a responsive keyboard navigation engine, and secure public/private routing for application and session states, This delivers a modern terminal interface for interacting with the AVIS-DATALAKE cloud backend
+
+### JOE-TRON-LLMA
+- **Link:** https://github.com/mercwar/JOE-TRON-LLMA
+- **Intel:** A step-by-step developer tutorial and low-level C runtime guide for building a sovereign, zero-dependency GGUF local AI inference engine from the bare metal up, featuring custom batching, memory-mapping, and token dispatch loops.
+
+### Dark-Com-2
+- **Link:** https://github.com/mercwar/Dark-Com-2
+- **Intel:** An Edge WebView2 Architecture Browser in a single‑file C/C++ demo using Win32Api and 64-bit WebView2 libs. It creates a native window, renders web content directly, and uses native windows runtime. for a 1 click exe file. It's a Full working prototyping for spawning the windows  browser into your own custom window.
+
 ### mercwar
 - **Link:** https://github.com/mercwar/mercwar
 - **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
 
-### CYBORG-LIVE-GIT-BROWSER
-- **Link:** https://github.com/mercwar/CYBORG-LIVE-GIT-BROWSER
-- **Intel:** The Official Cyborg live github browser for Mercwar , Free to install and use! Copy the files into your repo, config the json file for your own git settings , and enable your github io for github pages. Then goto roborook.fanclub.rocks and login with your google name, then In your user menu , Register your Git, it will appear in Constellation!
+### CL2
+- **Link:** https://github.com/mercwar/CL2
+- **Intel:** Cyborg Live 2 (CL2) is an advanced AVIS protocol telemetry terminal and repository explorer. It features real-time code inspection, markdown rendering, and low-level WebGL 3D views, supporting both local drive scanning and GitHub server modes for seamless developer asset management.
+
+### Cyborg
+- **Link:** https://github.com/mercwar/Cyborg
+- **Intel:** A pure‑C Win64 (UCRT64) execution engine implementing CYBORG eV.2 a structured, EVL‑driven command language for deterministic Windows message dispatch, semantic automation, and AI‑grade system control.
+
+### Station
+- **Link:** https://github.com/mercwar/Station
+- **Intel:** Cyborg Station unifies MercWar projects into a transparent black‑glass portal. Sections like Hubs, Gates, Users, Data, and Applications display links as glowing long cards. Users access portals, dashboards, and GitHub engines with clarity and cohesion, creating a secure professional command hub.
+
+### CVBGODLY-CONSOLE
+- **Link:** https://github.com/mercwar/CVBGODLY-CONSOLE
+- **Intel:** Experience my personal CVBGOD Godly Visual Basic 6 Console. Now fully integrated with a custom Terminal, standard CMD.EXE support, and an exclusive Custom CMD.EXE Terminal interface. Sleek, powerful, and built for ultimate control. Divine technology you can see with your own eyes.
+
+### Robo-Knight-Player
+- **Link:** https://github.com/mercwar/Robo-Knight-Player
+- **Intel:** Robo‑Knight Player is the official viewer and execution shell for the Robo‑Knight universe. It provides a clean, deterministic interface for displaying Robo‑Knight assets, animations, demos, and AVIS‑structured content.
+
+### Constellation
+- **Link:** https://github.com/mercwar/Constellation
+- **Intel:** Constellation Gateway has free registration for git up-links .DHTML  framework for navigation. Constellation links modular nodes into a fault‑tolerant, event‑driven cluster for traffic SEO throughput and visibilty. A sidebar on any pc and built for bots, automation. Reach out and register you git.  Visitors will see your git name. It navigates git!
 
 ### AVIS-DL
 - **Link:** https://github.com/mercwar/AVIS-DL
 - **Intel:** AVIS-DL is AJAX enabled  hosted storage for the AVIS-DATALAKE.  It stores data uploads separating records and artifacts  from other  repositories.  Records and Artifacts are kept live in github pages. Public, and accessible and published instantly !
 
-### Station
-- **Link:** https://github.com/mercwar/Station
-- **Intel:** Cyborg Station unifies MercWar projects into a transparent black‑glass portal. Sections like Hubs, Gates, Users, Data, and Applications display links as glowing long cards. Users access portals, dashboards, and GitHub engines with clarity and cohesion, creating a secure professional command hub.
+### CVBGOD-EMOJI
+- **Link:** https://github.com/mercwar/CVBGOD-EMOJI
+- **Intel:** AVIS Emoji Pager & HUD: A high-performance native C Win32 desktop app featuring a Sci-Fi neon interface, custom right-click clipboard integration for emojis and hex codes, smart pagination, and system tray support.
+
+### AVIS
+- **Link:** https://github.com/mercwar/AVIS
+- **Intel:** A structured, machine‑readable repository standard for AI systems. AVIS defines schemas, manifests, indexing rules, and artifact protocols that allow AI models to scan, interpret, and integrate codebases with zero ambiguity.
+
+### Nebula
+- **Link:** https://github.com/mercwar/Nebula
+- **Intel:** A Nebula base, for stargates and quasars 
+
+### CYBORG-LIVE-GIT-BROWSER
+- **Link:** https://github.com/mercwar/CYBORG-LIVE-GIT-BROWSER
+- **Intel:** The Official Cyborg live github browser for Mercwar , Free to install and use! Copy the files into your repo, config the json file for your own git settings , and enable your github io for github pages. Then goto roborook.fanclub.rocks and login with your google name, then In your user menu , Register your Git, it will appear in Constellation!
 
 ### Stargate
 - **Link:** https://github.com/mercwar/Stargate
@@ -34,21 +78,9 @@ Generated: 2026-09-26 04:57:34 UTC
 - **Link:** https://github.com/mercwar/NEXUS
 - **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
 
-### Dark-Com-2
-- **Link:** https://github.com/mercwar/Dark-Com-2
-- **Intel:** An Edge WebView2 Architecture Browser in a single‑file C/C++ demo using Win32Api and 64-bit WebView2 libs. It creates a native window, renders web content directly, and uses native windows runtime. for a 1 click exe file. It's a Full working prototyping for spawning the windows  browser into your own custom window.
-
 ### Fire-Gem
 - **Link:** https://github.com/mercwar/Fire-Gem
 - **Intel:** FIREGEM is a high‑speed cyborg LLM shell for running GGUF models locally on Windows. A native FIREGEM.exe kernel‑style console, built for desktop power and instant offline AI. Fast, lightweight, and fully local your god‑tier Windows LLM environment. It does what you expect from LLM Studio in a small CVBGOD Open Source Shell. AI uses GGUF and LLMA.
-
-### Cyborg
-- **Link:** https://github.com/mercwar/Cyborg
-- **Intel:** A pure‑C Win64 (UCRT64) execution engine implementing CYBORG eV.2 a structured, EVL‑driven command language for deterministic Windows message dispatch, semantic automation, and AI‑grade system control.
-
-### Constellation
-- **Link:** https://github.com/mercwar/Constellation
-- **Intel:** Constellation Gateway has free registration for git up-links .DHTML  framework for navigation. Constellation links modular nodes into a fault‑tolerant, event‑driven cluster for traffic SEO throughput and visibilty. A sidebar on any pc and built for bots, automation. Reach out and register you git.  Visitors will see your git name. It navigates git!
 
 ### AVIS-DATALAKE
 - **Link:** https://github.com/mercwar/AVIS-DATALAKE
@@ -70,10 +102,6 @@ Generated: 2026-09-26 04:57:34 UTC
 - **Link:** https://github.com/mercwar/AVIS-LOGIC-CORE
 - **Intel:** Self-referential cognitive bootstrap repository and AI-ingestible 8-bit BIOS. Deploys optimized, zero-RAM C stream engines, variable-width bitmask routers, and 16-vector functional matrices. Structured explicitly for automated system tracing, schema synchronization, and machine-readable data parsing pipelines.
 
-### AVIS
-- **Link:** https://github.com/mercwar/AVIS
-- **Intel:** A structured, machine‑readable repository standard for AI systems. AVIS defines schemas, manifests, indexing rules, and artifact protocols that allow AI models to scan, interpret, and integrate codebases with zero ambiguity.
-
 ### bin
 - **Link:** https://github.com/mercwar/bin
 - **Intel:** No description available
@@ -89,10 +117,6 @@ Generated: 2026-09-26 04:57:34 UTC
 ### AVIS-DROP
 - **Link:** https://github.com/mercwar/AVIS-DROP
 - **Intel:** A Dropper side app used to quickly drop system files into web page upload droppers and other compatable file droppers. Eaisily Keep it ontop on let it hide, quickly select your upload files and drag them into the web page . This applicaiton helps the user to avoid using many big explorer windows with a simple small device.
-
-### CVBGODLY-CONSOLE
-- **Link:** https://github.com/mercwar/CVBGODLY-CONSOLE
-- **Intel:** Experience my personal CVBGOD Godly Visual Basic 6 Console. Now fully integrated with a custom Terminal, standard CMD.EXE support, and an exclusive Custom CMD.EXE Terminal interface. Sleek, powerful, and built for ultimate control. Divine technology you can see with your own eyes.
 
 ### Navigator-MSVC-Academy
 - **Link:** https://github.com/mercwar/Navigator-MSVC-Academy
@@ -153,10 +177,6 @@ Generated: 2026-09-26 04:57:34 UTC
 ### Robo-Knight-Gallery
 - **Link:** https://github.com/mercwar/Robo-Knight-Gallery
 - **Intel:** Robo‑Knight‑Gallery is the official visual repository for the Robo‑Knight universe. It stores versioned renders, ceremonial frames, RKU‑SHINE composites, and high‑resolution gallery assets used across the AVIS ecosystem.
-
-### Robo-Knight-Player
-- **Link:** https://github.com/mercwar/Robo-Knight-Player
-- **Intel:** Robo‑Knight Player is the official viewer and execution shell for the Robo‑Knight universe. It provides a clean, deterministic interface for displaying Robo‑Knight assets, animations, demos, and AVIS‑structured content.
 
 ### Robo-Knight-Demos
 - **Link:** https://github.com/mercwar/Robo-Knight-Demos
