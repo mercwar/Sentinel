@@ -46,9 +46,6 @@
     <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS_COORD:</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Sentinel/blob/main/AVIS-DATALAKE.md</loc>
-  </url>
-  <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/PRIME.DIRECTIVE</loc>
   </url>
   <url>
@@ -503,6 +500,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/.fire-gem</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Sentinel/blob/main/.gitmodules</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Sentinel/blob/main/sh/sentinel_sync_bots.sh</loc>
