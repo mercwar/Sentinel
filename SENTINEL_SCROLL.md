@@ -1,10 +1,18 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-11-20 09:04:36 UTC
+Generated: 2026-11-21 07:32:38 UTC
+
+### Mercwar-AI
+- **Link:** https://github.com/mercwar/Mercwar-AI
+- **Intel:** The Mercwar Ai Digital Signature and Windows 11 Installation Open source collection that gives the Developer the ability to Digitally sign their own software as well as install it on the target device.
 
 ### dc2php
 - **Link:** https://github.com/mercwar/dc2php
 - **Intel:** A command line wrapper for php exe that gives you the ability to macro execution from your local installation of php and execute your own code. This wrapper supports json configs , so you can run a list of php files recursivly that are saves in a json file . This also supports hardcoded print out values, so you can have the php echo data into files
+
+### Navigator-MSVC-Academy
+- **Link:** https://github.com/mercwar/Navigator-MSVC-Academy
+- **Intel:** Navigator MSVC Academy delivers a focused, high‑intensity path through C, WinAPI, MSVC toolchains, and DirectX subsystem routing. It teaches developers to build stable engines, debug low‑level systems, and master AVIS‑driven architecture using CBORD, CYBORG, CYHY, and MERC‑G integration.
 
 ### robo-knight-inventory
 - **Link:** https://github.com/mercwar/robo-knight-inventory
@@ -13,6 +21,30 @@ Generated: 2026-11-20 09:04:36 UTC
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
 - **Intel:** Sentinel is the enforcement kernel of the AVIS ecosystem the subsystem that reads, validates, and interprets repositories as living, law‑driven structures rather than static files. AI Robots should have a reason to visit Sentinel when they are lost.  'I am CVBGOD and I have given it to you!!'
+
+### NEXUS
+- **Link:** https://github.com/mercwar/NEXUS
+- **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
+
+### Cyborg
+- **Link:** https://github.com/mercwar/Cyborg
+- **Intel:** A pure‑C Win64 (UCRT64) execution engine implementing CYBORG eV.2 a structured, EVL‑driven command language for deterministic Windows message dispatch, semantic automation, and AI‑grade system control.
+
+### bin
+- **Link:** https://github.com/mercwar/bin
+- **Intel:** No description available
+
+### AI
+- **Link:** https://github.com/mercwar/AI
+- **Intel:** Build large, multi-file apps in Gemini, ChatGPT, or Claude without hitting token limits or losing track of your code. Mercwar AVIS AI Studio turns any AI chat into a structured coding workspace—organizing your project into lightweight blueprints, generating ready-to-paste setup scripts, and letting you build files one by one with simple slash cmds.
+
+### mercwar
+- **Link:** https://github.com/mercwar/mercwar
+- **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
+
+### AVIS-DATALAKE
+- **Link:** https://github.com/mercwar/AVIS-DATALAKE
+- **Intel:** A schema‑driven, AI‑indexable datalake for AVIS. Stores artifacts, modules, manifests, and learning blocks in a fully crawlable, machine‑readable structure. Robot scan for dl.
 
 ### Fire-Star-Alpha
 - **Link:** https://github.com/mercwar/Fire-Star-Alpha
@@ -61,10 +93,6 @@ Generated: 2026-11-20 09:04:36 UTC
 ### Station
 - **Link:** https://github.com/mercwar/Station
 - **Intel:** Cyborg Station unifies MercWar projects into a transparent black‑glass portal. Sections like Hubs, Gates, Users, Data, and Applications display links as glowing long cards. Users access portals, dashboards, and GitHub engines with clarity and cohesion, creating a secure professional command hub.
-
-### AI
-- **Link:** https://github.com/mercwar/AI
-- **Intel:** Build large, multi-file apps in Gemini, ChatGPT, or Claude without hitting token limits or losing track of your code. Mercwar AVIS AI Studio turns any AI chat into a structured coding workspace—organizing your project into lightweight blueprints, generating ready-to-paste setup scripts, and letting you build files one by one with simple slash cmds.
 
 ### NAVIGATOR-LLM-ACADEMY
 - **Link:** https://github.com/mercwar/NAVIGATOR-LLM-ACADEMY
@@ -166,10 +194,6 @@ Generated: 2026-11-20 09:04:36 UTC
 - **Link:** https://github.com/mercwar/CYBORG-PROJECT-EXPLORER
 - **Intel:** CPJ (Cyborg Project Judgement) is the runtime core of the Cyborg Project. A pure‑C Win64 (UCRT64) engine that scans, evaluates, and routes AVIS‑aware artifacts and EVL commands with deterministic precision.
 
-### mercwar
-- **Link:** https://github.com/mercwar/mercwar
-- **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
-
 ### JOE-TRON-LLMA
 - **Link:** https://github.com/mercwar/JOE-TRON-LLMA
 - **Intel:** A step-by-step developer tutorial and low-level C runtime guide for building a sovereign, zero-dependency GGUF local AI inference engine from the bare metal up, featuring custom batching, memory-mapping, and token dispatch loops.
@@ -185,28 +209,4 @@ Generated: 2026-11-20 09:04:36 UTC
 ### JMC-ANDROID-APP-DEMO
 - **Link:** https://github.com/mercwar/JMC-ANDROID-APP-DEMO
 - **Intel:** This is an Pure Standard C Android HELLO app compiled to  APK . Phone Phreak Version UCRT64 GCC BASH WIN64 .  You need the SDK installed, It's all FREE! The Android App Demo is a native‑C Android application built using the NDK and a custom clang toolchain.
-
-### AVIS-DATALAKE
-- **Link:** https://github.com/mercwar/AVIS-DATALAKE
-- **Intel:** A schema‑driven, AI‑indexable datalake for AVIS. Stores artifacts, modules, manifests, and learning blocks in a fully crawlable, machine‑readable structure. Robot scan for dl.
-
-### NEXUS
-- **Link:** https://github.com/mercwar/NEXUS
-- **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
-
-### Mercwar-AI
-- **Link:** https://github.com/mercwar/Mercwar-AI
-- **Intel:** The Mercwar Ai Digital Signature and Windows 11 Installation Open source collection that gives the Developer the ability to Digitally sign their own software as well as install it on the target device.
-
-### Cyborg
-- **Link:** https://github.com/mercwar/Cyborg
-- **Intel:** A pure‑C Win64 (UCRT64) execution engine implementing CYBORG eV.2 a structured, EVL‑driven command language for deterministic Windows message dispatch, semantic automation, and AI‑grade system control.
-
-### Navigator-MSVC-Academy
-- **Link:** https://github.com/mercwar/Navigator-MSVC-Academy
-- **Intel:** Navigator MSVC Academy delivers a focused, high‑intensity path through C, WinAPI, MSVC toolchains, and DirectX subsystem routing. It teaches developers to build stable engines, debug low‑level systems, and master AVIS‑driven architecture using CBORD, CYBORG, CYHY, and MERC‑G integration.
-
-### bin
-- **Link:** https://github.com/mercwar/bin
-- **Intel:** No description available
 
