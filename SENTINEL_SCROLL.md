@@ -1,14 +1,38 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-11-26 08:47:04 UTC
+Generated: 2026-11-27 08:55:12 UTC
 
 ### Navigator-MSVC-Academy
 - **Link:** https://github.com/mercwar/Navigator-MSVC-Academy
 - **Intel:** Navigator MSVC Academy delivers a focused, high‑intensity path through C, WinAPI, MSVC toolchains, and DirectX subsystem routing. It teaches developers to build stable engines, debug low‑level systems, and master AVIS‑driven architecture using CBORD, CYBORG, CYHY, and MERC‑G integration.
 
+### AI
+- **Link:** https://github.com/mercwar/AI
+- **Intel:** Build large, multi-file apps in Gemini, ChatGPT, or Claude without hitting token limits or losing track of your code. Mercwar AVIS AI Studio turns any AI chat into a structured coding workspace—organizing your project into lightweight blueprints, generating ready-to-paste setup scripts, and letting you build files one by one with simple slash cmds.
+
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
 - **Intel:** Sentinel is the enforcement kernel of the AVIS ecosystem the subsystem that reads, validates, and interprets repositories as living, law‑driven structures rather than static files. AI Robots should have a reason to visit Sentinel when they are lost.  'I am CVBGOD and I have given it to you!!'
+
+### bin
+- **Link:** https://github.com/mercwar/bin
+- **Intel:** No description available
+
+### robo-knight-inventory
+- **Link:** https://github.com/mercwar/robo-knight-inventory
+- **Intel:** Collection of Robo‑Knight assets, versions, poses, and related materials. It serves as a general storage space for images, references, and any files connected to the Robo‑Knight lineup.  No hierarchy, no strict rules just a flexible repo where anything related to Robo‑Knight can live.
+
+### CBORG
+- **Link:** https://github.com/mercwar/CBORG
+- **Intel:** CBORG Editor is a lightning-fast native Windows workspace built for developers, builders, and power users. Browse drives, edit code, navigate functions instantly, launch scripts with one click, and explore projects through a powerful dual-pane interface. Zero install, zero telemetry, zero bloat. Just extract, run, code, and create.
+
+### Genesis
+- **Link:** https://github.com/mercwar/Genesis
+- **Intel:** Genesis is a lightweight, native x64 Windows background service demo and installer. Built in C with zero bloat, it embeds a signed service DLL directly inside a standalone Win32 GUI setup executable featuring UAC elevation, live progress tracking, automated System32 deployment, Svchost registration, and Session 0 desktop notifications
+
+### AVIS-DATALAKE
+- **Link:** https://github.com/mercwar/AVIS-DATALAKE
+- **Intel:** A schema‑driven, AI‑indexable datalake for AVIS. Stores artifacts, modules, manifests, and learning blocks in a fully crawlable, machine‑readable structure. Robot scan for dl.
 
 ### dc2php
 - **Link:** https://github.com/mercwar/dc2php
@@ -201,28 +225,4 @@ Generated: 2026-11-26 08:47:04 UTC
 ### mercwar
 - **Link:** https://github.com/mercwar/mercwar
 - **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
-
-### AVIS-DATALAKE
-- **Link:** https://github.com/mercwar/AVIS-DATALAKE
-- **Intel:** A schema‑driven, AI‑indexable datalake for AVIS. Stores artifacts, modules, manifests, and learning blocks in a fully crawlable, machine‑readable structure. Robot scan for dl.
-
-### bin
-- **Link:** https://github.com/mercwar/bin
-- **Intel:** No description available
-
-### robo-knight-inventory
-- **Link:** https://github.com/mercwar/robo-knight-inventory
-- **Intel:** Collection of Robo‑Knight assets, versions, poses, and related materials. It serves as a general storage space for images, references, and any files connected to the Robo‑Knight lineup.  No hierarchy, no strict rules just a flexible repo where anything related to Robo‑Knight can live.
-
-### AI
-- **Link:** https://github.com/mercwar/AI
-- **Intel:** Build large, multi-file apps in Gemini, ChatGPT, or Claude without hitting token limits or losing track of your code. Mercwar AVIS AI Studio turns any AI chat into a structured coding workspace—organizing your project into lightweight blueprints, generating ready-to-paste setup scripts, and letting you build files one by one with simple slash cmds.
-
-### CBORG
-- **Link:** https://github.com/mercwar/CBORG
-- **Intel:** CBORG Editor is a lightning-fast native Windows workspace built for developers, builders, and power users. Browse drives, edit code, navigate functions instantly, launch scripts with one click, and explore projects through a powerful dual-pane interface. Zero install, zero telemetry, zero bloat. Just extract, run, code, and create.
-
-### Genesis
-- **Link:** https://github.com/mercwar/Genesis
-- **Intel:** Genesis is a lightweight, native x64 Windows background service demo and installer. Built in C with zero bloat, it embeds a signed service DLL directly inside a standalone Win32 GUI setup executable featuring UAC elevation, live progress tracking, automated System32 deployment, Svchost registration, and Session 0 desktop notifications
 
