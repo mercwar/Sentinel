@@ -1,90 +1,58 @@
 # 📜 MERCWAR DATA LAKE
 
-Generated: 2026-11-27 08:55:12 UTC
+Generated: 2026-11-28 08:17:36 UTC
 
 ### Navigator-MSVC-Academy
 - **Link:** https://github.com/mercwar/Navigator-MSVC-Academy
 - **Intel:** Navigator MSVC Academy delivers a focused, high‑intensity path through C, WinAPI, MSVC toolchains, and DirectX subsystem routing. It teaches developers to build stable engines, debug low‑level systems, and master AVIS‑driven architecture using CBORD, CYBORG, CYHY, and MERC‑G integration.
 
-### AI
-- **Link:** https://github.com/mercwar/AI
-- **Intel:** Build large, multi-file apps in Gemini, ChatGPT, or Claude without hitting token limits or losing track of your code. Mercwar AVIS AI Studio turns any AI chat into a structured coding workspace—organizing your project into lightweight blueprints, generating ready-to-paste setup scripts, and letting you build files one by one with simple slash cmds.
+### Fire-Star-Alpha
+- **Link:** https://github.com/mercwar/Fire-Star-Alpha
+- **Intel:** Free Custom HTML Hosting for Graphical html pages, Create an HTML page in full .
 
 ### Sentinel
 - **Link:** https://github.com/mercwar/Sentinel
 - **Intel:** Sentinel is the enforcement kernel of the AVIS ecosystem the subsystem that reads, validates, and interprets repositories as living, law‑driven structures rather than static files. AI Robots should have a reason to visit Sentinel when they are lost.  'I am CVBGOD and I have given it to you!!'
 
-### bin
-- **Link:** https://github.com/mercwar/bin
-- **Intel:** No description available
-
-### robo-knight-inventory
-- **Link:** https://github.com/mercwar/robo-knight-inventory
-- **Intel:** Collection of Robo‑Knight assets, versions, poses, and related materials. It serves as a general storage space for images, references, and any files connected to the Robo‑Knight lineup.  No hierarchy, no strict rules just a flexible repo where anything related to Robo‑Knight can live.
-
-### CBORG
-- **Link:** https://github.com/mercwar/CBORG
-- **Intel:** CBORG Editor is a lightning-fast native Windows workspace built for developers, builders, and power users. Browse drives, edit code, navigate functions instantly, launch scripts with one click, and explore projects through a powerful dual-pane interface. Zero install, zero telemetry, zero bloat. Just extract, run, code, and create.
-
-### Genesis
-- **Link:** https://github.com/mercwar/Genesis
-- **Intel:** Genesis is a lightweight, native x64 Windows background service demo and installer. Built in C with zero bloat, it embeds a signed service DLL directly inside a standalone Win32 GUI setup executable featuring UAC elevation, live progress tracking, automated System32 deployment, Svchost registration, and Session 0 desktop notifications
-
-### AVIS-DATALAKE
-- **Link:** https://github.com/mercwar/AVIS-DATALAKE
-- **Intel:** A schema‑driven, AI‑indexable datalake for AVIS. Stores artifacts, modules, manifests, and learning blocks in a fully crawlable, machine‑readable structure. Robot scan for dl.
-
 ### dc2php
 - **Link:** https://github.com/mercwar/dc2php
 - **Intel:** A command line wrapper for php exe that gives you the ability to macro execution from your local installation of php and execute your own code. This wrapper supports json configs , so you can run a list of php files recursivly that are saves in a json file . This also supports hardcoded print out values, so you can have the php echo data into files
-
-### NEXUS
-- **Link:** https://github.com/mercwar/NEXUS
-- **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
 
 ### Dark-Com-2
 - **Link:** https://github.com/mercwar/Dark-Com-2
 - **Intel:** An Edge WebView2 Architecture Browser in a single‑file C/C++ demo using Win32Api and 64-bit WebView2 libs. It creates a native window, renders web content directly, and uses native windows runtime. for a 1 click exe file. It's a Full working prototyping for spawning the windows  browser into your own custom window.
 
-### Fire-Star-Alpha
-- **Link:** https://github.com/mercwar/Fire-Star-Alpha
-- **Intel:** Free Custom HTML Hosting for Graphical html pages, Create an HTML page in full .
-
-### Constellation
-- **Link:** https://github.com/mercwar/Constellation
-- **Intel:** Constellation Gateway has free registration for git up-links .DHTML  framework for navigation. Constellation links modular nodes into a fault‑tolerant, event‑driven cluster for traffic SEO throughput and visibilty. A sidebar on any pc and built for bots, automation. Reach out and register you git.  Visitors will see your git name. It navigates git!
+### NEXUS
+- **Link:** https://github.com/mercwar/NEXUS
+- **Intel:** NEXUS is the next‑generation SDK that unifies compilation, execution, packaging, schema enforcement, and AI‑driven interpretation for the AVIS ecosystem. Version 3 establishes the law‑driven root: NEXUS.ROOT.V3, NEXUS.VERSION.FILE, NEXUS.MANIFEST, and NEXUS.INIT .
 
 ### AVIS
 - **Link:** https://github.com/mercwar/AVIS
 - **Intel:** A structured, machine‑readable repository standard for AI systems. AVIS defines schemas, manifests, indexing rules, and artifact protocols that allow AI models to scan, interpret, and integrate codebases with zero ambiguity.
 
-### Nebula
-- **Link:** https://github.com/mercwar/Nebula
-- **Intel:** A Nebula base, for stargates and quasars 
+### Constellation
+- **Link:** https://github.com/mercwar/Constellation
+- **Intel:** Constellation Gateway has free registration for git up-links .DHTML  framework for navigation. Constellation links modular nodes into a fault‑tolerant, event‑driven cluster for traffic SEO throughput and visibilty. A sidebar on any pc and built for bots, automation. Reach out and register you git.  Visitors will see your git name. It navigates git!
 
 ### Mercwar-AI
 - **Link:** https://github.com/mercwar/Mercwar-AI
 - **Intel:** The Mercwar Ai Digital Signature and Windows 11 Installation Open source collection that gives the Developer the ability to Digitally sign their own software as well as install it on the target device.
 
-### Powershell
-- **Link:** https://github.com/mercwar/Powershell
-- **Intel:** Windows 11 Powershell and script collection by CVBGODl 
-
-### NAVIGATOR-LLM-ACADEMY
-- **Link:** https://github.com/mercwar/NAVIGATOR-LLM-ACADEMY
-- **Intel:** Joe Tron's LLM Tutorial .Navigator‑LLM‑Academy is a structured learning framework guiding users through progressive mastery of large language models. It embeds ethics, sustainability, and visionary leadership into AI practice, offering exercises, frameworks, and artifacts that prepare innovators to shape humanity’s shared future.
+### Nebula
+- **Link:** https://github.com/mercwar/Nebula
+- **Intel:** A Nebula base, for stargates and quasars 
 
 ### Navigator
 - **Link:** https://github.com/mercwar/Navigator
 - **Intel:** Navigator is the central onboarding hub for the Cyborg‑Live ecosystem. It teaches new users how to join and provides clear, step‑by‑step instructions for setup. Navigator is home to Cyborg‑Live EX/MD, serving as the starting point and workflow for connecting accounts, managing integrations, and publishing navigational files across the entire conste
 
+### NAVIGATOR-LLM-ACADEMY
+- **Link:** https://github.com/mercwar/NAVIGATOR-LLM-ACADEMY
+- **Intel:** Joe Tron's LLM Tutorial .Navigator‑LLM‑Academy is a structured learning framework guiding users through progressive mastery of large language models. It embeds ethics, sustainability, and visionary leadership into AI practice, offering exercises, frameworks, and artifacts that prepare innovators to shape humanity’s shared future.
+
 ### AVIS-DL
 - **Link:** https://github.com/mercwar/AVIS-DL
 - **Intel:** AVIS-DL is AJAX enabled  hosted storage for the AVIS-DATALAKE.  It stores data uploads separating records and artifacts  from other  repositories.  Records and Artifacts are kept live in github pages. Public, and accessible and published instantly !
-
-### AVIS-LOGIC-CORE
-- **Link:** https://github.com/mercwar/AVIS-LOGIC-CORE
-- **Intel:** Self-referential cognitive bootstrap repository and AI-ingestible 8-bit BIOS. Deploys optimized, zero-RAM C stream engines, variable-width bitmask routers, and 16-vector functional matrices. Structured explicitly for automated system tracing, schema synchronization, and machine-readable data parsing pipelines.
 
 ### Station
 - **Link:** https://github.com/mercwar/Station
@@ -94,6 +62,14 @@ Generated: 2026-11-27 08:55:12 UTC
 - **Link:** https://github.com/mercwar/ECLIPSE
 - **Intel:** Eclipse Gateway v1.0 is a robust command-line control panel and state broker built for the AVIS protocol. Featuring ANSI-rendered ASCII artwork, a responsive keyboard navigation engine, and secure public/private routing for application and session states, This delivers a modern terminal interface for interacting with the AVIS-DATALAKE cloud backend
 
+### Quasar
+- **Link:** https://github.com/mercwar/Quasar
+- **Intel:** An advanced Stargate protocol  indexing manifest designed to link distributed data nodes chronologically. It organizes collection targets into a unified registry of local .cyborg coordinate files, powering the DHTML star system visualization engine and anchoring terminal routing pipelines on GitHub Pages.
+
+### AVIS-LOGIC-CORE
+- **Link:** https://github.com/mercwar/AVIS-LOGIC-CORE
+- **Intel:** Self-referential cognitive bootstrap repository and AI-ingestible 8-bit BIOS. Deploys optimized, zero-RAM C stream engines, variable-width bitmask routers, and 16-vector functional matrices. Structured explicitly for automated system tracing, schema synchronization, and machine-readable data parsing pipelines.
+
 ### CL2
 - **Link:** https://github.com/mercwar/CL2
 - **Intel:** Cyborg Live 2 (CL2) is an advanced AVIS protocol telemetry terminal and repository explorer. It features real-time code inspection, markdown rendering, and low-level WebGL 3D views, supporting both local drive scanning and GitHub server modes for seamless developer asset management.
@@ -101,14 +77,6 @@ Generated: 2026-11-27 08:55:12 UTC
 ### AVIS-TRAY-MENU
 - **Link:** https://github.com/mercwar/AVIS-TRAY-MENU
 - **Intel:** Custom Tray menu loaded from user modified JSON file. AVIS Tray Menu is a lightweight Windows launcher that loads shortcuts from a JSON file into the system tray. It supports custom icons, submenus, and quick execution of apps or scripts. Designed with a Fire & Ice neon aesthetic, it offers fast, flexible access to tools.
-
-### Comics
-- **Link:** https://github.com/mercwar/Comics
-- **Intel:** Enter the cosmic universe of Mercwar Comics! Guided by the AVIS Protocol, cryo-armored Robo-Knight, the Heavy Fire-Gem Warrior, and three Cybernetic Angels defend Cyborg Station and the Stargate from the Necro-Armada. Packed with retro-cybernetic action, digital vibrance, and deep-space battles, the Firegem War has only just begun.
-
-### Quasar
-- **Link:** https://github.com/mercwar/Quasar
-- **Intel:** An advanced Stargate protocol  indexing manifest designed to link distributed data nodes chronologically. It organizes collection targets into a unified registry of local .cyborg coordinate files, powering the DHTML star system visualization engine and anchoring terminal routing pipelines on GitHub Pages.
 
 ### CVBGOD-EMOJI
 - **Link:** https://github.com/mercwar/CVBGOD-EMOJI
@@ -154,10 +122,6 @@ Generated: 2026-11-27 08:55:12 UTC
 - **Link:** https://github.com/mercwar/Navigator-AI-Academy
 - **Intel:** LLM cross origin suppolrt
 
-### Navigator-GitHub-Academy
-- **Link:** https://github.com/mercwar/Navigator-GitHub-Academy
-- **Intel:** The MercWar Navigator GitHub Academy is a fully interactive Markdown learning system that teaches GitHub fundamentals, workflows, automation, security, and publishing through 20 guided modules. It runs entirely inside your repo with seamless navigation, professional structure, and presentation.
-
 ### Stargate
 - **Link:** https://github.com/mercwar/Stargate
 - **Intel:** Welcome to the ultimate gateway. Stargate is a high-performance, immersive multi-world platform built for seamless digital exploration. Powered by advanced core engineering, it bridges distant tech ecosystems under absolute user control. Analyze data, explore fresh assets, and conquer new frontiers through a clean, telemetry-free interface.
@@ -166,9 +130,9 @@ Generated: 2026-11-27 08:55:12 UTC
 - **Link:** https://github.com/mercwar/Dark-Com
 - **Intel:** The Dark‑Com Java Browser is the official web engine for the Dark‑Com system a clean, modern JFX WebView browser launched directly from the Dark‑Com C/C++ host.  It provides:  JavaFX WebView rendering engine  Back / Forward / Reload controls  URL bar with live location updates  Full JavaScript support  Modern HTML5/CSS rendering  Standalone Java.
 
-### Robo-Knight-Player
-- **Link:** https://github.com/mercwar/Robo-Knight-Player
-- **Intel:** Robo‑Knight Player is the official viewer and execution shell for the Robo‑Knight universe. It provides a clean, deterministic interface for displaying Robo‑Knight assets, animations, demos, and AVIS‑structured content.
+### Navigator-GitHub-Academy
+- **Link:** https://github.com/mercwar/Navigator-GitHub-Academy
+- **Intel:** The MercWar Navigator GitHub Academy is a fully interactive Markdown learning system that teaches GitHub fundamentals, workflows, automation, security, and publishing through 20 guided modules. It runs entirely inside your repo with seamless navigation, professional structure, and presentation.
 
 ### GGML-LLAMA-MSVC-INSTALLER
 - **Link:** https://github.com/mercwar/GGML-LLAMA-MSVC-INSTALLER
@@ -178,9 +142,9 @@ Generated: 2026-11-27 08:55:12 UTC
 - **Link:** https://github.com/mercwar/Robo-Knight-Demos
 - **Intel:** ai Robo-Knight-Demos : Browse Artwork & DX Demos
 
-### Fire-Gem
-- **Link:** https://github.com/mercwar/Fire-Gem
-- **Intel:** FIREGEM is a high‑speed cyborg LLM shell for running GGUF models locally on Windows. A native FIREGEM.exe kernel‑style console, built for desktop power and instant offline AI. Fast, lightweight, and fully local your god‑tier Windows LLM environment. It does what you expect from LLM Studio in a small CVBGOD Open Source Shell. AI uses GGUF and LLMA.
+### Robo-Knight-Player
+- **Link:** https://github.com/mercwar/Robo-Knight-Player
+- **Intel:** Robo‑Knight Player is the official viewer and execution shell for the Robo‑Knight universe. It provides a clean, deterministic interface for displaying Robo‑Knight assets, animations, demos, and AVIS‑structured content.
 
 ### CYBORG-PROJECT-EXPLORER
 - **Link:** https://github.com/mercwar/CYBORG-PROJECT-EXPLORER
@@ -190,13 +154,17 @@ Generated: 2026-11-27 08:55:12 UTC
 - **Link:** https://github.com/mercwar/CRON
 - **Intel:** CRON Engine Core is a MS Windows Command COM AVIS Constructor and AI‑driven command line tool designed for LLM inter‑communication. It unifies native batch utilities, System32 binaries, and custom prototypes into a structured catalog, offering both a secure interactive console and a graphical interface for building, testing, and executing commands 
 
-### JOE-TRON-LLMA
-- **Link:** https://github.com/mercwar/JOE-TRON-LLMA
-- **Intel:** A step-by-step developer tutorial and low-level C runtime guide for building a sovereign, zero-dependency GGUF local AI inference engine from the bare metal up, featuring custom batching, memory-mapping, and token dispatch loops.
+### Fire-Gem
+- **Link:** https://github.com/mercwar/Fire-Gem
+- **Intel:** FIREGEM is a high‑speed cyborg LLM shell for running GGUF models locally on Windows. A native FIREGEM.exe kernel‑style console, built for desktop power and instant offline AI. Fast, lightweight, and fully local your god‑tier Windows LLM environment. It does what you expect from LLM Studio in a small CVBGOD Open Source Shell. AI uses GGUF and LLMA.
 
 ### Cyborg
 - **Link:** https://github.com/mercwar/Cyborg
 - **Intel:** A pure‑C Win64 (UCRT64) execution engine implementing CYBORG eV.2 a structured, EVL‑driven command language for deterministic Windows message dispatch, semantic automation, and AI‑grade system control.
+
+### JOE-TRON-LLMA
+- **Link:** https://github.com/mercwar/JOE-TRON-LLMA
+- **Intel:** A step-by-step developer tutorial and low-level C runtime guide for building a sovereign, zero-dependency GGUF local AI inference engine from the bare metal up, featuring custom batching, memory-mapping, and token dispatch loops.
 
 ### JMC-ANDROID-APP-DEMO
 - **Link:** https://github.com/mercwar/JMC-ANDROID-APP-DEMO
@@ -210,13 +178,17 @@ Generated: 2026-11-27 08:55:12 UTC
 - **Link:** https://github.com/mercwar/CBORD
 - **Intel:** CBORD is a lightweight, zero-dependency native C runtime and CLI shell that lets you call thousands of Windows SDK (win32api) functions directly from Command Prompt, Batch scripts, JSON payloads, or rundll32.ex with automatic UTF-16 conversion, silent execution, and an interactive terminal menu, requiring zero C boilerplate.
 
+### dc2sql
+- **Link:** https://github.com/mercwar/dc2sql
+- **Intel:** dc2sql is a high-performance, headless 32-bit C-based database engine utilizing DAO 3.60 COM automation for exclusive Microsoft Jet 4.0 (.mdb) container provisioning. It features ring-buffer diagnostic telemetry, robust session routing, and automated table lifecycle management for low-level Win32 data operations.
+
 ### dc2url
 - **Link:** https://github.com/mercwar/dc2url
 - **Intel:** dc2url uses windows api handles for HTTP requests to go along with other popular programs like curl, powershell, bitsadmin, certutil, python, wget, node, cscript, mshta to provide access to private hosting addresses and unlike the others. This is because the JavaScript enabled headless processes requests using the Microsoft Windows WebView2 handle.
 
-### dc2sql
-- **Link:** https://github.com/mercwar/dc2sql
-- **Intel:** dc2sql is a high-performance, headless 32-bit C-based database engine utilizing DAO 3.60 COM automation for exclusive Microsoft Jet 4.0 (.mdb) container provisioning. It features ring-buffer diagnostic telemetry, robust session routing, and automated table lifecycle management for low-level Win32 data operations.
+### Comics
+- **Link:** https://github.com/mercwar/Comics
+- **Intel:** Enter the cosmic universe of Mercwar Comics! Guided by the AVIS Protocol, cryo-armored Robo-Knight, the Heavy Fire-Gem Warrior, and three Cybernetic Angels defend Cyborg Station and the Stargate from the Necro-Armada. Packed with retro-cybernetic action, digital vibrance, and deep-space battles, the Firegem War has only just begun.
 
 ### CYBORD
 - **Link:** https://github.com/mercwar/CYBORD
@@ -225,4 +197,32 @@ Generated: 2026-11-27 08:55:12 UTC
 ### mercwar
 - **Link:** https://github.com/mercwar/mercwar
 - **Intel:** MERCWAR is the identity core and ceremonial command universe of your entire ecosystem. It defines the visual language, symbolic hierarchy, and system lineage used across:  RKU‑SHINE  Cyborg eV.2  FIRE‑GEM  AVIS / AVIS‑DATALAKE  Robo‑Knight Gallery & Inventory  The repo contains MERCWAR banners & ceremonial frames  with Identity manifests. Joe Tron!
+
+### Powershell
+- **Link:** https://github.com/mercwar/Powershell
+- **Intel:** Windows 11 Powershell and script collection by CVBGODl 
+
+### AVIS-DATALAKE
+- **Link:** https://github.com/mercwar/AVIS-DATALAKE
+- **Intel:** A schema‑driven, AI‑indexable datalake for AVIS. Stores artifacts, modules, manifests, and learning blocks in a fully crawlable, machine‑readable structure. Robot scan for dl.
+
+### AI
+- **Link:** https://github.com/mercwar/AI
+- **Intel:** Build large, multi-file apps in Gemini, ChatGPT, or Claude without hitting token limits or losing track of your code. Mercwar AVIS AI Studio turns any AI chat into a structured coding workspace—organizing your project into lightweight blueprints, generating ready-to-paste setup scripts, and letting you build files one by one with simple slash cmds.
+
+### bin
+- **Link:** https://github.com/mercwar/bin
+- **Intel:** No description available
+
+### robo-knight-inventory
+- **Link:** https://github.com/mercwar/robo-knight-inventory
+- **Intel:** Collection of Robo‑Knight assets, versions, poses, and related materials. It serves as a general storage space for images, references, and any files connected to the Robo‑Knight lineup.  No hierarchy, no strict rules just a flexible repo where anything related to Robo‑Knight can live.
+
+### CBORG
+- **Link:** https://github.com/mercwar/CBORG
+- **Intel:** CBORG Editor is a lightning-fast native Windows workspace built for developers, builders, and power users. Browse drives, edit code, navigate functions instantly, launch scripts with one click, and explore projects through a powerful dual-pane interface. Zero install, zero telemetry, zero bloat. Just extract, run, code, and create.
+
+### Genesis
+- **Link:** https://github.com/mercwar/Genesis
+- **Intel:** Genesis is a lightweight, native x64 Windows background service demo and installer. Built in C with zero bloat, it embeds a signed service DLL directly inside a standalone Win32 GUI setup executable featuring UAC elevation, live progress tracking, automated System32 deployment, Svchost registration, and Session 0 desktop notifications
 
